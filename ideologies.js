@@ -1199,7 +1199,7 @@ const ideologies = [
     name: "Poujadism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/poujadism.png",
     description: "Poujadism is a political ideology and movement named after Pierre Poujade. On 29 November 1953, Pierre Poujade created the Union de Défense des Commerçants et Artisans (Defense Union of Shopkeepers and Craftsmen) to organize tax protests. He articulated the economic interests and grievances of shopkeepers and other proprietor-managers of small businesses facing economic and social change. Poujadism was opposed to industrialization, urbanization, and American-style modernization, which were perceived as a threat to the identity of rural France.",
-    scores: { interference: 22, ownership: 29, tradition: 20, faith: 15 },
+    scores: { interference: 31, ownership: 33, tradition: 31, faith: 29 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
