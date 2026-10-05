@@ -325,6 +325,10 @@
           <div class="filter-label">Orientation</div>
           <div class="filter-tags" id="orientationFilters"></div>
         </div>
+        <div class="filter-section">
+          <div class="filter-label">Era</div>
+          <div class="filter-tags" id="eraFilters"></div>
+        </div>
         <button class="clear-btn" onclick="clearFilters()">Clear all filters</button>
       </div>
 
@@ -443,7 +447,8 @@
       "Corporatism": "⚒️", "National Syndicalism": "🛠️", "Nationalized Socialism": "🌾",
       "Distributism": "🐕", "Georgism": "🐈",
       "Reactionary": "📜", "Reactionary Modernist": "⚙️", "Futurist": "🗡️",
-      "Conservative": "🔰", "Progressive": "✊", "Monarchist": "👑"
+      "Conservative": "🔰", "Progressive": "✊", "Monarchist": "👑",
+      "World Wars Era": "💥", "Cold War Era": "🚀", "Modern Era": "📡", "Timeless": "♾️"
     };
 
     function getIcon(tag) { return iconMap[tag] || "•"; }
@@ -453,6 +458,7 @@
       faith: new Set(),
       economy: new Set(),
       orientation: new Set()
+      era: new Set()
     };
 
     function collectAllTags() {
