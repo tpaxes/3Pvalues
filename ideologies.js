@@ -14,7 +14,7 @@ const ideologies = [
   },
   {
     name: "Agrarian Labor Party",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/agrarianlabor.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/PAL.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -14, ownership: 8, tradition: 18, faith: 20 },
     tags: {
