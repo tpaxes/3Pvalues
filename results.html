@@ -679,6 +679,165 @@
         const faith = Math.max(-50, Math.min(50, userScores.faith || 0));
         const cx = 597, cy = 595, half = 510;
 
+        // ------------------------------------------------------------
+        // User profile information drawn INTO the downloadable image
+        // ------------------------------------------------------------
+
+        function getResultFiltersForImage() {
+          try {
+            const raw = JSON.parse(localStorage.getItem("resultFilters") || "{}");
+            return {
+              include: raw.include || {},
+              exclude: raw.exclude || {}
+            };
+          } catch (e) {
+            return { include: {}, exclude: {} };
+          }
+        }
+
+        const imageFilters = getResultFiltersForImage();
+        const imageTagCategories = ["region", "faith", "economy", "orientation", "era"];
+        const selectedImageTags = [];
+
+        imageTagCategories.forEach(category => {
+          (imageFilters.include[category] || []).forEach(tag => {
+            selectedImageTags.push({ category, tag, state: "include" });
+          });
+          (imageFilters.exclude[category] || []).forEach(tag => {
+            selectedImageTags.push({ category, tag, state: "exclude" });
+          });
+        });
+
+        function imageRoundRect(ctx, x, y, w, h, r) {
+          if (w < 2 * r) r = w / 2;
+          if (h < 2 * r) r = h / 2;
+          ctx.beginPath();
+          ctx.moveTo(x + r, y);
+          ctx.arcTo(x + w, y, x + w, y + h, r);
+          ctx.arcTo(x + w, y + h, x, y + h, r);
+          ctx.arcTo(x, y + h, x, y, r);
+          ctx.arcTo(x, y, x + w, y, r);
+          ctx.closePath();
+        }
+
+        function drawAxisInfoBlock(ctx, x, y, w, h, label, value) {
+          ctx.save();
+          ctx.fillStyle = "rgba(255,255,255,0.94)";
+          ctx.strokeStyle = "#cbd5e1";
+          ctx.lineWidth = 2;
+          imageRoundRect(ctx, x, y, w, h, 10);
+          ctx.fill();
+          ctx.stroke();
+
+          ctx.fillStyle = "#475569";
+          ctx.font = "bold 18px system-ui, sans-serif";
+          ctx.textAlign = "left";
+          ctx.textBaseline = "middle";
+          ctx.fillText(label, x + 13, y + h / 2);
+
+          ctx.fillStyle = value > 15 ? "#15803d" : value < -15 ? "#dc2626" : "#64748b";
+          ctx.font = "bold 23px system-ui, sans-serif";
+          ctx.textAlign = "right";
+          ctx.fillText(value >= 0 ? `+${value}` : `${value}`, x + w - 13, y + h / 2);
+          ctx.restore();
+        }
+
+        function drawTagBlock(ctx, x, y, text, state) {
+          ctx.save();
+          ctx.font = "600 16px system-ui, sans-serif";
+          const prefix = state === "include" ? "✓ " : "✕ ";
+          const width = Math.max(82, ctx.measureText(prefix + text).width + 24);
+          const height = 34;
+
+          ctx.fillStyle = state === "include" ? "rgba(249,183,1,0.95)" : "rgba(239,68,68,0.14)";
+          ctx.strokeStyle = state === "include" ? "#d9a000" : "#ef4444";
+          ctx.lineWidth = 2;
+          imageRoundRect(ctx, x, y, width, height, 9);
+          ctx.fill();
+          ctx.stroke();
+
+          ctx.fillStyle = state === "include" ? "#1a1a1a" : "#b91c1c";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(prefix + text, x + width / 2, y + height / 2 + 1);
+          ctx.restore();
+          return width;
+        }
+
+        // Four compact score blocks across the top of the chart.
+        const axisBlockW = 190;
+        const axisBlockH = 50;
+        const axisGap = 14;
+        const axisTotalW = axisBlockW * 4 + axisGap * 3;
+        const axisStartX = (c.width - axisTotalW) / 2;
+        const axisY = 22;
+        [
+          ["STATE", state],
+          ["OWNERSHIP", owner],
+          ["TRADITION", trad],
+          ["FAITH", faith]
+        ].forEach((item, i) => {
+          drawAxisInfoBlock(
+            ctx,
+            axisStartX + i * (axisBlockW + axisGap),
+            axisY,
+            axisBlockW,
+            axisBlockH,
+            item[0],
+            item[1]
+          );
+        });
+
+        // Selected filters appear as small blocks underneath the scores.
+        // Include = yellow; Exclude = red. Nothing is drawn when no filters
+        // have been selected on the index page.
+        if (selectedImageTags.length > 0) {
+          ctx.save();
+          ctx.fillStyle = "rgba(255,255,255,0.94)";
+          ctx.strokeStyle = "#cbd5e1";
+          ctx.lineWidth = 2;
+          const tagPanelX = 24;
+          const tagPanelY = 84;
+          const tagPanelW = c.width - 48;
+          const tagPanelH = 58;
+          imageRoundRect(ctx, tagPanelX, tagPanelY, tagPanelW, tagPanelH, 12);
+          ctx.fill();
+          ctx.stroke();
+          ctx.restore();
+
+          ctx.save();
+          ctx.fillStyle = "#475569";
+          ctx.font = "bold 15px system-ui, sans-serif";
+          ctx.textAlign = "left";
+          ctx.textBaseline = "middle";
+          ctx.fillText("FILTERS", tagPanelX + 14, tagPanelY + tagPanelH / 2);
+          ctx.restore();
+
+          let tagX = tagPanelX + 92;
+          let tagY = tagPanelY + 12;
+          const maxTagX = tagPanelX + tagPanelW - 12;
+          const tagGap = 7;
+
+          selectedImageTags.forEach(item => {
+            ctx.save();
+            ctx.font = "600 16px system-ui, sans-serif";
+            const prefix = item.state === "include" ? "✓ " : "✕ ";
+            const tagW = Math.max(82, ctx.measureText(prefix + item.tag).width + 24);
+            ctx.restore();
+
+            if (tagX + tagW > maxTagX) {
+              tagX = tagPanelX + 92;
+              tagY += 41;
+            }
+
+            // Keep the compact panel readable if many tags are selected.
+            if (tagY + 34 <= tagPanelY + tagPanelH) {
+              drawTagBlock(ctx, tagX, tagY, item.tag, item.state);
+              tagX += tagW + tagGap;
+            }
+          });
+        }
+
         ctx.beginPath();
         ctx.arc(cx + (state / 50) * half, cy - (owner / 50) * half, 12, 0, 2 * Math.PI);
         ctx.fillStyle = "#000";
