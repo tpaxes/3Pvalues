@@ -666,8 +666,10 @@
       const banner = document.getElementById("banner");
       const background = new Image();
       background.onload = function() {
+        const bottomHeight = 640;
         const c = document.createElement("canvas");
         c.width = background.width;
+        c.height = background.height + bottomHeight;
         const ctx = c.getContext("2d");
         ctx.drawImage(background, 0, 0);
 
@@ -951,32 +953,49 @@
           });
 
           if (selectedImageTags.length > 0) {
-            const tagY = profileStartY + profileCardH + 18;
-            const tagGap = 12;
-            const tagCardH = 58;
-            const columns = tagColumns;
-            const tagCardW = Math.min(
-              245,
-              (c.width - 120 - (columns - 1) * tagGap) / columns
-            );
+  const tagY = profileStartY + profileCardH + 18;
+  const tagGap = 12;
+  const tagCardH = 58;
 
-const tagTotalW = columns * tagCardW + (columns - 1) * tagGap;
-const tagStartX = (c.width - tagTotalW) / 2;
+  let columns;
 
-            selectedImageTags.forEach((item, i) => {
-              const col = i % columns;
-              const row = Math.floor(i / columns);
-              drawTagCard(
-                ctx,
-                tagStartX + col * (tagCardW + tagGap),
-                tagY + row * (tagCardH + 12),
-                tagCardW,
-                tagCardH,
-                item.tag,
-                item.state
-              );
-            });
-          }
+  if (selectedImageTags.length <= 3) {
+    columns = selectedImageTags.length;
+  } else if (selectedImageTags.length <= 6) {
+    columns = 3;
+  } else if (selectedImageTags.length <= 12) {
+    columns = 4;
+  } else if (selectedImageTags.length <= 18) {
+    columns = 5;
+  } else {
+    columns = 6;
+  }
+
+  const tagCardW = Math.min(
+    245,
+    (c.width - 120 - (columns - 1) * tagGap) / columns
+  );
+
+  const tagTotalW =
+    columns * tagCardW + (columns - 1) * tagGap;
+
+  const tagStartX = (c.width - tagTotalW) / 2;
+
+  selectedImageTags.forEach((item, i) => {
+    const col = i % columns;
+    const row = Math.floor(i / columns);
+
+    drawTagCard(
+      ctx,
+      tagStartX + col * (tagCardW + tagGap),
+      tagY + row * (tagCardH + tagGap),
+      tagCardW,
+      tagCardH,
+      item.tag,
+      item.state
+    );
+  });
+}
 
           banner.src = c.toDataURL("image/png");
         }
