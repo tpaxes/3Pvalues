@@ -8,7 +8,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -20,7 +21,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -32,7 +34,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Catholic", "Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -44,7 +47,8 @@ const ideologies = [
       region: ["Europe (Slavic)", "East Asia"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -56,7 +60,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -68,7 +73,8 @@ const ideologies = [
       region: ["North America"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -79,8 +85,9 @@ const ideologies = [
     tags: {
       region: ["MENA"],
       faith: ["Secular", "Islam"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -91,8 +98,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Other)"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -104,7 +112,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -116,7 +125,8 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Pagan"],
       economy: [],
-      orientation: ["Reactionary Modernist", "Futurist"]
+      orientation: ["Reactionary Modernist", "Futurist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -128,7 +138,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -140,7 +151,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -152,7 +164,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -164,7 +177,21 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era", "Cold War Era"]
+    }
+  },
+  {
+    name: "Catalan Patriotic Movement",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/catalanpatrioticmovement.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Catholic"],
+      economy: ["National Syndicalism"],
+      orientation: ["Conservative"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -176,7 +203,8 @@ const ideologies = [
       region: ["Oceania"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -188,7 +216,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism", "Georgism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -200,7 +229,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Eastern Orthodox"],
       economy: ["National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -211,8 +241,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -224,7 +255,8 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -236,7 +268,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -248,7 +281,8 @@ const ideologies = [
       region: ["Universal"],
       faith: ["Catholic"],
       economy: ["Distributism"],
-      orientation: ["Conservative", "Reactionary"]
+      orientation: ["Conservative", "Reactionary"],
+      era: ["Timeless"]
     }
   },
   {
@@ -260,7 +294,8 @@ const ideologies = [
       region: ["Universal"],
       faith: ["Pagan"],
       economy: [],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -272,7 +307,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -283,8 +319,9 @@ const ideologies = [
     tags: {
       region: ["South America"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -296,7 +333,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
@@ -308,7 +346,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -320,7 +359,21 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism", "Distributism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Fatherland League",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/fatherlandleague.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Germanic)"],
+      faith: ["Protestant"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -331,8 +384,9 @@ const ideologies = [
     tags: {
       region: ["Caucasus"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -344,7 +398,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular", "Pagan"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Futurist"]
+      orientation: ["Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -356,7 +411,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -368,7 +424,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -379,8 +436,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary", "Monarchist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -392,7 +450,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -404,7 +463,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["National Syndicalism"],
-      orientation: ["Futurist"]
+      orientation: ["Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -416,7 +476,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic", "Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -428,7 +489,8 @@ const ideologies = [
       region: ["Universal"],
       faith: ["Secular"],
       economy: ["Georgism"],
-      orientation: []
+      orientation: [],
+      era: ["Timeless"]
     }
   },
   {
@@ -440,7 +502,8 @@ const ideologies = [
       region: ["MENA"],
       faith: ["Secular", "Islam"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -451,8 +514,9 @@ const ideologies = [
     tags: {
       region: ["Universal"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: []
+      economy: ["Socialism"],
+      orientation: [],
+      era: ["Timeless"]
     }
   },
   {
@@ -464,7 +528,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Secular"],
       economy: ["National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -476,7 +541,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary"]
+      orientation: ["Reactionary"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -486,9 +552,10 @@ const ideologies = [
     scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
     tags: {
       region: ["Europe (Other)", "Central Asia"],
-      faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      faith: [],
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -499,8 +566,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
@@ -511,8 +579,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism", "Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -524,7 +593,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -536,7 +606,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -548,7 +619,8 @@ const ideologies = [
       region: ["MENA"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -560,7 +632,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Shinto"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -571,8 +644,9 @@ const ideologies = [
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist", "Monarchist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -584,7 +658,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Shinto"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -596,7 +671,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -608,7 +684,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -620,7 +697,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Distributism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -632,7 +710,21 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Michael Collins Thought",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/michaelcollinsthought.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Other)"],
+      faith: ["Catholic"],
+      economy: ["Distributism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -644,7 +736,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Monarchist"]
+      orientation: ["Reactionary Modernist", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -656,7 +749,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -667,8 +761,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism", "Nationalized Socialism"],
-      orientation: ["Progressive", "Reactionary Modernist"]
+      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      orientation: ["Progressive", "Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -679,8 +774,9 @@ const ideologies = [
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -692,7 +788,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -703,8 +800,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular", "Eastern Orthodox"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -716,7 +814,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Futurist"]
+      orientation: ["Reactionary Modernist", "Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -728,7 +827,8 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -740,7 +840,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
       economy: ["Distributism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -752,7 +853,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism", "Distributism"],
-      orientation: ["Conservative", "Reactionary Modernist"]
+      orientation: ["Conservative", "Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -763,8 +865,22 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary", "Monarchist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "National Renaissance Front",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalrenaissancefront.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Eastern Orthodox"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -775,8 +891,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism", "Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -787,8 +904,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism", "Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -800,7 +918,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -811,8 +930,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -824,7 +944,8 @@ const ideologies = [
       region: ["North America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -836,7 +957,21 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Monarchist"]
+      orientation: ["Reactionary Modernist", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "National Union for Social Justice",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalunionforsocialjustice.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["North America"],
+      faith: ["Catholic"],
+      economy: ["Corporatism", "National Syndicalism", "Distributism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -848,7 +983,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -860,7 +996,8 @@ const ideologies = [
       region: ["North America"],
       faith: ["Catholic"],
       economy: ["Distributism"],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -871,8 +1008,22 @@ const ideologies = [
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Neue Rechte",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/neuerechte.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Germanic)"],
+      faith: ["Catholic", "Protestant"],
+      economy: [],
+      orientation: ["Reactionary Modernist", "Conservative"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
@@ -884,7 +1035,8 @@ const ideologies = [
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -896,7 +1048,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Shinto"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary"]
+      orientation: ["Reactionary"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -908,7 +1061,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Pagan"],
       economy: [],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -920,7 +1074,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox", "Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -931,8 +1086,9 @@ const ideologies = [
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -944,7 +1100,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -955,8 +1112,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular", "Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -968,7 +1126,8 @@ const ideologies = [
       region: ["North America"],
       faith: ["Secular", "Protestant", "Catholic", "Eastern Orthodox", "Pagan"],
       economy: [],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["Modern Era"]
     }
   },
   {
@@ -980,7 +1139,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -991,8 +1151,9 @@ const ideologies = [
     tags: {
       region: ["South America"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -1004,7 +1165,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1016,7 +1178,8 @@ const ideologies = [
       region: ["South Asia"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1028,7 +1191,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1040,7 +1204,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Distributism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1052,7 +1217,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1063,8 +1229,9 @@ const ideologies = [
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1075,20 +1242,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Pagan"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist", "Futurist"]
-    }
-  },
-  {
-    name: "Ratniks",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ratniks.png",
-    description: "The Union of Bulgarian National Legions, commonly known as the Ratniks, was a far-right nationalist organisation active in Bulgaria during the late 1930s. It promoted authoritarian nationalism, corporatism, anti-communism and the defence of traditional Bulgarian culture. The movement emphasised national unity, social discipline and opposition to both liberal democracy and Marxist internationalism.",
-    scores: { interference: -25, ownership: -15, tradition: 25, faith: 18 },
-    tags: {
-      region: ["Europe (Slavic)"],
-      faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist", "Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1100,7 +1256,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Futurist"]
+      orientation: ["Reactionary Modernist", "Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1112,7 +1269,8 @@ const ideologies = [
       region: ["North America"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1124,7 +1282,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1136,19 +1295,21 @@ const ideologies = [
       region: ["Europe (Romance)", "Europe (Germanic)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
-    name: "Romanian Front",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/romanianfront.png",
+    name: "Right Japanese Socialism",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/spj.png",
     description: "WORK IN PROGRESS",
     scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
     tags: {
-      region: ["Europe (Romance)"],
-      faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"]
+      region: ["East Asia"],
+      faith: ["Secular", "Shinto"],
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist", "Monarchist"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1160,7 +1321,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism", "Distributism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1172,7 +1334,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["National Syndicalism"],
-      orientation: ["Progressive", "Futurist"]
+      orientation: ["Progressive", "Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1184,31 +1347,21 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
-    name: "Serbian Action",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/serbianaction.png",
+    name: "Self-Defence of the Republic of Poland",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/selfdefenceoftherepublicofpoland.png",
     description: "WORK IN PROGRESS",
     scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
     tags: {
       region: ["Europe (Slavic)"],
-      faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Monarchist"]
-    }
-  },
-  {
-    name: "Socialist Party of Japan",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/spj.png",
-    description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
-    tags: {
-      region: ["East Asia"],
-      faith: ["Secular", "Shinto"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist", "Monarchist"]
+      faith: ["Catholic"],
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1220,7 +1373,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1231,8 +1385,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular", "Pagan"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1244,7 +1399,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["National Syndicalism"],
-      orientation: ["Futurist"]
+      orientation: ["Futurist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1255,8 +1411,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1268,7 +1425,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Pagan"],
       economy: [],
-      orientation: ["Reactionary"]
+      orientation: ["Reactionary"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1279,8 +1437,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1291,8 +1450,9 @@ const ideologies = [
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Conservative"]
+      economy: ["Socialism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
@@ -1304,7 +1464,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Protestant", "Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary"]
+      orientation: ["Reactionary"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1316,7 +1477,8 @@ const ideologies = [
       region: ["South America"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Progressive"]
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1328,7 +1490,8 @@ const ideologies = [
       region: ["East Asia"],
       faith: ["Shinto"],
       economy: [],
-      orientation: ["Reactionary", "Monarchist"]
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Cold War Era"]
     }
   },
   {
@@ -1339,8 +1502,9 @@ const ideologies = [
     tags: {
       region: ["MENA", "Africa"],
       faith: ["Secular", "Islam"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
@@ -1351,8 +1515,22 @@ const ideologies = [
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Ukrainian National Party",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ukrainiannationalparty.png",
+    description: "WORK IN PROGRESS",
+    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Catholic"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist", "Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1363,8 +1541,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Nationalized Socialism", "National Syndicalism", "Corporatism"],
-      orientation: ["Conservative", "Monarchist"]
+      economy: ["Socialism", "National Syndicalism", "Corporatism"],
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1376,7 +1555,8 @@ const ideologies = [
       region: ["Europe (Romance)", "Europe (Germanic)"],
       faith: ["Secular"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1387,8 +1567,9 @@ const ideologies = [
     tags: {
       region: ["Africa"],
       faith: ["Protestant"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
@@ -1399,8 +1580,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1412,7 +1594,8 @@ const ideologies = [
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Progressive", "Monarchist"]
+      orientation: ["Progressive", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1424,7 +1607,8 @@ const ideologies = [
       region: ["Europe (Other)"],
       faith: ["Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"]
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1435,8 +1619,9 @@ const ideologies = [
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1447,8 +1632,9 @@ const ideologies = [
     tags: {
       region: ["Universal"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Timeless"]
     }
   },
   {
@@ -1460,7 +1646,8 @@ const ideologies = [
       region: ["MENA"],
       faith: ["Islam"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"]
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
@@ -1472,7 +1659,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic", "Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1484,7 +1672,8 @@ const ideologies = [
       region: ["Europe (Slavic)"],
       faith: ["Catholic", "Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"]
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1495,8 +1684,9 @@ const ideologies = [
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Pagan"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Reactionary Modernist"]
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
@@ -1507,8 +1697,9 @@ const ideologies = [
     tags: {
       region: ["Africa"],
       faith: ["Secular"],
-      economy: ["Nationalized Socialism"],
-      orientation: ["Progressive"]
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era"]
     }
   }
 ];
