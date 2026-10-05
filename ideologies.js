@@ -16,7 +16,7 @@ const ideologies = [
     name: "Agrarian Labor Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/agrarianlabor.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -14, ownership: 8, tradition: 18, faith: 20 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -185,7 +185,7 @@ const ideologies = [
     name: "Catalan Patriotic Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/catalanpatrioticmovement.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 5, ownership: 10, tradition: 30, faith: 36 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
@@ -198,7 +198,7 @@ const ideologies = [
     name: "Centre Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/centreparty.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 14, tradition: 28, faith: 20 },
     tags: {
       region: ["Oceania"],
       faith: ["Protestant"],
@@ -250,7 +250,7 @@ const ideologies = [
     name: "Danish People's Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/danishpeoples.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -18, ownership: 12, tradition: 24, faith: 26 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
@@ -263,7 +263,7 @@ const ideologies = [
     name: "Democratic Republican Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/demreppar.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 30, ownership: 32, tradition: -1, faith: 6 },
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
@@ -367,7 +367,7 @@ const ideologies = [
     name: "Fatherland League",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/fatherlandleague.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -14, ownership: 14, tradition: 24, faith: 16 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
@@ -380,7 +380,7 @@ const ideologies = [
     name: "Fatherland Socialist Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/fatherlandsocialist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -8, ownership: -24, tradition: 12, faith: 5 },
     tags: {
       region: ["Caucasus"],
       faith: ["Secular"],
@@ -419,7 +419,7 @@ const ideologies = [
     name: "French Popular Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/frenchpopular.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -26, ownership: -31, tradition: 25, faith: 12  },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -432,7 +432,7 @@ const ideologies = [
     name: "French Renewal",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/frenchrenewal.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -19, ownership: 28, tradition: 45, faith: 17 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
@@ -445,7 +445,7 @@ const ideologies = [
     name: "French Social Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/frenchsocial.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -12, ownership: -4, tradition: 30, faith: 35 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
@@ -458,7 +458,7 @@ const ideologies = [
     name: "Futurism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/futurism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 24, ownership: -40, tradition: -50, faith: -32 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -471,7 +471,7 @@ const ideologies = [
     name: "Gajdism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/gajdism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -11, ownership: 12, tradition: 30, faith: 19 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic", "Secular"],
@@ -484,7 +484,7 @@ const ideologies = [
     name: "Georgism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/georgism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 32, ownership: 41, tradition: 8, faith: 2 },
     tags: {
       region: ["Universal"],
       faith: ["Secular"],
@@ -497,7 +497,7 @@ const ideologies = [
     name: "Golden Square",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/goldensquare.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -23, ownership: -19, tradition: 20, faith: 23 },
     tags: {
       region: ["MENA"],
       faith: ["Secular", "Islam"],
@@ -510,7 +510,7 @@ const ideologies = [
     name: "Guild Socialism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/guildsocialism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 30, ownership: -25, tradition: 8, faith: -13 },
     tags: {
       region: ["Universal"],
       faith: ["Secular"],
@@ -523,7 +523,7 @@ const ideologies = [
     name: "Guión Rojo",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/guionrojo.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 18, tradition: 28, faith: 32 },
     tags: {
       region: ["South America"],
       faith: ["Secular"],
@@ -536,7 +536,7 @@ const ideologies = [
     name: "Hlinkas Slovak People's Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/hlinkas.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -10, ownership: 5, tradition: 40, faith: 47 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -549,7 +549,7 @@ const ideologies = [
     name: "Hungarism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/hungarism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -26, ownership: -31, tradition: 35, faith: 30 },
     tags: {
       region: ["Europe (Other)", "Central Asia"],
       faith: [],
@@ -562,7 +562,7 @@ const ideologies = [
     name: "Independent Workers' Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/UAP.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 0, ownership: -18, tradition: -18, faith: -14 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
@@ -575,7 +575,7 @@ const ideologies = [
     name: "Iron Guard",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ironguard.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 24, ownership: -14, tradition: 44, faith: 50 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Eastern Orthodox"],
@@ -588,7 +588,7 @@ const ideologies = [
     name: "Ivan Ilyin Thought",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ivanilyin.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 8, tradition: 30, faith: 36 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
@@ -598,10 +598,10 @@ const ideologies = [
     }
   },
   {
-    name: "JONS",
+    name: "JONSism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/jons.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 30, ownership: -25, tradition: 32, faith: 14 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -614,7 +614,7 @@ const ideologies = [
     name: "Kataeb Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/kataeb.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -14, ownership: -2, tradition: 30, faith: 40 },
     tags: {
       region: ["MENA"],
       faith: ["Catholic"],
@@ -627,7 +627,7 @@ const ideologies = [
     name: "Kokkashugi",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/kokkashugi.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -12, ownership: 14, tradition: 47, faith: 40 },
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
@@ -640,7 +640,7 @@ const ideologies = [
     name: "Kokutairon",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/kokutairon.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -9, ownership: 8, tradition: 50, faith: 40 },
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
@@ -653,7 +653,7 @@ const ideologies = [
     name: "Kōdōha",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/kodoha.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 12, tradition: 31, faith: 35 },
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
@@ -666,7 +666,7 @@ const ideologies = [
     name: "Lithuanian Nationalist Union",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lithuanian.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -18, ownership: 24, tradition: 25, faith: 20 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Catholic"],
@@ -679,7 +679,7 @@ const ideologies = [
     name: "Lusitanian Integralism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lusitanian.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 12, ownership: 19, tradition: 41, faith: 43 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
@@ -692,7 +692,7 @@ const ideologies = [
     name: "Lys Noir",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lysnoir.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 45, ownership: 32, tradition: 30, faith: -12 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -705,7 +705,7 @@ const ideologies = [
     name: "Metaxism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/metaxism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -6, ownership: 18, tradition: 40, faith: 30 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
@@ -718,7 +718,7 @@ const ideologies = [
     name: "Michael Collins Thought",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/michaelcollinsthought.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 14, ownership: 30, tradition: 24, faith: 22 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Catholic"],
@@ -731,7 +731,7 @@ const ideologies = [
     name: "Mladorossy",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/mladorossy.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 21, tradition: 13, faith: 20 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
@@ -744,7 +744,7 @@ const ideologies = [
     name: "Nacionalismo",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nacionalismo.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -17, ownership: -12, tradition: 37, faith: 39 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -757,7 +757,7 @@ const ideologies = [
     name: "Nasjonal Samling",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nasjonalsamling.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -26, ownership: -23, tradition: 23, faith: 20 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
@@ -770,7 +770,7 @@ const ideologies = [
     name: "Nasserism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nasserism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -31, ownership: -34, tradition: 20, faith: -15 },
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
@@ -783,7 +783,7 @@ const ideologies = [
     name: "National Alliance of Russian Solidarists",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nars.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -16, ownership: 10, tradition: 26, faith: 32 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
@@ -796,7 +796,7 @@ const ideologies = [
     name: "National Corps",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalcorps.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: -6, tradition: 26, faith: 12 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular", "Eastern Orthodox"],
@@ -809,7 +809,7 @@ const ideologies = [
     name: "National Fascist Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalfascist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -35, ownership: 23, tradition: -11, faith: 21 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -822,7 +822,7 @@ const ideologies = [
     name: "National Front",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalfront.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -28, ownership: 25, tradition: 25, faith: 8 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular"],
@@ -835,7 +835,7 @@ const ideologies = [
     name: "National Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalparty.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 18, ownership: 21, tradition: 42, faith: 45 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -848,7 +848,7 @@ const ideologies = [
     name: "National Radical Camp",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalradicalcamp.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -38, ownership: -18, tradition: 42, faith: 35 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -874,7 +874,7 @@ const ideologies = [
     name: "National Renaissance Front",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalrenaissancefront.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -31, ownership: 17, tradition: 20, faith: 13 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Eastern Orthodox"],
@@ -887,7 +887,7 @@ const ideologies = [
     name: "National Social Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalsocial.png",
     description: "The National Social Movement (Bulgarian: Национално социално движение) was a Bulgarian organisation led by Aleksandar Tsankov in the 1930s. It promoted authoritarian nationalism, corporatism and anti-communism, preaching its own idea of 'social nationalism' which for Tsankov involved support of a national workers' syndicate against class struggle. In opposition to other Bulgarian parties, it rejected racialism; Tsankov giving aid to jewish families during WW2.",
-    scores: { interference: -28, ownership: -12, tradition: 18, faith: 8 },
+    scores: { interference: -20, ownership: -15, tradition: 25, faith: 18 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
@@ -900,7 +900,7 @@ const ideologies = [
     name: "National Socialist Movement in the Netherlands",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nsb.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -29, ownership: 31, tradition: 38, faith: 39 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
@@ -913,7 +913,7 @@ const ideologies = [
     name: "National Socialist Movement of Chile",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nsmchile.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 14, tradition: 22, faith: 8 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -926,7 +926,7 @@ const ideologies = [
     name: "National Socialist Workers' Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/NSPR.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -25, ownership: -20, tradition: 30, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -939,7 +939,7 @@ const ideologies = [
     name: "National Synarchist Union",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalsynarchist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 13, ownership: 30, tradition: 38, faith: 43 },
     tags: {
       region: ["North America"],
       faith: ["Catholic"],
@@ -952,7 +952,7 @@ const ideologies = [
     name: "National Syndicalist Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/natsyndmovement.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 30, ownership: -17, tradition: 31, faith: 28 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
@@ -965,7 +965,7 @@ const ideologies = [
     name: "National Union for Social Justice",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalunionforsocialjustice.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 3, ownership: 25, tradition: 22, faith: 30 },
     tags: {
       region: ["North America"],
       faith: ["Catholic"],
@@ -978,7 +978,7 @@ const ideologies = [
     name: "National Union of Greece",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationaluniongreece.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 19, tradition: 23, faith: 20 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
@@ -991,7 +991,7 @@ const ideologies = [
     name: "Nationalist Front of Mexico",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalistfrontmexico.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 27, ownership: 33, tradition: 36, faith: 43 },
     tags: {
       region: ["North America"],
       faith: ["Catholic"],
@@ -1017,7 +1017,7 @@ const ideologies = [
     name: "Neue Rechte",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/neuerechte.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -14, ownership: 0, tradition: 28, faith: 10 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Catholic", "Protestant"],
@@ -1030,7 +1030,7 @@ const ideologies = [
     name: "New Swedish Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/newswedishmovement.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 5, tradition: 30, faith: 10 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
@@ -1043,7 +1043,7 @@ const ideologies = [
     name: "Nichirenism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nichirenism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -6, ownership: 10, tradition: -1, faith: 35 },
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
@@ -1069,7 +1069,7 @@ const ideologies = [
     name: "Organisation of Yugoslav Nationalists",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/oryuna.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -34, ownership: 16, tradition: 13, faith: -15 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox", "Catholic"],
@@ -1082,7 +1082,7 @@ const ideologies = [
     name: "Pan-Iranist Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/paniranist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -13, ownership: -20, tradition: 18, faith: -32 },
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
@@ -1095,7 +1095,7 @@ const ideologies = [
     name: "Papadopoulism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/papadopoulism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -18, ownership: 10, tradition: 40, faith: 35 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
@@ -1108,7 +1108,7 @@ const ideologies = [
     name: "Party of National Socialists",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/polishnatsoc.png",
     description: "The Party of National Socialists (Polish: Partia Narodowych Socjalistów), was a polish National Socialist party founded in 1933. The PNS developed its own variant of National Socialism that was explicitly anti-German and declaredly Democratic. The PNS proposed the creation of a bloc of Slavic states and, on a global scale, the establishment of a general union of National Socialist republics. It declared attachment to Christianity, though anti-Clerical tendencies sometimes emerged. While critical of Fascism and Nazism as foreign models, it acknowledged the anti-Semitism and Revisionist aims with approval.",
-    scores: { interference: -1, ownership: -18, tradition: 8, faith: 22 },
+    scores: { interference: -25, ownership: -20, tradition: 30, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular", "Catholic"],
@@ -1121,7 +1121,7 @@ const ideologies = [
     name: "Patriot Front",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/patriotfront.png",
     description: "The Patriot Front is an active American neo-Fascist group in the USA. The movement focuses on promoting White Nationalism and the tradition of the \"pre-Columbian forefathers\"; seeing the American identity as an extraordinary one. It emphasizes a need for a hard reset of society and a return to the traditions and virtues of the European Settlers, calling for a balance of personal liberty alongside social responsibility for the betterment of both. It openly opposes Modernism, Leftism, Democracy, Communism and modern-time points of discourse like abortion, gay rights and mass migration.",
-    scores: { interference: 22, ownership: 28, tradition: 41, faith: 18 },
+    scores: { interference: 22, ownership: 38, tradition: 41, faith: 18 },
     tags: {
       region: ["North America"],
       faith: ["Secular", "Protestant", "Catholic", "Eastern Orthodox", "Pagan"],
@@ -1186,7 +1186,7 @@ const ideologies = [
     name: "Political Circle \"Zveno\"",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/zveno.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -22, ownership: -5, tradition: 5, faith: -15 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular"],
@@ -1212,7 +1212,7 @@ const ideologies = [
     name: "Pērkonkrusts",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/perkonkrusts.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -25, ownership: 7, tradition: 28, faith: 8 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Protestant"],
@@ -1225,7 +1225,7 @@ const ideologies = [
     name: "Qasimism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/qasimism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -31, ownership: 10, tradition: -9, faith: -3 },
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
@@ -1238,7 +1238,7 @@ const ideologies = [
     name: "Ragnarok Circle",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ragnarok.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -28, ownership: -22, tradition: 25, faith: -38 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Pagan"],
@@ -1251,7 +1251,7 @@ const ideologies = [
     name: "Republican Fascist Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/republicanfascist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -36, ownership: 0, tradition: 8, faith: 9 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -1264,7 +1264,7 @@ const ideologies = [
     name: "Revolutionary Mexicanist Action",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/revolutionarymexicanist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 7, ownership: 35, tradition: 34, faith: 15 },
     tags: {
       region: ["North America"],
       faith: ["Secular"],
@@ -1277,7 +1277,7 @@ const ideologies = [
     name: "Revolutionary National Syndicalist Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/revnatsynd.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: 15, ownership: -22, tradition: 35, faith: 32 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -1303,7 +1303,7 @@ const ideologies = [
     name: "Right Japanese Socialism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/spj.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -12, ownership: -12, tradition: 10, faith: 2 },
     tags: {
       region: ["East Asia"],
       faith: ["Secular", "Shinto"],
@@ -1342,7 +1342,7 @@ const ideologies = [
     name: "Scottish Democratic Fascist Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/scottishfascist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 10, tradition: 28, faith: 18 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Protestant"],
@@ -1355,7 +1355,7 @@ const ideologies = [
     name: "Self-Defence of the Republic of Poland",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/selfdefenceoftherepublicofpoland.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -16, ownership: -12, tradition: 22, faith: 24 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -1368,7 +1368,7 @@ const ideologies = [
     name: "Sosism",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/sosism.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 21, tradition: 13, faith: 25 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -1472,7 +1472,7 @@ const ideologies = [
     name: "Tacuara Nationalist Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/tacuara.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -24, ownership: 12, tradition: 30, faith: 32 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -1511,7 +1511,7 @@ const ideologies = [
     name: "Tōhōkai",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/tohokai.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 12, tradition: 15, faith: 18 },
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
@@ -1524,7 +1524,7 @@ const ideologies = [
     name: "Ukrainian National Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ukrainiannationalparty.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -4, ownership: 8, tradition: 18, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
@@ -1563,7 +1563,7 @@ const ideologies = [
     name: "United National Independence Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/UNIP.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -18, ownership: -20, tradition: -8, faith: 17 },
     tags: {
       region: ["Africa"],
       faith: ["Protestant"],
@@ -1615,7 +1615,7 @@ const ideologies = [
     name: "Wang Jingwei Thought",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/wangjingwei.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -20, ownership: 10, tradition: -1, faith: 10 },
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
@@ -1641,7 +1641,7 @@ const ideologies = [
     name: "Young Egypt Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/youngegyptparty.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -18, ownership: -4, tradition: 24, faith: 24 },
     tags: {
       region: ["MENA"],
       faith: ["Islam"],
@@ -1693,7 +1693,7 @@ const ideologies = [
     name: "Zikist Movement",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/zikist.png",
     description: "WORK IN PROGRESS",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    scores: { interference: -6, ownership: -14, tradition: -4, faith: -2 },
     tags: {
       region: ["Africa"],
       faith: ["Secular"],
