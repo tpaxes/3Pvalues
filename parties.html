@@ -74,46 +74,79 @@
       margin-bottom: 2.2rem;
       font-size: 1.15rem;
     }
-    .filters {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 1.4rem;
-      margin-bottom: 2.2rem;
-    }
-    .filter-section { margin-bottom: 1.1rem; }
-    .filter-section:last-of-type { margin-bottom: 0; }
-    .filter-label {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: #9ca3af;
-      margin-bottom: 0.55rem;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-    }
-    .filter-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.45rem;
-    }
-    .filter-btn {
-      background: transparent;
-      border: 1px solid #4b5563;
-      color: #d1d5db;
-      padding: 0.35rem 0.85rem;
-      border-radius: 999px;
-      font-size: 0.88rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-family: 'Lexend', sans-serif;
-    }
-    .filter-btn:hover {
-      border-color: var(--accent);
-      color: #f3f4f6;
-    }
+.filters {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.25rem 1.4rem 1.1rem;
+  margin-bottom: 2.2rem;
+}
+.filter-section {
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(45, 53, 72, 0.7);
+}
+.filter-section:last-of-type {
+  margin-bottom: 0.4rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.filter-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.filter-btn {
+  background: rgba(15, 18, 26, 0.45);
+  border: 1px solid #3d465c;
+  color: #c5cdd8;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Lexend', sans-serif;
+  line-height: 1.3;
+}
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: #f3f4f6;
+  background: rgba(224, 122, 61, 0.08);
+}
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(224, 122, 61, 0.25);
+}
+.clear-btn {
+  margin-top: 0.35rem;
+  background: transparent;
+  border: 1px solid #3d465c;
+  color: #9ca3af;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: 'Lexend', sans-serif;
+  transition: all 0.18s ease;
+}
+.clear-btn:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.06);
+}
     .filter-btn.active {
       background: var(--accent);
       border-color: var(--accent);
@@ -447,8 +480,53 @@
     "Reactionary": "📜", "Reactionary Modernist": "⚙️", "Futurist": "🗡️",
     "Conservative": "🔰", "Progressive": "✊", "Monarchist": "👑",
     "World Wars Era": "💥", "Cold War Era": "🚀", "Modern Era": "📡", "Timeless": "♾️"
-  };
+};
 
+function getIcon(tag) { return iconMap[tag] || "•"; }
+
+const TAG_ORDER = {
+  region: [
+    "Europe (Romance)", "Europe (Germanic)", "Europe (Slavic)", "Europe (Other)",
+    "Caucasus", "MENA", "Central Asia", "South Asia", "East Asia",
+    "Africa", "North America", "South America", "Oceania", "Universal"
+  ],
+  faith: [
+    "Catholic", "Eastern Orthodox", "Oriental Orthodox", "Protestant",
+    "Islam", "Shinto", "Pagan", "Secular"
+  ],
+  economy: [
+    "National Syndicalism", "Corporatism", "Socialism", "Distributism", "Georgism"
+  ],
+  orientation: [
+    "Reactionary", "Reactionary Modernist", "Conservative", "Monarchist",
+    "Progressive", "Futurist"
+  ],
+  era: [
+    "World Wars Era", "Cold War Era", "Modern Era", "Timeless"
+  ]
+};
+
+function sortTags(category, tagsSet) {
+  const order = TAG_ORDER[category] || [];
+  const arr = [...tagsSet];
+  arr.sort((a, b) => {
+    const ia = order.indexOf(a);
+    const ib = order.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+  return arr;
+}
+
+let activeFilters = {
+  region: new Set(),
+  faith: new Set(),
+  economy: new Set(),
+  orientation: new Set(),
+  era: new Set()
+};
   function getIcon(tag) { return iconMap[tag] || "•"; }
 
   let activeFilters = {
@@ -485,7 +563,7 @@
       const container = document.getElementById(category + "Filters");
       if (!container) return;
       container.innerHTML = "";
-      [...allTags[category]].sort().forEach(tag => {
+      sortTags(category, allTags[category]).forEach(tag => {
         const btn = document.createElement("button");
         btn.className = "filter-btn";
         btn.innerHTML = `${getIcon(tag)} ${tag}`;
