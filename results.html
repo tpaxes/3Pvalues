@@ -382,8 +382,6 @@
 
       <audio id="introAudio" preload="auto"></audio>
 
-      <div class="results-grid" id="resultsGrid"></div>
-
       <div class="next-matches">
         <div class="next-title">Other Close Matches (Click to switch)</div>
         <div id="nextList" class="next-list"></div>
@@ -409,23 +407,6 @@
       tradition: "Reactionary / Futurist",
       faith: "Faith / Secularism"
     };
-
-    const grid = document.getElementById("resultsGrid");
-    Object.entries(userScores).forEach(([key, value]) => {
-      const card = document.createElement("div");
-      card.className = "axis-card";
-      const name = document.createElement("div");
-      name.className = "axis-name";
-      name.textContent = axisDisplay[key] || key;
-      const scoreEl = document.createElement("div");
-      scoreEl.className = "axis-score";
-      scoreEl.textContent = value >= 0 ? `+${value}` : value;
-      if (value > 15) scoreEl.classList.add("positive");
-      else if (value < -15) scoreEl.classList.add("negative");
-      else scoreEl.classList.add("neutral");
-      card.append(name, scoreEl);
-      grid.appendChild(card);
-    });
 
     function passesResultFilters(ideology) {
       let f;
