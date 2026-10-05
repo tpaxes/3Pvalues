@@ -403,13 +403,6 @@
       if (userScores[key] < -50) userScores[key] = -50;
     });
 
-    const axisDisplay = {
-      interference: "Less / More State Interference",
-      ownership: "Collective / Private Ownership",
-      tradition: "Reactionary / Futurist",
-      faith: "Faith / Secularism"
-    };
-
     const grid = document.getElementById("resultsGrid");
     Object.entries(userScores).forEach(([key, value]) => {
       const card = document.createElement("div");
