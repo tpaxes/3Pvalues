@@ -49,11 +49,7 @@
       --border: #d1d5db;
       --panel-outline: rgba(217, 160, 0, 0.55);
     }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Lexend', system-ui, sans-serif;
       background: var(--bg-outer);
@@ -101,9 +97,7 @@
       font-weight: 600;
       letter-spacing: -0.3px;
     }
-    [data-theme="light"] .brand-text {
-      color: #111827;
-    }
+    [data-theme="light"] .brand-text { color: #111827; }
     .theme-toggle {
       margin-left: 2px;
       width: 36px;
@@ -148,17 +142,13 @@
       margin-bottom: 0.4rem;
       letter-spacing: -1px;
     }
-    [data-theme="light"] h1 {
-      color: #111827;
-    }
+    [data-theme="light"] h1 { color: #111827; }
     .subtitle {
       font-size: 1.3rem;
       color: #9ca3af;
       margin-bottom: 2rem;
     }
-    [data-theme="light"] .subtitle {
-      color: #4b5563;
-    }
+    [data-theme="light"] .subtitle { color: #4b5563; }
     hr {
       border: none;
       height: 1px;
@@ -201,16 +191,14 @@
     }
     .order-choice {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
     .order-choice p {
       color: #9ca3af;
       margin-bottom: 0.8rem;
       font-size: 1rem;
     }
-    [data-theme="light"] .order-choice p {
-      color: #4b5563;
-    }
+    [data-theme="light"] .order-choice p { color: #4b5563; }
     .order-btn {
       font-family: 'Lexend', sans-serif;
       font-size: 0.95rem;
@@ -232,6 +220,106 @@
       border-color: var(--accent);
       color: #1a1a1a;
     }
+    .filter-panel {
+      max-width: 700px;
+      margin: 0 auto 1.8rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem 1.15rem 0.9rem;
+      text-align: left;
+    }
+    .filter-panel-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #e5e7eb;
+      margin-bottom: 0.35rem;
+    }
+    [data-theme="light"] .filter-panel-title { color: #111827; }
+    .filter-hint {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-bottom: 0.85rem;
+      line-height: 1.4;
+    }
+    .filter-section-mini {
+      margin-bottom: 0.7rem;
+    }
+    .filter-section-mini:last-of-type {
+      margin-bottom: 0.35rem;
+    }
+    .filter-label-mini {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.35rem;
+    }
+    .filter-tags-mini {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .tag-chip {
+      font-family: 'Lexend', sans-serif;
+      font-size: 0.78rem;
+      padding: 0.28rem 0.65rem;
+      border-radius: 999px;
+      border: 1px solid #3d465c;
+      background: transparent;
+      color: #c5cdd8;
+      cursor: pointer;
+      line-height: 1.3;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    [data-theme="light"] .tag-chip {
+      border-color: #c5cad3;
+      color: #374151;
+    }
+    .tag-chip:hover { border-color: var(--accent); }
+    .tag-chip.include {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #1a1a1a;
+    }
+    .tag-chip.exclude {
+      background: rgba(239, 68, 68, 0.15);
+      border-color: #ef4444;
+      color: #fca5a5;
+      text-decoration: line-through;
+    }
+    [data-theme="light"] .tag-chip.exclude {
+      color: #b91c1c;
+      background: rgba(239, 68, 68, 0.08);
+    }
+    .filter-actions {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      margin-top: 0.55rem;
+      flex-wrap: wrap;
+    }
+    .filter-clear {
+      font-family: 'Lexend', sans-serif;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 8px;
+      border: 1px solid #3d465c;
+      background: transparent;
+      color: #9ca3af;
+      cursor: pointer;
+    }
+    .filter-clear:hover {
+      border-color: #ef4444;
+      color: #ef4444;
+    }
+    .filter-legend {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-left: auto;
+    }
     .parties-link {
       text-align: center;
       margin-bottom: 1rem;
@@ -243,9 +331,7 @@
       border-bottom: 1px solid transparent;
       transition: all 0.2s;
     }
-    [data-theme="light"] .parties-link a {
-      color: #4b5563;
-    }
+    [data-theme="light"] .parties-link a { color: #4b5563; }
     .parties-link a:hover {
       color: var(--accent);
       border-bottom-color: var(--accent);
@@ -257,25 +343,19 @@
       margin: 2.2rem 0 1rem;
       text-align: center;
     }
-    [data-theme="light"] h2 {
-      color: #111827;
-    }
+    [data-theme="light"] h2 { color: #111827; }
     p {
       font-size: 1.08rem;
       max-width: 700px;
       margin: 0 auto 1.4rem;
       color: #9ca3af;
     }
-    [data-theme="light"] p {
-      color: #4b5563;
-    }
+    [data-theme="light"] p { color: #4b5563; }
     .strong {
       font-weight: 600;
       color: #e5e7eb;
     }
-    [data-theme="light"] .strong {
-      color: #111827;
-    }
+    [data-theme="light"] .strong { color: #111827; }
     .axes-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -304,9 +384,7 @@
       font-size: 0.98rem;
       color: #9ca3af;
     }
-    [data-theme="light"] .axis-desc {
-      color: #4b5563;
-    }
+    [data-theme="light"] .axis-desc { color: #4b5563; }
     .github-corner {
       position: absolute;
       top: 0;
@@ -362,9 +440,7 @@
       cursor: pointer;
       transition: background 0.2s;
     }
-    #wip-modal button:hover {
-      background: var(--accent-dark);
-    }
+    #wip-modal button:hover { background: var(--accent-dark); }
     .credits {
       margin: 5rem auto 3rem;
       max-width: 680px;
@@ -373,9 +449,7 @@
       color: #9ca3af;
       padding: 0 1.5rem;
     }
-    [data-theme="light"] .credits {
-      color: #4b5563;
-    }
+    [data-theme="light"] .credits { color: #4b5563; }
     .credits ul {
       list-style: none;
       padding: 0;
@@ -388,19 +462,10 @@
       gap: 8px;
       flex-wrap: wrap;
     }
-    .credits img {
-      border-radius: 2px;
-    }
-    .credits a {
-      display: inline-flex;
-      align-items: center;
-    }
-    .credits svg {
-      fill: #d1d5db;
-    }
-    [data-theme="light"] .credits svg {
-      fill: #374151;
-    }
+    .credits img { border-radius: 2px; }
+    .credits a { display: inline-flex; align-items: center; }
+    .credits svg { fill: #d1d5db; }
+    [data-theme="light"] .credits svg { fill: #374151; }
     @media (max-width: 960px) {
       .page-wrapper {
         max-width: 100%;
@@ -420,18 +485,10 @@
         left: 14px;
         padding: 6px 10px 6px 6px;
       }
-      .brand-fixed img {
-        width: 46px;
-        height: 46px;
-      }
-      .brand-text {
-        font-size: 1.2rem;
-      }
-      .theme-toggle {
-        width: 32px;
-        height: 32px;
-        font-size: 1rem;
-      }
+      .brand-fixed img { width: 46px; height: 46px; }
+      .brand-text { font-size: 1.2rem; }
+      .theme-toggle { width: 32px; height: 32px; font-size: 1rem; }
+      .filter-legend { margin-left: 0; width: 100%; }
     }
   </style>
 </head>
@@ -486,6 +543,39 @@
         <p>Question order:</p>
         <button id="orderNormal" class="order-btn" onclick="setOrder(false)">Normal</button>
         <button id="orderShuffled" class="order-btn" onclick="setOrder(true)">Shuffled</button>
+      </div>
+
+      <div class="filter-panel" id="resultFilterPanel">
+        <div class="filter-panel-title">Result filters (optional)</div>
+        <p class="filter-hint">
+          Click once to <strong style="color:var(--accent)">include</strong> only matching ideologies.
+          Click again to <strong style="color:#ef4444">exclude</strong> them.
+          Leave empty for all.
+        </p>
+        <div class="filter-section-mini">
+          <div class="filter-label-mini">Region</div>
+          <div class="filter-tags-mini" data-category="region"></div>
+        </div>
+        <div class="filter-section-mini">
+          <div class="filter-label-mini">Faith</div>
+          <div class="filter-tags-mini" data-category="faith"></div>
+        </div>
+        <div class="filter-section-mini">
+          <div class="filter-label-mini">Economy</div>
+          <div class="filter-tags-mini" data-category="economy"></div>
+        </div>
+        <div class="filter-section-mini">
+          <div class="filter-label-mini">Orientation</div>
+          <div class="filter-tags-mini" data-category="orientation"></div>
+        </div>
+        <div class="filter-section-mini">
+          <div class="filter-label-mini">Era</div>
+          <div class="filter-tags-mini" data-category="era"></div>
+        </div>
+        <div class="filter-actions">
+          <button type="button" class="filter-clear" id="clearResultFilters">Clear filters</button>
+          <span class="filter-legend">Yellow = must match · Red = never show</span>
+        </div>
       </div>
 
       <div class="parties-link">
@@ -597,6 +687,110 @@
         };
       }
     })();
+
+    const TAG_ORDER = {
+      region: [
+        "Europe (Romance)", "Europe (Germanic)", "Europe (Slavic)", "Europe (Other)",
+        "Caucasus", "MENA", "Central Asia", "South Asia", "East Asia",
+        "Africa", "North America", "South America", "Oceania", "Universal"
+      ],
+      faith: [
+        "Catholic", "Eastern Orthodox", "Oriental Orthodox", "Protestant",
+        "Islam", "Shinto", "Pagan", "Secular"
+      ],
+      economy: [
+        "National Syndicalism", "Corporatism", "Socialism", "Distributism", "Georgism"
+      ],
+      orientation: [
+        "Reactionary", "Reactionary Modernist", "Conservative", "Monarchist",
+        "Progressive", "Futurist"
+      ],
+      era: ["World Wars Era", "Cold War Era", "Modern Era", "Timeless"]
+    };
+    const iconMap = {
+      "Europe (Romance)": "⚜️", "Europe (Slavic)": "🔆", "Europe (Germanic)": "🛡️", "Europe (Other)": "🏛️",
+      "East Asia": "🐉", "South America": "🦙", "North America": "🦅", "MENA": "🏜️", "Africa": "🦁",
+      "Oceania": "🌊", "Caucasus": "🏔️", "Universal": "🌐", "South Asia": "🏝️", "Central Asia": "🐎",
+      "Catholic": "✝️", "Eastern Orthodox": "☦️", "Oriental Orthodox": "⛪", "Protestant": "🌺",
+      "Islam": "☪️", "Pagan": "🌲", "Shinto": "⛩️", "Secular": "⚛️",
+      "Corporatism": "⚒️", "National Syndicalism": "🛠️", "Socialism": "🌾",
+      "Distributism": "🐕", "Georgism": "🐈",
+      "Reactionary": "📜", "Reactionary Modernist": "⚙️", "Futurist": "🗡️",
+      "Conservative": "🔰", "Progressive": "✊", "Monarchist": "👑",
+      "World Wars Era": "💥", "Cold War Era": "🚀", "Modern Era": "📡", "Timeless": "♾️"
+    };
+
+    function loadResultFilters() {
+      try {
+        const raw = JSON.parse(localStorage.getItem("resultFilters") || "{}");
+        return {
+          include: raw.include || {},
+          exclude: raw.exclude || {}
+        };
+      } catch (e) {
+        return { include: {}, exclude: {} };
+      }
+    }
+    function saveResultFilters(state) {
+      localStorage.setItem("resultFilters", JSON.stringify(state));
+    }
+    function getChipState(state, category, tag) {
+      if ((state.include[category] || []).includes(tag)) return "include";
+      if ((state.exclude[category] || []).includes(tag)) return "exclude";
+      return "off";
+    }
+
+    function buildResultFilterUI() {
+      let state = loadResultFilters();
+
+      document.querySelectorAll(".filter-tags-mini").forEach(container => {
+        const category = container.dataset.category;
+        container.innerHTML = "";
+        (TAG_ORDER[category] || []).forEach(tag => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "tag-chip";
+          btn.innerHTML = `${iconMap[tag] || "•"} ${tag}`;
+          const st = getChipState(state, category, tag);
+          btn.dataset.state = st;
+          if (st !== "off") btn.classList.add(st);
+
+          btn.onclick = () => {
+            let next = "off";
+            if (btn.dataset.state === "off") next = "include";
+            else if (btn.dataset.state === "include") next = "exclude";
+            else next = "off";
+
+            state.include[category] = (state.include[category] || []).filter(t => t !== tag);
+            state.exclude[category] = (state.exclude[category] || []).filter(t => t !== tag);
+
+            if (next === "include") {
+              if (!state.include[category]) state.include[category] = [];
+              state.include[category].push(tag);
+            } else if (next === "exclude") {
+              if (!state.exclude[category]) state.exclude[category] = [];
+              state.exclude[category].push(tag);
+            }
+
+            btn.dataset.state = next;
+            btn.classList.remove("include", "exclude");
+            if (next !== "off") btn.classList.add(next);
+            saveResultFilters(state);
+          };
+          container.appendChild(btn);
+        });
+      });
+
+      document.getElementById("clearResultFilters").onclick = () => {
+        state = { include: {}, exclude: {} };
+        saveResultFilters(state);
+        document.querySelectorAll(".tag-chip").forEach(btn => {
+          btn.dataset.state = "off";
+          btn.classList.remove("include", "exclude");
+        });
+      };
+    }
+    buildResultFilterUI();
   </script>
 </body>
 </html>
