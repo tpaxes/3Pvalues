@@ -738,30 +738,37 @@
         }
 
         function drawTagCard(ctx, x, y, w, h, text, state) {
-          const emoji = tagEmojis[text] || "🏷️";
-          ctx.save();
-          ctx.fillStyle = "#ffffff";
-          ctx.strokeStyle = state === "include" ? "#cbd5e1" : "#efb0b0";
-          ctx.lineWidth = 2;
-          imageRoundRect(ctx, x, y, w, h, 14);
-          ctx.fill();
-          ctx.stroke();
+  const emoji = tagEmojis[text] || "🏷️";
 
-          ctx.font = "23px 'Segoe UI Emoji', 'Noto Color Emoji', system-ui, sans-serif";
-          ctx.textAlign = "left";
-          ctx.textBaseline = "middle";
-          ctx.fillText(emoji, x + 15, y + h / 2);
+  ctx.save();
 
-          ctx.fillStyle = "#0f172a";
-          ctx.font = "600 16px system-ui, sans-serif";
-          ctx.fillText(text, x + 50, y + h / 2);
+  ctx.fillStyle = "#ffffff";
+  ctx.strokeStyle = state === "include" ? "#cbd5e1" : "#efb0b0";
+  ctx.lineWidth = 2;
 
-          ctx.fillStyle = state === "include" ? "#15803d" : "#dc2626";
-          ctx.font = "bold 18px system-ui, sans-serif";
-          ctx.textAlign = "right";
-          ctx.fillText(state === "include" ? "✓" : "✕", x + w - 14, y + h / 2);
-          ctx.restore();
-        }
+  imageRoundRect(ctx, x, y, w, h, 14);
+  ctx.fill();
+  ctx.stroke();
+
+  // Emoji only
+  ctx.font = "28px 'Segoe UI Emoji', 'Noto Color Emoji', system-ui, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(emoji, x + w / 2, y + h / 2);
+
+  // Include / exclude indicator
+  ctx.fillStyle = state === "include" ? "#15803d" : "#dc2626";
+  ctx.font = "bold 15px system-ui, sans-serif";
+  ctx.textAlign = "right";
+  ctx.textBaseline = "top";
+  ctx.fillText(
+    state === "include" ? "✓" : "✕",
+    x + w - 7,
+    y + 5
+  );
+
+  ctx.restore();
+}
 
         ctx.beginPath();
         ctx.arc(cx + (state / 50) * half, cy - (owner / 50) * half, 12, 0, 2 * Math.PI);
