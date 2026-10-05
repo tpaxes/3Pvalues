@@ -3,32 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TP Values — Your Results</title>
+  <title>3Pvalues — Your Results</title>
   <link rel="icon" type="image/png" href="tplogo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://quge5.com/88/tag.min.js" data-zone="" async data-cfasync="false"></script>
+  <script>
+    (function () {
+      const saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    })();
+  </script>
   <style>
     :root {
-      --bg: #0f121a;
-      --text: #e0e7ff;
-      --card: #1e293b;
-      --border: #334155;
-      --accent: #ff8533;
+      --bg-outer: #0a0c12;
+      --bg: #11141c;
+      --text: #d1d5db;
+      --card: #1a1f2b;
+      --border: #2d3548;
+      --accent: #f9b701;
+      --accent-dark: #d9a000;
       --positive: #4caf50;
       --negative: #ef5350;
       --neutral: #757575;
       --logo-bg-normal: #f8f9fc;
       --logo-bg-dark: #2d2d2d;
+      --panel-outline: rgba(249, 183, 1, 0.45);
+    }
+    [data-theme="light"] {
+      --bg-outer: #d8dce6;
+      --bg: #f4f5f8;
+      --text: #1f2937;
+      --card: #ffffff;
+      --border: #d1d5db;
+      --accent: #d9a000;
+      --accent-dark: #b8860b;
+      --panel-outline: rgba(217, 160, 0, 0.55);
     }
     * { margin:0; padding:0; box-sizing:border-box; }
     body {
       font-family: 'Lexend', system-ui, sans-serif;
-      background: var(--bg);
+      background: var(--bg-outer);
       color: var(--text);
       min-height: 100vh;
-      padding: 5rem 1rem 3rem;
+    }
+    .page-wrapper {
+      max-width: 920px;
+      margin: 0 auto;
+      background: var(--bg);
+      min-height: 100vh;
+      box-shadow: 0 0 40px rgba(0,0,0,0.35);
+      border-left: 2px solid var(--panel-outline);
+      border-right: 2px solid var(--panel-outline);
+      padding: 5rem 1.5rem 3rem;
     }
     .brand-fixed {
       position: fixed;
@@ -36,25 +65,51 @@
       z-index: 1000;
       display: flex;
       align-items: center;
-      gap: 12px;
-      background: rgba(15,18,26,0.7);
-      padding: 8px 14px 8px 8px;
+      gap: 10px;
+      background: rgba(15,18,26,0.85);
+      padding: 8px 12px 8px 8px;
       border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
-      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+    }
+    [data-theme="light"] .brand-fixed {
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
     }
     .brand-fixed img {
-      width: 56px; height: 56px;
+      width: 52px; height: 52px;
       border-radius: 10px;
       object-fit: cover;
     }
     .brand-text {
-      color: white;
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+      color: #f3f4f6;
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.3px;
       white-space: nowrap;
+    }
+    [data-theme="light"] .brand-text {
+      color: #111827;
+    }
+    .theme-toggle {
+      margin-left: 2px;
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      background: transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text);
+      transition: background 0.2s, border-color 0.2s;
+      flex-shrink: 0;
+    }
+    .theme-toggle:hover {
+      border-color: var(--accent);
+      background: rgba(249, 183, 1, 0.12);
     }
     .container {
       max-width: 860px;
@@ -62,35 +117,44 @@
       text-align: center;
     }
     h1 {
-      font-size: 3.2rem;
+      font-size: 3rem;
       font-weight: 700;
-      margin-bottom: 0.8rem;
-      color: white;
+      margin-bottom: 0.6rem;
+      color: #f9fafb;
+    }
+    [data-theme="light"] h1 {
+      color: #111827;
     }
     .subtitle {
-      font-size: 1.4rem;
-      color: #94a3b8;
+      font-size: 1.3rem;
+      color: #9ca3af;
       margin-bottom: 2rem;
     }
+    [data-theme="light"] .subtitle {
+      color: #4b5563;
+    }
     .match-section {
-      margin: 1rem auto 3rem;
+      margin: 1rem auto 2.5rem;
       max-width: 680px;
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 2.5rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      padding: 2.2rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
     }
     .match-title {
-      font-size: 2.2rem;
+      font-size: 1.9rem;
       font-weight: 700;
-      margin-bottom: 1.2rem;
-      color: #fff;
+      margin-bottom: 1.1rem;
+      color: #e5e7eb;
+    }
+    [data-theme="light"] .match-title {
+      color: #111827;
     }
     .party-logo-container {
       width: 160px;
       height: 160px;
-      margin: 1.2rem auto;
+      margin: 1.1rem auto;
       border: 3px solid var(--accent);
       border-radius: 16px;
       overflow: hidden;
@@ -105,29 +169,35 @@
     .normal-bg { background: var(--logo-bg-normal); }
     .dark-bg { background: var(--logo-bg-dark); }
     .party-name {
-      font-size: 2.1rem;
+      font-size: 2rem;
       font-weight: 700;
       color: var(--accent);
-      margin: 0.8rem 0 0.4rem;
+      margin: 0.7rem 0 0.35rem;
     }
     .match-percent {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-weight: 500;
-      color: #94a3b8;
-      margin-bottom: 1.5rem;
+      color: #9ca3af;
+      margin-bottom: 1.3rem;
+    }
+    [data-theme="light"] .match-percent {
+      color: #4b5563;
     }
     .party-desc {
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       line-height: 1.65;
       color: #cbd5e1;
     }
+    [data-theme="light"] .party-desc {
+      color: #374151;
+    }
     .chart-container {
-      margin: 0 auto 4rem;
+      margin: 0 auto 3rem;
       max-width: 680px;
       background: #f8f9fc;
       border-radius: 16px;
-      padding: 1.4rem;
-      box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+      padding: 1.3rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
       border: 1px solid #e2e8f0;
     }
     #banner {
@@ -138,49 +208,49 @@
     }
     .results-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.8rem;
-      margin: 3rem 0;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin: 2.5rem 0;
     }
     .axis-card {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 14px;
-      padding: 1.6rem;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+      padding: 1.5rem;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     }
     .axis-name {
-      font-size: 1.45rem;
+      font-size: 1.25rem;
       font-weight: 600;
       color: var(--accent);
-      margin-bottom: 0.8rem;
+      margin-bottom: 0.7rem;
     }
     .axis-score {
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       font-weight: 700;
-      margin: 0.6rem 0;
+      margin: 0.5rem 0;
     }
     .positive { color: var(--positive); }
     .negative { color: var(--negative); }
     .neutral { color: var(--neutral); }
     .restart-btn {
       display: inline-block;
-      margin-top: 3.5rem;
-      padding: 1rem 2.8rem;
-      font-size: 1.3rem;
+      margin-top: 2.5rem;
+      padding: 0.95rem 2.5rem;
+      font-family: 'Lexend', sans-serif;
+      font-size: 1.2rem;
       font-weight: 600;
-      color: white;
-      background: linear-gradient(90deg, var(--accent), #e06c00);
+      color: #1a1a1a;
+      background: var(--accent);
       border: none;
       border-radius: 999px;
       cursor: pointer;
       text-decoration: none;
-      transition: all 0.25s ease;
-      box-shadow: 0 8px 24px rgba(255,133,51,0.3);
+      transition: background 0.2s ease, transform 0.2s ease;
     }
     .restart-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 14px 36px rgba(255,133,51,0.5);
+      background: var(--accent-dark);
+      transform: translateY(-2px);
     }
     #musicMute {
       position: fixed;
@@ -190,7 +260,7 @@
       z-index: 9999;
       width: 48px;
       height: 48px;
-      background: rgba(30, 41, 59, 0.8);
+      background: rgba(30, 41, 59, 0.85);
       border: 1px solid #444;
       border-radius: 12px;
       cursor: pointer;
@@ -202,8 +272,13 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       transition: all 0.2s;
     }
+    [data-theme="light"] #musicMute {
+      background: rgba(255, 255, 255, 0.92);
+      border-color: #d1d5db;
+      color: #111827;
+    }
     #musicMute:hover {
-      background: rgba(50, 65, 90, 0.9);
+      background: rgba(50, 65, 90, 0.95);
       transform: translateX(-50%) scale(1.05);
     }
     #musicMute.muted {
@@ -211,39 +286,44 @@
       color: #ff5555;
     }
     .next-matches {
-      margin: 4rem auto;
+      margin: 3rem auto;
       max-width: 680px;
-      background: rgba(30, 41, 59, 0.6);
+      background: var(--card);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 1.5rem;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      padding: 1.4rem;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     }
     .next-title {
-      font-size: 1.6rem;
+      font-size: 1.45rem;
       font-weight: 600;
-      color: #94a3b8;
+      color: #9ca3af;
       margin-bottom: 1rem;
       text-align: center;
+    }
+    [data-theme="light"] .next-title {
+      color: #4b5563;
     }
     .next-list {
       display: flex;
       flex-direction: column;
-      gap: 0.8rem;
+      gap: 0.75rem;
     }
     .next-item {
-      background: rgba(30, 41, 59, 0.8);
-      border: 1px solid #444;
+      background: rgba(15, 18, 26, 0.45);
+      border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 1rem;
+      padding: 0.95rem;
       cursor: pointer;
       transition: all 0.2s ease;
       display: flex;
       align-items: flex-start;
       gap: 1rem;
     }
+    [data-theme="light"] .next-item {
+      background: rgba(0, 0, 0, 0.03);
+    }
     .next-item:hover {
-      background: rgba(50, 65, 90, 0.8);
       border-color: var(--accent);
     }
     .next-logo {
@@ -256,15 +336,43 @@
     }
     .next-info {
       flex: 1;
+      text-align: left;
     }
     .next-name {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       font-weight: 600;
-      color: #cbd5e1;
+      color: #e5e7eb;
+    }
+    [data-theme="light"] .next-name {
+      color: #111827;
     }
     .next-percent {
-      font-size: 1rem;
-      color: #94a3b8;
+      font-size: 0.95rem;
+      color: #9ca3af;
+    }
+    [data-theme="light"] .next-percent {
+      color: #4b5563;
+    }
+    @media (max-width: 960px) {
+      .page-wrapper {
+        max-width: 100%;
+        box-shadow: none;
+        border-left: none;
+        border-right: none;
+      }
+    }
+    @media (max-width: 640px) {
+      .page-wrapper { padding: 4.5rem 1rem 2.5rem; }
+      h1 { font-size: 2.3rem; }
+      .party-name { font-size: 1.6rem; }
+      .match-title { font-size: 1.5rem; }
+      .brand-fixed {
+        top: 14px; left: 14px;
+        padding: 6px 10px 6px 6px;
+      }
+      .brand-fixed img { width: 46px; height: 46px; }
+      .brand-text { font-size: 1.2rem; }
+      .theme-toggle { width: 32px; height: 32px; font-size: 1rem; }
     }
   </style>
 </head>
@@ -272,47 +380,48 @@
   <button id="musicMute" title="Mute / Unmute Intro">🔊</button>
 
   <div class="brand-fixed">
-    <img src="tplogo.png" alt="TP Values Logo">
-    <span class="brand-text">TP Values</span>
+    <img src="tplogo.png" alt="3Pvalues Logo">
+    <span class="brand-text">3Pvalues</span>
+    <button class="theme-toggle" id="themeToggle" title="Toggle light / dark mode" aria-label="Toggle theme">🌙</button>
   </div>
 
-  <div class="container">
-    <h1>Your Results</h1>
-    <p class="subtitle">Third Position Ideology Profile</p>
+  <div class="page-wrapper">
+    <div class="container">
+      <h1>Your Results</h1>
+      <p class="subtitle">Third Position Ideology Profile</p>
 
-    <div class="match-section">
-      <div class="match-title">Your Closest Ideological Match</div>
-      <div id="logoContainer" class="party-logo-container normal-bg">
-        <img id="matchLogo" src="https://via.placeholder.com/160/333/ccc?text=No+Logo" alt="Ideology Logo" class="party-logo">
+      <div class="match-section">
+        <div class="match-title">Your Closest Ideological Match</div>
+        <div id="logoContainer" class="party-logo-container normal-bg">
+          <img id="matchLogo" src="https://via.placeholder.com/160/333/ccc?text=No+Logo" alt="Ideology Logo" class="party-logo">
+        </div>
+        <div id="matchName" class="party-name">Analyzing...</div>
+        <div id="matchPercent" class="match-percent"></div>
+        <p id="matchDesc" class="party-desc">Your results are being compared...</p>
       </div>
-      <div id="matchName" class="party-name">Analyzing...</div>
-      <div id="matchPercent" class="match-percent"></div>
-      <p id="matchDesc" class="party-desc">Your results are being compared...</p>
+
+      <div class="chart-container">
+        <img id="banner" src="" alt="Your Position on 3Pvalues Chart">
+      </div>
+
+      <audio id="introAudio" preload="auto"></audio>
+
+      <div class="results-grid" id="resultsGrid"></div>
+
+      <div class="next-matches">
+        <div class="next-title">Other Close Matches (Click to switch)</div>
+        <div id="nextList" class="next-list"></div>
+      </div>
+
+      <a href="index.html" class="restart-btn">Take the Test Again</a>
     </div>
-
-    <div class="chart-container">
-      <img id="banner" src="" alt="Your Position on TP Values Chart">
-    </div>
-
-    <audio id="introAudio" preload="auto"></audio>
-
-    <div class="results-grid" id="resultsGrid"></div>
-
-    <div class="next-matches">
-      <div class="next-title">Other Close Matches (Click to switch)</div>
-      <div id="nextList" class="next-list"></div>
-    </div>
-
-    <a href="index.html" class="restart-btn">Take the Test Again</a>
   </div>
 
   <script src="ideologies.js"></script>
   <script>
-
     const saved = localStorage.getItem("scores");
     if (!saved) window.location.href = "index.html";
     let userScores = JSON.parse(saved);
-
     Object.keys(userScores).forEach(key => {
       if (userScores[key] > 50) userScores[key] = 50;
       if (userScores[key] < -50) userScores[key] = -50;
@@ -329,19 +438,15 @@
     Object.entries(userScores).forEach(([key, value]) => {
       const card = document.createElement("div");
       card.className = "axis-card";
-
       const name = document.createElement("div");
       name.className = "axis-name";
       name.textContent = axisDisplay[key] || key;
-
       const scoreEl = document.createElement("div");
       scoreEl.className = "axis-score";
       scoreEl.textContent = value >= 0 ? `+${value}` : value;
-
       if (value > 15) scoreEl.classList.add("positive");
       else if (value < -15) scoreEl.classList.add("negative");
       else scoreEl.classList.add("neutral");
-
       card.append(name, scoreEl);
       grid.appendChild(card);
     });
@@ -352,7 +457,12 @@
     const userOwn = userScores.ownership || 0;
     const isInQuadrant = Math.abs(userInter) > THRESHOLD && Math.abs(userOwn) > THRESHOLD;
 
-    ideologies.forEach(ideology => {
+    const usable = (typeof ideologies !== "undefined" ? ideologies : []).filter(i => {
+      const s = i.scores || {};
+      return !(s.interference === 0 && s.ownership === 0 && s.tradition === 0 && s.faith === 0);
+    });
+
+    usable.forEach(ideology => {
       let dist = 0;
       Object.keys(userScores).forEach(axis => {
         let weight = 1.0;
@@ -360,9 +470,7 @@
         const diff = userScores[axis] - (ideology.scores[axis] || 0);
         dist += weight * (diff * diff);
       });
-
       let sqrtDist = Math.sqrt(dist);
-
       if (isInQuadrant) {
         const ideoInter = ideology.scores.interference || 0;
         const ideoOwn = ideology.scores.ownership || 0;
@@ -372,31 +480,28 @@
           sqrtDist += 35;
         }
       }
-
       currentMatches.push({ ideology, dist: sqrtDist });
     });
-
     currentMatches.sort((a, b) => a.dist - b.dist);
+
     const maxDist = 75;
 
     function updateMainMatch(index) {
       const selected = currentMatches[index];
+      if (!selected) return;
       const closest = selected.ideology;
-
       const logoEl = document.getElementById("matchLogo");
       const container = document.getElementById("logoContainer");
       logoEl.src = closest.img || "https://via.placeholder.com/160/333/ccc?text=No+Logo";
-
       container.classList.remove("dark-bg");
       container.classList.add("normal-bg");
-
       document.getElementById("matchName").textContent = closest.name;
       const percent = Math.round(100 - (selected.dist / maxDist) * 100);
       document.getElementById("matchPercent").textContent = percent + "% compatibility";
       document.getElementById("matchDesc").textContent = closest.description;
 
       const audioMap = {
-       "Ailtirí na hAiséirghe": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ailtiri-na-haiseirghe.mp3",
+        "Ailtirí na hAiséirghe": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ailtiri-na-haiseirghe.mp3",
         "Army Comrades Association": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/blueshirts.mp3",
         "Authentic Party": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/authenticparty.mp3",
         "Bolivian Socialist Falange": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/bolsocfal.mp3",
@@ -407,7 +512,6 @@
         "Papadopoulism": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/papadopoulism.mp3",
         "Political Circle 'Zveno'": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/zveno.mp3",
         "Ragnarok Circle": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ragnarok.mp3",
-        "Ratniks": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ratniks.mp3",
         "Revolutionary National Syndicalist Movement": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/revnatsynd.mp3",
         "Swedish Socialist Gathering": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/SSS.mp3",
         "Ustaše": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ustase.mp3",
@@ -443,7 +547,7 @@
         "Hungarism": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/hungarism.mp3",
         "Ilminism": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/ilminism.mp3",
         "Iron Guard": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/iron-guard.mp3",
-        "JONSism": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/jonsism.mp3",
+        "JONS": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/jonsism.mp3",
         "Kataeb Party": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/kataeb-party.mp3",
         "Kokkashugi": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/kokkashugi.mp3",
         "Kokutairon": "https://raw.githubusercontent.com/tpvalues/tpvalues/main/audio/kokutairon.mp3",
@@ -490,80 +594,73 @@
       };
 
       const audioSrc = audioMap[closest.name];
+      const audio = document.getElementById("introAudio");
+      const muteBtn = document.getElementById("musicMute");
       if (audioSrc) {
-        const audio = document.getElementById("introAudio");
         audio.src = audioSrc;
         audio.volume = 0.4;
+        audio.muted = false;
+        muteBtn.style.display = "flex";
+        muteBtn.innerHTML = "🔊";
         audio.play().catch(() => {});
+      } else {
+        audio.pause();
+        muteBtn.style.display = "none";
       }
-
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
     updateMainMatch(0);
 
     const nextList = document.getElementById("nextList");
-
     function renderNextMatches() {
       nextList.innerHTML = "";
       for (let i = 1; i <= 3 && i < currentMatches.length; i++) {
         const { ideology, dist } = currentMatches[i];
         const percent = Math.round(100 - (dist / maxDist) * 100);
-
         const item = document.createElement("div");
         item.className = "next-item";
         item.dataset.index = i;
-
         const logo = document.createElement("img");
         logo.className = "next-logo";
         logo.src = ideology.img || "https://via.placeholder.com/48/444/aaa?text=?";
         logo.alt = ideology.name;
-
         const info = document.createElement("div");
         info.className = "next-info";
-
         const name = document.createElement("div");
         name.className = "next-name";
         name.textContent = ideology.name;
-
         const pct = document.createElement("div");
         pct.className = "next-percent";
         pct.textContent = percent + "% compatibility";
-
         info.append(name, pct);
         item.append(logo, info);
-
         item.onclick = () => {
           const clickedIndex = parseInt(item.dataset.index);
           [currentMatches[0], currentMatches[clickedIndex]] = [currentMatches[clickedIndex], currentMatches[0]];
           renderNextMatches();
           updateMainMatch(0);
         };
-
         nextList.appendChild(item);
       }
     }
-
     renderNextMatches();
 
     window.onload = function() {
       const banner = document.getElementById("banner");
       const background = new Image();
-
       background.onload = function() {
         const bottomHeight = 460;
         const c = document.createElement("canvas");
         c.width = background.width;
         c.height = background.height + bottomHeight;
         const ctx = c.getContext("2d");
-
         ctx.drawImage(background, 0, 0);
 
         const state = Math.max(-50, Math.min(50, userScores.interference || 0));
         const owner = Math.max(-50, Math.min(50, userScores.ownership || 0));
         const trad  = Math.max(-50, Math.min(50, userScores.tradition || 0));
         const faith = Math.max(-50, Math.min(50, userScores.faith || 0));
-
         const cx = 597, cy = 595, half = 510;
 
         ctx.beginPath();
@@ -593,7 +690,6 @@
         const panelY = background.height;
         ctx.fillStyle = "#f8f9fc";
         ctx.fillRect(0, panelY, c.width, bottomHeight);
-
         ctx.fillStyle = "#111827";
         ctx.font = "bold 32px system-ui, sans-serif";
         ctx.textAlign = "center";
@@ -615,7 +711,6 @@
           if (current) lines.push(current);
           return lines;
         }
-
         function getLocalLogo(imgUrl) {
           if (!imgUrl) return null;
           const parts = imgUrl.split("/");
@@ -633,23 +728,19 @@
           const startX = (c.width - totalW) / 2;
           const cardY = panelY + 55;
           const logoSize = 150;
-
           top4.forEach((m, i) => {
             const x = startX + i * (cardW + gap);
-
             ctx.fillStyle = "#ffffff";
             ctx.strokeStyle = "#cbd5e1";
             ctx.lineWidth = 2;
             roundRect(ctx, x, cardY, cardW, 360, 14);
             ctx.fill();
             ctx.stroke();
-
             const logoX = x + (cardW - logoSize) / 2;
             const logoY = cardY + 15;
             ctx.fillStyle = "#ffffff";
             roundRect(ctx, logoX - 4, logoY - 4, logoSize + 8, logoSize + 8, 10);
             ctx.fill();
-
             if (logos[i]) {
               try {
                 const img = logos[i];
@@ -662,7 +753,6 @@
                   w, h);
               } catch (e) {}
             }
-
             ctx.fillStyle = "#0f172a";
             ctx.font = "bold 24px system-ui, sans-serif";
             ctx.textAlign = "center";
@@ -672,13 +762,11 @@
             lines.forEach((line, idx) => {
               ctx.fillText(line, x + cardW / 2, nameStartY + idx * 42);
             });
-
             const percent = Math.round(100 - (m.dist / maxDist) * 100);
             ctx.fillStyle = "#334155";
             ctx.font = "18px system-ui, sans-serif";
             ctx.fillText(percent + "% match", x + cardW / 2, cardY + 330);
           });
-
           banner.src = c.toDataURL("image/png");
         }
 
@@ -697,16 +785,13 @@
           };
           img.src = localPath || "";
         });
-
         setTimeout(function() {
           if (loaded < top4.length) finish();
         }, 3000);
       };
-
       background.onerror = function() {
         console.error("tpchart.png failed to load");
       };
-
       background.src = "tpchart.png";
     };
 
@@ -729,6 +814,24 @@
       audio.muted = !audio.muted;
       muteBtn.innerHTML = audio.muted ? "🔇" : "🔊";
     };
+
+    function applyTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+      const btn = document.getElementById("themeToggle");
+      if (btn) btn.textContent = theme === "light" ? "☀️" : "🌙";
+    }
+    (function initTheme() {
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      applyTheme(savedTheme);
+      const btn = document.getElementById("themeToggle");
+      if (btn) {
+        btn.onclick = () => {
+          const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+          applyTheme(next);
+        };
+      }
+    })();
   </script>
 </body>
 </html>
