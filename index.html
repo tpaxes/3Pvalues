@@ -533,17 +533,17 @@
         <img src="tpchart.png" alt="3Pvalues Chart - Third Position Axes">
       </div>
 
-      <div class="start-section">
-        <button class="start-btn" onclick="location.href='quiz.html';">
-          Click here to start!
-        </button>
-      </div>
+<div class="order-choice">
+  <p>Question order:</p>
+  <button id="orderNormal" class="order-btn" onclick="setOrder(false)">Normal</button>
+  <button id="orderShuffled" class="order-btn" onclick="setOrder(true)">Shuffled</button>
+</div>
 
-      <div class="order-choice">
-        <p>Question order:</p>
-        <button id="orderNormal" class="order-btn" onclick="setOrder(false)">Normal</button>
-        <button id="orderShuffled" class="order-btn" onclick="setOrder(true)">Shuffled</button>
-      </div>
+<div class="start-section">
+  <button class="start-btn" onclick="location.href='quiz.html';">
+    Click here to start!
+  </button>
+</div>
 
       <div class="filter-panel" id="resultFilterPanel">
         <div class="filter-panel-title">Result filters (optional)</div>
