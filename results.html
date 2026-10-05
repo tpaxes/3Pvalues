@@ -907,9 +907,12 @@
           if (selectedImageTags.length > 0) {
             const tagY = profileStartY + profileCardH + 18;
             const tagGap = 12;
-            const tagCardW = Math.min(245, Math.max(180, (c.width - 120) / Math.min(7, Math.max(1, selectedImageTags.length))));
-            const tagCardH = 58;
-            const columns = Math.max(1, Math.min(7, Math.floor((c.width + tagGap) / (tagCardW + tagGap))));
+            const tagCardW = 64;
+const tagCardH = 58;
+const columns = Math.min(
+  selectedImageTags.length,
+  Math.floor((c.width - 120 + tagGap) / (tagCardW + tagGap))
+);
             const rowCount = Math.ceil(selectedImageTags.length / columns);
             const tagTotalW = columns * tagCardW + (columns - 1) * tagGap;
             const tagStartX = (c.width - tagTotalW) / 2;
