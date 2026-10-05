@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>3Pvalues — Your Results</title>
+  <title>3Pvalues - Your Results</title>
   <link rel="icon" type="image/png" href="tplogo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,9 +88,7 @@
       letter-spacing: -0.3px;
       white-space: nowrap;
     }
-    [data-theme="light"] .brand-text {
-      color: #111827;
-    }
+    [data-theme="light"] .brand-text { color: #111827; }
     .theme-toggle {
       margin-left: 2px;
       width: 36px;
@@ -122,17 +120,13 @@
       margin-bottom: 0.6rem;
       color: #f9fafb;
     }
-    [data-theme="light"] h1 {
-      color: #111827;
-    }
+    [data-theme="light"] h1 { color: #111827; }
     .subtitle {
       font-size: 1.3rem;
       color: #9ca3af;
       margin-bottom: 2rem;
     }
-    [data-theme="light"] .subtitle {
-      color: #4b5563;
-    }
+    [data-theme="light"] .subtitle { color: #4b5563; }
     .match-section {
       margin: 1rem auto 2.5rem;
       max-width: 680px;
@@ -148,9 +142,7 @@
       margin-bottom: 1.1rem;
       color: #e5e7eb;
     }
-    [data-theme="light"] .match-title {
-      color: #111827;
-    }
+    [data-theme="light"] .match-title { color: #111827; }
     .party-logo-container {
       width: 160px;
       height: 160px;
@@ -180,17 +172,13 @@
       color: #9ca3af;
       margin-bottom: 1.3rem;
     }
-    [data-theme="light"] .match-percent {
-      color: #4b5563;
-    }
+    [data-theme="light"] .match-percent { color: #4b5563; }
     .party-desc {
       font-size: 1.1rem;
       line-height: 1.65;
       color: #cbd5e1;
     }
-    [data-theme="light"] .party-desc {
-      color: #374151;
-    }
+    [data-theme="light"] .party-desc { color: #374151; }
     .chart-container {
       margin: 0 auto 3rem;
       max-width: 680px;
@@ -281,10 +269,6 @@
       background: rgba(50, 65, 90, 0.95);
       transform: translateX(-50%) scale(1.05);
     }
-    #musicMute.muted {
-      background: rgba(60, 20, 20, 0.8);
-      color: #ff5555;
-    }
     .next-matches {
       margin: 3rem auto;
       max-width: 680px;
@@ -301,9 +285,7 @@
       margin-bottom: 1rem;
       text-align: center;
     }
-    [data-theme="light"] .next-title {
-      color: #4b5563;
-    }
+    [data-theme="light"] .next-title { color: #4b5563; }
     .next-list {
       display: flex;
       flex-direction: column;
@@ -320,12 +302,8 @@
       align-items: flex-start;
       gap: 1rem;
     }
-    [data-theme="light"] .next-item {
-      background: rgba(0, 0, 0, 0.03);
-    }
-    .next-item:hover {
-      border-color: var(--accent);
-    }
+    [data-theme="light"] .next-item { background: rgba(0, 0, 0, 0.03); }
+    .next-item:hover { border-color: var(--accent); }
     .next-logo {
       width: 48px;
       height: 48px;
@@ -334,24 +312,22 @@
       background: var(--logo-bg-normal);
       flex-shrink: 0;
     }
-    .next-info {
-      flex: 1;
-      text-align: left;
-    }
+    .next-info { flex: 1; text-align: left; }
     .next-name {
       font-size: 1.15rem;
       font-weight: 600;
       color: #e5e7eb;
     }
-    [data-theme="light"] .next-name {
-      color: #111827;
-    }
+    [data-theme="light"] .next-name { color: #111827; }
     .next-percent {
       font-size: 0.95rem;
       color: #9ca3af;
     }
-    [data-theme="light"] .next-percent {
-      color: #4b5563;
+    [data-theme="light"] .next-percent { color: #4b5563; }
+    .no-matches {
+      color: #f87171;
+      margin: 1rem 0;
+      font-size: 1.05rem;
     }
     @media (max-width: 960px) {
       .page-wrapper {
@@ -451,6 +427,33 @@
       grid.appendChild(card);
     });
 
+    function passesResultFilters(ideology) {
+      let f;
+      try {
+        f = JSON.parse(localStorage.getItem("resultFilters") || "{}");
+      } catch (e) {
+        f = {};
+      }
+      const include = f.include || {};
+      const exclude = f.exclude || {};
+      const tags = ideology.tags || {};
+      const cats = ["region", "faith", "economy", "orientation", "era"];
+
+      for (const cat of cats) {
+        const ex = exclude[cat] || [];
+        const ideoTags = tags[cat] || [];
+        if (ex.some(t => ideoTags.includes(t))) return false;
+      }
+
+      for (const cat of cats) {
+        const inc = include[cat] || [];
+        if (inc.length === 0) continue;
+        const ideoTags = tags[cat] || [];
+        if (!inc.every(t => ideoTags.includes(t))) return false;
+      }
+      return true;
+    }
+
     let currentMatches = [];
     const THRESHOLD = 1;
     const userInter = userScores.interference || 0;
@@ -463,6 +466,8 @@
     });
 
     usable.forEach(ideology => {
+      if (!passesResultFilters(ideology)) return;
+
       let dist = 0;
       Object.keys(userScores).forEach(axis => {
         let weight = 1.0;
@@ -488,7 +493,14 @@
 
     function updateMainMatch(index) {
       const selected = currentMatches[index];
-      if (!selected) return;
+      if (!selected) {
+        document.getElementById("matchName").textContent = "No matches";
+        document.getElementById("matchPercent").textContent = "";
+        document.getElementById("matchDesc").textContent =
+          "No ideologies match your filters. Clear or loosen filters on the home page and try again.";
+        document.getElementById("matchLogo").src = "https://via.placeholder.com/160/333/ccc?text=None";
+        return;
+      }
       const closest = selected.ideology;
       const logoEl = document.getElementById("matchLogo");
       const container = document.getElementById("logoContainer");
@@ -615,6 +627,10 @@
     const nextList = document.getElementById("nextList");
     function renderNextMatches() {
       nextList.innerHTML = "";
+      if (currentMatches.length === 0) {
+        nextList.innerHTML = '<p class="no-matches">No other matches with current filters.</p>';
+        return;
+      }
       for (let i = 1; i <= 3 && i < currentMatches.length; i++) {
         const { ideology, dist } = currentMatches[i];
         const percent = Math.round(100 - (dist / maxDist) * 100);
@@ -722,9 +738,13 @@
         let loaded = 0;
 
         function finish() {
+          if (top4.length === 0) {
+            banner.src = c.toDataURL("image/png");
+            return;
+          }
           const cardW = 340;
           const gap = 35;
-          const totalW = 4 * cardW + 3 * gap;
+          const totalW = Math.min(4, top4.length) * cardW + (Math.min(4, top4.length) - 1) * gap;
           const startX = (c.width - totalW) / 2;
           const cardY = panelY + 55;
           const logoSize = 150;
@@ -770,6 +790,10 @@
           banner.src = c.toDataURL("image/png");
         }
 
+        if (top4.length === 0) {
+          finish();
+          return;
+        }
         top4.forEach((m, i) => {
           const localPath = getLocalLogo(m.ideology.img);
           const img = new Image();
@@ -809,7 +833,6 @@
 
     const muteBtn = document.getElementById("musicMute");
     const audio = document.getElementById("introAudio");
-    muteBtn.style.display = "flex";
     muteBtn.onclick = () => {
       audio.muted = !audio.muted;
       muteBtn.innerHTML = audio.muted ? "🔇" : "🔊";
