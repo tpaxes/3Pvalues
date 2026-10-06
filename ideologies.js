@@ -130,7 +130,7 @@ const ideologies = [
     }
   },
   {
-    name: "Brazilian Integralist Party",
+    name: "Brazilian Integralist Action",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/brazilianintegralism.png",
     description: "The Brazilian Integralist Action (Portuguese: Ação Integralista Brasileira), was a political party in Brazil. It's ideology of Brazilian Integralism was developed by its leader Plínio Salgado. It denounced Materialism, Liberalism, and Marxism, proposing a Corporatist and Clericalist alternative for the working class. It promoted Roman Catholic Spiritualism as the \"natural law\" and considered Christian virtues to be driving factor for their programme. Greatly inspired by Fascism, it functioned like a paramilitary organization with uniformed ranks. They preached a \"Revolution of the Self\"; abandonment of selfish and evil values.",
     scores: { interference: -12, ownership: 3, tradition: 35, faith: 40 },
@@ -234,7 +234,7 @@ const ideologies = [
     }
   },
   {
-    name: "Czech National Socialist Party",
+    name: "Czech National Social Party",
     img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/czechnatsoc.png",
     description: "The Czech National Social Party (Czech: Česká Strana Národně Sociální) is a political party in the Czech Republic that played an important role in Czechoslovakia during the interwar period. The party; founded in 1897, relied on the social traditions of Hussitism and Taboritism, as well as \"collectivizing by means of development, surmounting of class struggle by national discipline and moral rebirth. It opposed Communism, even showing sympathy to the Czech Fascist movements, while openly advocating for Czechoslovakism and Nationalism with a strong focus on Reformation over Marxist struggle.",
     scores: { interference: -3, ownership: -28, tradition: 12, faith: 4 },
