@@ -963,7 +963,7 @@ const ideologies = [
   },
   {
     name: "National Union for Social Justice",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalunionforsocialjustice.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/NUSJ.png",
     description: "WORK IN PROGRESS",
     scores: { interference: 3, ownership: 25, tradition: 22, faith: 30 },
     tags: {
@@ -976,7 +976,7 @@ const ideologies = [
   },
   {
     name: "National Union of Greece",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationaluniongreece.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/EEE.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -24, ownership: 19, tradition: 23, faith: 20 },
     tags: {
