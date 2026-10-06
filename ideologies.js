@@ -339,7 +339,7 @@ const ideologies = [
   },
   {
     name: "Falange Española",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/falange.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/falangaesp.png",
     description: "Falange Española was the Spanish political movement founded by José Antonio Primo de Rivera in 1933. It advocated national syndicalism, a totalitarian national state, Catholic values, and the rejection of both liberalism and Marxism. After the Civil War it became the sole legal party of Franco’s Spain, although its original revolutionary national-syndicalist programme was largely subordinated to the broader Francoist system.",
     scores: { interference: -18, ownership: -12, tradition: 40, faith: 42 },
     tags: {
@@ -560,7 +560,7 @@ const ideologies = [
   },
   {
     name: "Independent Workers' Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/independentworkers.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/UAP.png",
     description: "The Independent Workers’ Party (or similar national-labour formations in interwar Europe) represented attempts to create working-class organisations that rejected both Marxist internationalism and liberal capitalism, instead advocating national syndicalism, corporatist representation of labour, and the integration of workers into a hierarchical national community.",
     scores: { interference: -10, ownership: -20, tradition: 15, faith: 5 },
     tags: {
@@ -586,7 +586,7 @@ const ideologies = [
   },
   {
     name: "Ivan Ilyin Thought",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ivanilyin.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ilyin.png",
     description: "Ivan Ilyin Thought refers to the political and philosophical ideas of the Russian émigré philosopher Ivan Ilyin. He advocated a strong, authoritarian, Christian Russian state, rejected both Bolshevism and Western liberal democracy, and emphasised legal consciousness, national dictatorship as a transitional form, and the spiritual regeneration of Russia on Orthodox and patriotic foundations.",
     scores: { interference: -25, ownership: 15, tradition: 45, faith: 40 },
     tags: {
@@ -963,7 +963,7 @@ const ideologies = [
   },
   {
     name: "National Union for Social Justice",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalunionforsocialjustice.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/NUSJ.png",
     description: "The National Union for Social Justice was the political organisation founded by Father Charles Coughlin in the United States in the 1930s. It combined populist monetary reform, opposition to both capitalism and communism, strong social Catholicism, isolationism and increasingly authoritarian and nationalist rhetoric, advocating a form of corporatist social justice.",
     scores: { interference: -10, ownership: 5, tradition: 30, faith: 40 },
     tags: {
@@ -976,7 +976,7 @@ const ideologies = [
   },
   {
     name: "National Union of Greece",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationaluniongreece.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/EEE.png",
     description: "The National Union of Greece (Ethniki Enosis Ellados) was an interwar Greek nationalist organisation. It advocated authoritarian nationalism, anti-communism, corporatist economic ideas and the strengthening of national institutions against both liberal parliamentarism and left-wing movements.",
     scores: { interference: -15, ownership: 5, tradition: 35, faith: 30 },
     tags: {
@@ -1054,7 +1054,7 @@ const ideologies = [
   },
   {
     name: "Nouvelle Droite",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nouvelledroite.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nouvelledroitte.png",
     description: "The Nouvelle Droite (New Right) is a French intellectual school founded by Alain de Benoist and the GRECE in the late 1960s. It advocates a pagan, anti-liberal, anti-egalitarian and ethno-pluralist worldview, rejecting both Christianity and liberalism while promoting cultural identity, organic society and a radical critique of modernity through metapolitical means.",
     scores: { interference: 10, ownership: 20, tradition: 35, faith: -20 },
     tags: {
