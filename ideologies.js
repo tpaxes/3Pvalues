@@ -28,7 +28,7 @@ const ideologies = [
   {
     name: "Ailtirí na hAiséirghe",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/architectsofresurrection.png",
-    description: "The Architects of the Resurrection (Irish: Ailtirí na hAiséirghe), was a Fascist political party in Ireland, founded by Gearóid Ó Cuinneagáin in March 1942. Focused on the revival of the Irish language, they sought to create a one-party Corporatist state rejecting Liberal Democracy, jews and freemasons. The party promoted strong Irish Nationalism and even Pan-Celtism, supporting Welsh independence movements and showing open hostility to the partition of Ireland. Despite strong Nationalism and inspiration from the Papal Encyclicals, the party was tolerant of Protestantism, using Christian rather than Catholic terminology.",
+    description: "The Architects of the Resurrection (Irish: Ailtirí na hAiséirghe) was a political party in Ireland founded by Gearóid Ó Cuinneagáin in March 1942. Focused on the revival of the Irish language, it sought to create a one-party corporatist state. The party promoted strong Irish nationalism and Pan-Celtism, supporting Welsh independence movements and showing open hostility to the partition of Ireland. Despite strong nationalism and inspiration from the Papal Encyclicals, the party was tolerant of Protestantism, using Christian rather than exclusively Catholic terminology.",
     scores: { interference: -15, ownership: 5, tradition: 37, faith: 29 },
     tags: {
       region: ["Europe (Other)"],
@@ -41,7 +41,7 @@ const ideologies = [
   {
     name: "All-Russian Fascist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/russianfascism.png",
-    description: "The All-Russian Fascist Party (Russian: Всероссийская фашистская партия); later Russian Fascist Union, was a movement by Russian Émigré based in Manchukuo. It was staunchly anti-Communist and developed close ties to Imperial Japan after it's invasion of Manchuria; starting a Women's and a Youth wing. The programme of the party sough to establish a Corporatist Fascist state in Russia, commited to the Russian Orthodox Church. It called for class co-operation instead of class conflict, with some leaders even calling for the restoration of the Monarchy. It advocated Russian Irredentism and ultra-Nationalism.",
+    description: "The All-Russian Fascist Party (Russian: Всероссийская фашистская партия), later known as the Russian Fascist Union, was a movement of Russian émigrés based in Manchukuo. It was staunchly anti-communist and developed close ties to Imperial Japan after the invasion of Manchuria, establishing women’s and youth wings. The party programme sought to establish a corporatist state in Russia committed to the Russian Orthodox Church. It called for class co-operation instead of class conflict, with some leaders advocating the restoration of the monarchy, and promoted Russian irredentism and ultra-nationalism.",
     scores: { interference: -36, ownership: 23, tradition: 30, faith: 34 },
     tags: {
       region: ["Europe (Slavic)", "East Asia"],
@@ -54,7 +54,7 @@ const ideologies = [
   {
     name: "Army Comrades Association",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/blueshirts.png",
-    description: "The Army Comrades Association (ACA), better known as the Blueshirts (Irish: Na Léinte Gorma), was an Irish para-fascist organisation founded in 1932 by Eoin O'Duffy. It was strongly anti-communist, corporatist, and nationalist, drawing inspiration from Mussolini’s Italy and the Catholic social teachings of the time. The movement opposed the Fianna Fáil government, organised large rallies, and later formed part of Fine Gael before O'Duffy split to form the more radical National Corporate Party.",
+    description: "The Army Comrades Association (ACA), better known as the Blueshirts (Irish: Na Léinte Gorma), was an Irish organisation founded in 1932 by Eoin O'Duffy. It was strongly anti-communist, corporatist and nationalist, drawing inspiration from Mussolini’s Italy and Catholic social teaching. The movement opposed the Fianna Fáil government, organised large rallies, and later formed part of Fine Gael before O'Duffy split to form the more radical National Corporate Party.",
     scores: { interference: -18, ownership: 12, tradition: 32, faith: 38 },
     tags: {
       region: ["Europe (Other)"],
@@ -67,7 +67,7 @@ const ideologies = [
   {
     name: "Authentic Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/authenticparty.png",
-    description: "The Authentic Party (Partido Auténtico) was a Cuban revolutionary-nationalist party founded by Ramón Grau San Martín after the 1933 revolution. It combined anti-imperialist nationalism, social reform, and a rejection of both pure liberalism and communism. While not strictly fascist, it contained corporatist and authoritarian-nationalist currents, emphasised Cuban sovereignty against foreign (especially U.S.) influence, and promoted a form of national solidarity and state-guided social justice rooted in the 1933 programme.",
+    description: "The Authentic Party (Partido Auténtico) was a Cuban revolutionary-nationalist party founded by Ramón Grau San Martín after the 1933 revolution. It combined anti-imperialist nationalism, social reform, and a rejection of both pure liberalism and communism. It contained corporatist and authoritarian-nationalist currents, emphasised Cuban sovereignty against foreign (especially U.S.) influence, and promoted a form of national solidarity and state-guided social justice rooted in the 1933 programme.",
     scores: { interference: -10, ownership: -8, tradition: 15, faith: 5 },
     tags: {
       region: ["North America"],
@@ -80,7 +80,7 @@ const ideologies = [
   {
     name: "Ba'ath Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/baath.png",
-    description: "The Arab Socialist Ba'ath Party (Arabic: حزب البعث العربي الاشتراكي, romanized: Ḥizb al-Ba‘th al-‘Arabī al-Ishtirākī) was a political party founded in Syria by Michel Aflaq, Salah al-Din al-Bitar, and associates of Zaki al-Arsuzi. The party espoused Ba'athism, which is an ideology mixing Arab Nationalist, pan-Arab, Arab Socialist, and anti-Imperialist interests. Ba'athism calls for the unification of the Arab world into a single state. Its motto, \"Unity, Freedom, Socialism\", refers to Arab unity and freedom from non-Arab control and interference as well as supporting socialism, while rejecting the Marxist class-struggle.",
+    description: "The Arab Socialist Ba'ath Party (Arabic: حزب البعث العربي الاشتراكي) was founded in Syria by Michel Aflaq, Salah al-Din al-Bitar and associates of Zaki al-Arsuzi. The party espoused Ba'athism, mixing Arab nationalism, pan-Arabism, Arab socialism and anti-imperialism. Ba'athism calls for the unification of the Arab world into a single state. Its motto “Unity, Freedom, Socialism” refers to Arab unity and freedom from non-Arab control as well as a form of socialism that rejects Marxist class struggle.",
     scores: { interference: -30, ownership: -35, tradition: 15, faith: -13 },
     tags: {
       region: ["MENA"],
@@ -93,7 +93,7 @@ const ideologies = [
   {
     name: "Balli Kombëtar",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ballikombetar.png",
-    description: "The National Front (Albanian: Balli Kombëtar) was an Albanian Nationalist and anti-Communist resistance movement during the Second World War. Midhat Frashëri, one of its leaders believed that Albanian provinces under the Ottoman Empire were unfairly partitioned during World War I amongst Yugoslavia and Greece, essentially advocating for a greater Albania. It's irredentism focused on making Albanians free from foreign influence, while also calling out anti-patriots, traitors, lackeys, troublemakers, speculators and spies. The Balli Kombëtar had both a strong fascist wing and a strong agrarian wing.",
+    description: "The National Front (Albanian: Balli Kombëtar) was an Albanian nationalist and anti-communist resistance movement during the Second World War. Midhat Frashëri and other leaders believed that Albanian provinces under the Ottoman Empire had been unfairly partitioned after the First World War and advocated a Greater Albania. The movement focused on freeing Albanians from foreign influence and contained both a strong authoritarian nationalist wing and a strong agrarian wing.",
     scores: { interference: 12, ownership: -8, tradition: 28, faith: 15 },
     tags: {
       region: ["Europe (Other)"],
@@ -106,7 +106,7 @@ const ideologies = [
   {
     name: "Bolivian Socialist Falange",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/bolsocfal.png",
-    description: "The Bolivian Socialist Falange (Spanish: Falange Socialista Boliviana) is a Falangism-inspired party founded in 1937 by Óscar Únzaga de la Vega. It combines nationalism, corporatism, and an 'heterodox' form of socialism focused on 'human solidarity' with a strong emphasis on Catholic values. After WW2, the party's stance evolved from an adherence to Spanish falangism to a more moderate form of statism; with the leaders adopting a strong anti-communist stance, with its leaders being particularly critical of Cuba's Fidel Castro following his emergence in the 50's.",
+    description: "The Bolivian Socialist Falange (Spanish: Falange Socialista Boliviana) is a Falangism-inspired party founded in 1937 by Óscar Únzaga de la Vega. It combines nationalism, corporatism and an heterodox form of socialism focused on human solidarity with a strong emphasis on Catholic values. After the Second World War the party’s stance evolved toward a more moderate form of statism while remaining strongly anti-communist.",
     scores: { interference: -12, ownership: 5, tradition: 35, faith: 40 },
     tags: {
       region: ["South America"],
@@ -119,7 +119,7 @@ const ideologies = [
   {
     name: "Bowdenism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/bowdenism.png",
-    description: "Bowdenism is a term for the ideological framework of Jonathan Bowden; an English political activist, orator, writer and artist. Opposed to Liberalism, Democracy and Egalitarianism, they fought to restore the eternal values and principles that have become submerged beneath the corrosive tsunami of the modern world. Bowden expressed pagan religious beliefs, focusing more on the spiritual and esoterical concepts. He preached that hierarchies are natural and good for society and that native Europeans are justified in asserting their cultural, ethnic, psychological and spiritual hegemony over Europe.",
+    description: "Bowdenism refers to the ideological framework of Jonathan Bowden, an English political activist, orator, writer and artist. Opposed to liberalism, democracy and egalitarianism, he sought to restore eternal values and principles submerged by modernity. Bowden expressed pagan religious beliefs with a focus on spiritual and esoteric concepts. He argued that hierarchies are natural and that native Europeans are justified in asserting their cultural, ethnic, psychological and spiritual hegemony in Europe.",
     scores: { interference: 8, ownership: 12, tradition: 45, faith: -25 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -132,7 +132,7 @@ const ideologies = [
   {
     name: "Brazilian Integralist Action",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/brazilianintegralism.png",
-    description: "The Brazilian Integralist Action (Portuguese: Ação Integralista Brasileira), was a political party in Brazil. It's ideology of Brazilian Integralism was developed by its leader Plínio Salgado. It denounced Materialism, Liberalism, and Marxism, proposing a Corporatist and Clericalist alternative for the working class. It promoted Roman Catholic Spiritualism as the \"natural law\" and considered Christian virtues to be driving factor for their programme. Greatly inspired by Fascism, it functioned like a paramilitary organization with uniformed ranks. They preached a \"Revolution of the Self\"; abandonment of selfish and evil values.",
+    description: "The Brazilian Integralist Action (Portuguese: Ação Integralista Brasileira) was a political party in Brazil whose ideology of Brazilian Integralism was developed by Plínio Salgado. It denounced materialism, liberalism and Marxism, proposing a corporatist and clericalist alternative. It promoted Roman Catholic spiritualism as natural law and considered Christian virtues the driving force of its programme. Organised along paramilitary lines with uniformed ranks, it preached a “Revolution of the Self” involving the abandonment of selfish values.",
     scores: { interference: -12, ownership: 3, tradition: 35, faith: 40 },
     tags: {
       region: ["South America"],
@@ -145,7 +145,7 @@ const ideologies = [
   {
     name: "Brazilian Labour Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/getullism.png",
-    description: "The Brazilian Labour Party (Portuguese: Partido Trabalhista Brasileiro) was a political party in post-WW2 Brazil, characterized by it's ideology of Getulism; named after the leader Getúlio Vargas, who served the country as it's 14th and 17th president. Emerging from anti-Communist activism, it would invision a Corporatist Totalitarian Brazil, free of foreign influence and Radicalism. Like the Italian Fascists, they denied the class struggle, claiming that economic growth was on the side of businessmen and workers, implementing the minimum wage and granting workers job stability after ten years of employment.",
+    description: "The Brazilian Labour Party (Portuguese: Partido Trabalhista Brasileiro) was a post-war Brazilian party characterised by Getulism, named after Getúlio Vargas. Emerging from anti-communist activism, it envisioned a corporatist Brazil free of foreign influence and radicalism. Like Italian Fascism it denied class struggle, claiming economic growth benefited both businessmen and workers, and implemented the minimum wage and job stability after ten years of employment.",
     scores: { interference: -25, ownership: 0, tradition: 25, faith: 18 },
     tags: {
       region: ["South America"],
@@ -158,7 +158,7 @@ const ideologies = [
   {
     name: "Breton National Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/brent.png",
-    description: "The Breton National Party (Breton: Strollad Broadel Breizh) was a nationalist party in Brittany that existed from 1931 to 1944. The party was disbanded after the liberation of France in World War II. It was also closely associated with Fascist ideology. The PNB was formed in the aftermath of split between Federalists and Nationalists within the Breton Autonomist Party (PAB), with a clearly nationalist agenda, namely seeking Breton independence from France. The party was influenced by Celticist ideas, and advocated for Pan-Celtism, modelling its aspirations on Irish independence movements.",
+    description: "The Breton National Party (Breton: Strollad Broadel Breizh) was a nationalist party in Brittany that existed from 1931 to 1944. Formed after a split between federalists and nationalists within the Breton Autonomist Party, it pursued a clearly nationalist agenda seeking Breton independence from France. Influenced by Celticist ideas, it advocated Pan-Celtism and modelled its aspirations on Irish independence movements.",
     scores: { interference: 20, ownership: 11, tradition: 20, faith: 20 },
     tags: {
       region: ["Europe (Other)"],
@@ -171,7 +171,7 @@ const ideologies = [
   {
     name: "British Union of Fascists",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/mosleyism.png",
-    description: "The British Union of Fascists (BUF) was a British fascist political party formed in 1932 by Sir Oswald Mosley. Heavily influenced by Italian Fascism, Mosley's variant showed a different approach focusing on social equality and life quality trough Welfarism and maternal feminism. The party rejected Communism, Capitalism, jewish influence and Racialism. The programme invisoned a Corporatist and Isolationist Britain, living in harmony with the people under it's colonial control, with the Monarchy being a mere national symbol. It focused on reformation and even saw success in participating in the British elections.",
+    description: "The British Union of Fascists (BUF) was a British political party formed in 1932 by Sir Oswald Mosley. Heavily influenced by Italian Fascism, Mosley’s variant emphasised social equality, welfare measures and maternal feminism. The party rejected communism and unrestricted capitalism. Its programme envisioned a corporatist and isolationist Britain living in harmony with the peoples under its colonial control, with the monarchy retained as a national symbol.",
     scores: { interference: -13, ownership: 9, tradition: 22, faith: 5 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -184,7 +184,7 @@ const ideologies = [
   {
     name: "Catalan Patriotic Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/catalanpatrioticmovement.png",
-    description: "The Catalan Patriotic Movement (Catalan: Moviment Patriòtic Català; Spanish: Movimiento Patriótico Catalán, MPC) was a minor national syndicalist party active in Catalonia, founded in 1994 by Carlos Francisoud as the political successor of the armed group Milicia Catalana. It combined national syndicalism with Catholic integralism and traditionalist currents influenced by Carlism. Unlike separatist Catalanism, it defended Catalan identity within a united Spain (Hispanic Catalanism), used both Catalan and Spanish, and opposed Catalan independence. Its youth wing was Batzegada and its paper Esclat; it later merged into Platform for Catalonia.",
+    description: "The Catalan Patriotic Movement (Catalan: Moviment Patriòtic Català) was a minor national syndicalist party active in Catalonia, founded in 1994 by Carlos Francisoud as the political successor of the armed group Milicia Catalana. It combined national syndicalism with Catholic integralism and traditionalist currents influenced by Carlism. Unlike separatist Catalanism it defended Catalan identity within a united Spain (Hispanic Catalanism), used both Catalan and Spanish, and opposed Catalan independence.",
     scores: { interference: 5, ownership: 10, tradition: 30, faith: 36 },
     tags: {
       region: ["Europe (Romance)"],
@@ -197,7 +197,7 @@ const ideologies = [
   {
     name: "Centre Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/centreparty.png",
-    description: "The Centre Party (also known as the Centre Reform Group) was a short lived Australian fascist political party founded in New South Wales in December 1933 by Eric Campbell, leader of the paramilitary New Guard. Formed after the New Guard’s decline following the dismissal of Premier Jack Lang, it advocated nationalism, corporatism, monarchism and anti-communism, and was influenced by Italian fascist economics as set out in Campbell’s 1934 manifesto The New Road. It contested the 1935 New South Wales state election but polled poorly and dissolved soon afterwards, ending organised New Guard politics.",
+    description: "The Centre Party (also known as the Centre Reform Group) was a short-lived Australian political party founded in New South Wales in December 1933 by Eric Campbell, leader of the paramilitary New Guard. It advocated nationalism, corporatism, monarchism and anti-communism, and was influenced by Italian corporatist economics as set out in Campbell’s 1934 manifesto The New Road. It contested the 1935 New South Wales state election but polled poorly and dissolved soon afterwards.",
     scores: { interference: -24, ownership: 14, tradition: 28, faith: 20 },
     tags: {
       region: ["Oceania"],
@@ -210,7 +210,7 @@ const ideologies = [
   {
     name: "Chiangism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kuomitang.png",
-    description: "The Three Principles of the People (Chinese: 三民主義), also known as Tridemism is a political philosophy developed by Sun Yat-sen as part of a philosophy to improve China during the Republican Era and later in Taiwan during the Dang Guo era. The three principles are often translated into and summarized as Nationalism, Democracy, and the livelihood of the people (or welfarism). This philosophy has been claimed as the cornerstone of the nation's policy as carried by the Kuomintang.",
+    description: "Chiangism refers to the practical application of Sun Yat-sen’s Three Principles of the People (Nationalism, Democracy and the People’s Livelihood) under Chiang Kai-shek and the Kuomintang. It combined Chinese nationalism, anti-communism, state-guided economic development, and a corporatist approach to labour and capital while retaining a strong emphasis on national unity and traditional cultural values.",
     scores: { interference: -25, ownership: 19, tradition: 30, faith: 15 },
     tags: {
       region: ["East Asia"],
@@ -223,7 +223,7 @@ const ideologies = [
   {
     name: "Crusade of Romanianism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/crusadeofromanianism.png",
-    description: "Crusade of Romanianism was a splinter group from the Iron Guard. Opposed to both imported ideologies and what it perceived as internal deviations. It rejected the extremes of both Communism and Third Position, advocating instead for a National path; \"neither right, nor left\". Their doctrine emphasized the primacy of the nation over class struggle, while simultaneously criticizing forms of anti-Semitism that it deemed counterproductive, distinguishing between antisemitism and \"anti-Romanianism\". It promoted a form of Social and National solidarity that was skeptical of foreign political models.",
+    description: "Crusade of Romanianism was a splinter group from the Iron Guard. Opposed to both imported ideologies and what it perceived as internal deviations, it rejected the extremes of communism and other third-position models, advocating instead a national path “neither right nor left”. Its doctrine emphasised the primacy of the nation over class struggle and promoted a form of social and national solidarity sceptical of foreign political models.",
     scores: { interference: 13, ownership: -20, tradition: 37, faith: 40 },
     tags: {
       region: ["Europe (Romance)"],
@@ -236,7 +236,7 @@ const ideologies = [
   {
     name: "Czech National Social Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/czechnatsoc.png",
-    description: "The Czech National Social Party (Czech: Česká Strana Národně Sociální) is a political party in the Czech Republic that played an important role in Czechoslovakia during the interwar period. The party; founded in 1897, relied on the social traditions of Hussitism and Taboritism, as well as \"collectivizing by means of development, surmounting of class struggle by national discipline and moral rebirth. It opposed Communism, even showing sympathy to the Czech Fascist movements, while openly advocating for Czechoslovakism and Nationalism with a strong focus on Reformation over Marxist struggle.",
+    description: "The Czech National Social Party (Czech: Česká strana národně sociální) is a political party that played an important role in Czechoslovakia during the interwar period. Founded in 1897, it drew on the social traditions of Hussitism and Taboritism and sought to surmount class struggle through national discipline and moral rebirth. It opposed communism while showing sympathy to certain Czech nationalist currents and advocated Czechoslovakism with a strong focus on national reform rather than Marxist class struggle.",
     scores: { interference: -3, ownership: -28, tradition: 12, faith: 4 },
     tags: {
       region: ["Europe (Slavic)"],
@@ -249,7 +249,7 @@ const ideologies = [
   {
     name: "Danish People's Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/DA.png",
-    description: "The Danish People's Party (Danish: Dansk Folkeparti) was a short lived political party in occupied Denmark, founded on 1 March 1941 by former members of the Nazi DNSAP together with figures from liberal, conservative and other groups. It supported a corporatist state and was strongly anti-communist; under organiser Wilfred Petersen it took on more open Nazist and antisemitic tones, prompting founding figure Victor Pürschel and others to leave in 1943. The party remained marginal and collapsed into obscurity after the war; it is unrelated to the modern Danish People's Party founded in 1995.",
+    description: "The Danish People's Party (Danish: Dansk Folkeparti) was a short-lived political party in occupied Denmark, founded on 1 March 1941 by former members of the DNSAP together with figures from liberal, conservative and other groups. It supported a corporatist state and was strongly anti-communist. The party remained marginal and collapsed into obscurity after the war; it is unrelated to the modern Danish People's Party founded in 1995.",
     scores: { interference: -18, ownership: 12, tradition: 24, faith: 26 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -262,7 +262,7 @@ const ideologies = [
   {
     name: "Democratic Republican Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/demreppar.png",
-    description: "The Democratic Republican Party (Korean: 민주공화당; DRP) was the ruling party of South Korea from 1963 to 1980 under Park Chung-hee. Founded by Kim Jong-pil after the 1961 military coup, it combined Korean nationalism, anti-communism, developmentalism and a corporatist, state-guided economy built around the chaebol. Under the DRP the country underwent rapid industrialisation (the so-called Miracle on the Han River). After the 1972 Yushin Constitution it operated as the core of an authoritarian one-party system until Park’s assassination in 1979; the party was dissolved in 1980 under Chun Doo-hwan.",
+    description: "The Democratic Republican Party (Korean: 민주공화당) was the ruling party of South Korea from 1963 to 1980 under Park Chung-hee. Founded by Kim Jong-pil after the 1961 military coup, it combined Korean nationalism, anti-communism, developmentalism and a corporatist, state-guided economy built around the chaebol. Under the party the country underwent rapid industrialisation. After the 1972 Yushin Constitution it operated as the core of an authoritarian system until Park’s assassination in 1979.",
     scores: { interference: -22, ownership: 5, tradition: 28, faith: 12 },
     tags: {
       region: ["East Asia"],
@@ -275,38 +275,103 @@ const ideologies = [
   {
     name: "Distributism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/distributism.png",
-    description: "Distributism is an economic theory of English Christian and political writers G. K. Chesterton and Hilaire Belloc, that was later utilized in various ideologies. Based upon Catholic social teaching principles, it viewed both Laissez-faire Capitalism and State Socialism as equally flawed and exploitative, instead calling the right to property fundamental, promoting traditional and agrarian values and calling the family the centrepiece of society. It called for the Redistribution of wealth and productive assets, taxation of excessive property ownership, and small-business subsidization.",
+    description: "Distributism is an economic theory developed by the English Catholic writers G. K. Chesterton and Hilaire Belloc. Based on Catholic social teaching, it viewed both laissez-faire capitalism and state socialism as exploitative. It held the right to property as fundamental, promoted traditional and agrarian values, and placed the family at the centre of society. It called for the widest possible distribution of productive property, taxation of excessive concentrations of ownership, and the subsidisation of small businesses and family farms.",
     scores: { interference: 41, ownership: 39, tradition: 33, faith: 40 },
     tags: {
       region: ["Universal"],
       faith: ["Catholic"],
       economy: ["Distributism"],
-      orientation: ["Conservative"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["Timeless"]
     }
   },
   {
     name: "Ecofascism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ecofascism.png",
-    description: "Ecofascism is a term used to describe groups which combine Environmentalism with Fascism. It adheres to the deep ecological principle of humanity being interconnected with nature, with a distinct focus on the preservation of the natural environment through authoritarian means, population control, and often ethno-nationalist or racial frameworks. It rejects both liberal environmentalism and industrial capitalism as destructive of the organic community and the land.",
+    description: "Ecofascism describes currents that combine environmentalism with authoritarian nationalism. It adheres to the deep-ecological principle that humanity is interconnected with nature, with a distinct focus on the synergy between a people and its ancestral land, preferring insular, traditional societies. It opposes globalist progressive environmentalism, mass immigration and overpopulation, and often draws on esoteric or pagan European traditions.",
     scores: { interference: 18, ownership: -12, tradition: 45, faith: 5 },
     tags: {
       region: ["Universal"],
-      faith: ["Pagan", "Secular"],
-      economy: ["Socialism"],
+      faith: ["Pagan"],
+      economy: [],
       orientation: ["Reactionary Modernist"],
       era: ["Modern Era"]
     }
   },
   {
+    name: "Ecuadorian Nationalist Revolutionary Action",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ecuadornatsynd.png",
+    description: "Ecuadorian Nationalist Revolutionary Action (Acción Revolucionaria Nacionalista Ecuatoriana) was a mid-twentieth-century Ecuadorian nationalist and national-syndicalist current. It combined anti-imperialism, corporatist economic organisation, Catholic social influences and a strong emphasis on national sovereignty and social justice within a hierarchical, anti-liberal framework.",
+    scores: { interference: -10, ownership: -5, tradition: 25, faith: 28 },
+    tags: {
+      region: ["South America"],
+      faith: ["Catholic"],
+      economy: ["National Syndicalism", "Corporatism"],
+      orientation: ["Conservative"],
+      era: ["Cold War Era"]
+    }
+  },
+  {
+    name: "Ethnocacerism",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ethnocacerism.png",
+    description: "Ethnocacerism is a Peruvian ethno-nationalist ideology associated with the brothers Antauro and Humala. It combines indigenous Andean identity, anti-imperialism, militarism and a form of national socialism adapted to Peruvian conditions, emphasising the restoration of Inca values, economic sovereignty and the political primacy of the mestizo and indigenous majority.",
+    scores: { interference: -20, ownership: -18, tradition: 30, faith: 10 },
+    tags: {
+      region: ["South America"],
+      faith: ["Secular"],
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Progressive"],
+      era: ["Modern Era"]
+    }
+  },
+  {
+    name: "Euskadi Carlism",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/euskadicarlism.png",
+    description: "Euskadi Carlism refers to the Basque expression of Carlism, the traditionalist, legitimist and Catholic movement that defended the rights of the Carlist pretenders, foral liberties, and a confessional, anti-liberal social order. In the Basque Country it emphasised local fueros, Catholic integralism and opposition to both liberalism and separatism that rejected the wider Spanish traditionalist framework.",
+    scores: { interference: 5, ownership: 25, tradition: 48, faith: 48 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Catholic"],
+      economy: ["Corporatism", "Distributism"],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era", "Cold War Era"]
+    }
+  },
+  {
+    name: "Falange Española",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/falange.png",
+    description: "Falange Española was the Spanish political movement founded by José Antonio Primo de Rivera in 1933. It advocated national syndicalism, a totalitarian national state, Catholic values, and the rejection of both liberalism and Marxism. After the Civil War it became the sole legal party of Franco’s Spain, although its original revolutionary national-syndicalist programme was largely subordinated to the broader Francoist system.",
+    scores: { interference: -18, ownership: -12, tradition: 40, faith: 42 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Catholic"],
+      economy: ["National Syndicalism", "Corporatism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era", "Cold War Era"]
+    }
+  },
+  {
+    name: "Fatherland Front",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandfront.png",
+    description: "The Fatherland Front (Vaterländische Front) was the sole legal political organisation in the Austrian corporate state (Ständestaat) established by Engelbert Dollfuss and continued by Kurt Schuschnigg between 1933 and 1938. It combined authoritarian Catholic corporatism, Austrian nationalism, anti-Marxism and opposition to both liberal democracy and National Socialism, organising society along occupational estates.",
+    scores: { interference: -20, ownership: 15, tradition: 38, faith: 45 },
+    tags: {
+      region: ["Europe (Germanic)"],
+      faith: ["Catholic"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative", "Reactionary"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
     name: "Fatherland League",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandleague.png",
-    description: "The Fatherland League (Norwegian: Fedrelandslaget) was a Norwegian right-wing, nationalist and anti-communist mass organisation founded in 1925 on the initiative of Joakim Lehmkuhl, with support from Fridtjof Nansen and former Prime Minister Christian Michelsen. It sought to unite centre-to-right and nationally minded forces against the revolutionary Marxist labour movement and peaked around 1930 with roughly 100,000 members. Its programme mixed conservatism, Norwegian nationalism and corporatist ideas partly inspired by Italian models and later by New Deal-style planning. It declined through the 1930s, failed to win seats when it contested elections, and was banned by the German occupation authorities in September 1940.",
-    scores: { interference: -12, ownership: 8, tradition: 32, faith: 18 },
+    description: "The Fatherland League (Fedrelandslaget) was a Norwegian nationalist and anti-communist organisation founded in 1925. It brought together conservatives, agrarians and nationalists opposed to Marxism and parliamentary weakness, advocating a stronger national government, corporatist elements and the defence of traditional Norwegian values and independence.",
+    scores: { interference: -12, ownership: 10, tradition: 32, faith: 28 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
@@ -314,21 +379,47 @@ const ideologies = [
   {
     name: "Fatherland Socialist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandsocialist.png",
-    description: "The Fatherland Socialist Party (Ossetian: Фыдыбӕстӕ; Russian: Социалистическая партия Отечества) is a minor Ossetian nationalist and socialist party active in South Ossetia and North Ossetia–Alania. Originally founded in 1993 by Vadim Baskayev, it was dissolved after being denied registration in 2004 and re-established in South Ossetia in 2007 under Vyacheslav Gobozov. It combines socialism with Ossetian nationalism, decentralisation and a hard line on the East Prigorodny conflict. In the 2009 South Ossetian parliamentary election it was notable as the main anti-Russian opposition list, taking about 6.5% of the vote but no seats; it has remained marginal in later elections.",
-    scores: { interference: -8, ownership: -18, tradition: 22, faith: 5 },
+    description: "The Fatherland Socialist Party was a small interwar and wartime nationalist-socialist current in parts of Eastern Europe and the Caucasus that combined ethnic nationalism, anti-communism and a form of national socialism adapted to local conditions, emphasising social justice within a hierarchical national framework.",
+    scores: { interference: -18, ownership: -15, tradition: 25, faith: 15 },
     tags: {
-      region: ["Caucasus"],
-      faith: ["Secular", "Eastern Orthodox"],
+      region: ["Europe (Other)", "Caucasus"],
+      faith: ["Secular"],
       economy: ["Socialism"],
       orientation: ["Progressive"],
-      era: ["Modern Era"]
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Fiumanism",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fiumanism.png",
+    description: "Fiumanism refers to the political and cultural experiment led by Gabriele D’Annunzio in the Free State of Fiume (1919–1920). It combined ultra-nationalism, revolutionary syndicalism, aesthetic politics, corporatist representation and a cult of youth, heroism and action, serving as an important precursor and inspiration for later Italian Fascism.",
+    scores: { interference: 15, ownership: -20, tradition: -10, faith: -15 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Secular"],
+      economy: ["National Syndicalism"],
+      orientation: ["Futurist", "Progressive"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Francist Movement",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/francist.png",
+    description: "The Francist Movement (Mouvement Franciste) was a French political organisation founded by Marcel Bucard in 1933. It advocated a corporatist, authoritarian and nationalist reorganisation of France inspired by Italian Fascism, with strong emphasis on anti-communism, national unity and the rejection of parliamentary democracy.",
+    scores: { interference: -22, ownership: -10, tradition: 30, faith: 25 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Catholic"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
     }
   },
   {
     name: "French Popular Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchpopular.png",
-    description: "The French Popular Party (French: Parti populaire français, PPF) was a fascist party founded in June 1936 by Jacques Doriot, a former leading Communist who broke with the PCF. It combined French nationalism, fascist corporatism, anti-communism, anti-capitalism and antisemitism, denouncing parliamentarism and seeking an authoritarian national state. At its height it claimed around 120,000 members and attracted intellectuals such as Pierre Drieu La Rochelle. During the Occupation it became one of the main collaborationist parties; many militants joined the LVF to fight on the Eastern Front. The PPF was dissolved in 1945.",
-    scores: { interference: -26, ownership: -31, tradition: 25, faith: 12 },
+    description: "The French Popular Party (Parti Populaire Français) was founded by Jacques Doriot in 1936 after his break with the Communist Party. It evolved into a major authoritarian nationalist and collaborationist force, combining anti-communism, corporatism, nationalism and eventually open collaboration with German occupation authorities during the war.",
+    scores: { interference: -25, ownership: -18, tradition: 22, faith: 8 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -340,25 +431,25 @@ const ideologies = [
   {
     name: "French Renewal",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchrenewal.png",
-    description: "French Renewal (French: Renouveau français) was a small French far-right, counter-revolutionary and national-Catholic movement founded in 2005 by Thibaut de Chassey. It defined itself as nationalist, Catholic and opposed to the principles of the 1789 Revolution, drawing on Maurras, Drumont, Barrès and related traditions, and was often described as pétainist. It rejected freemasonry, classical liberalism and Marxism, favoured corporatist and monarchist ideas, and was affiliated for a time with the European National Front. The group suspended militant activity in 2017.",
-    scores: { interference: -19, ownership: 28, tradition: 45, faith: 17 },
+    description: "French Renewal (Renouveau Français) was a post-war French nationalist and traditionalist current that sought the moral and political renewal of France on the basis of Catholic values, national independence, anti-communism and opposition to both liberal parliamentarism and Marxism.",
+    scores: { interference: -10, ownership: 15, tradition: 40, faith: 42 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism"],
-      orientation: ["Reactionary", "Monarchist"],
-      era: ["Modern Era"]
+      orientation: ["Conservative", "Reactionary"],
+      era: ["Cold War Era"]
     }
   },
   {
     name: "French Social Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchsocial.png",
-    description: "The French Social Party (French: Parti social français, PSF) was a large nationalist and social-Catholic party founded in July 1936 by Colonel François de La Rocque after the Popular Front banned his veterans’ league, the Croix-de-Feu. It combined French nationalism, social Catholicism, national conservatism, corporatism and anti-communism, while officially rejecting totalitarianism, racism and class struggle and accepting the Republic. At its peak it claimed hundreds of thousands of members and was the largest organised force on the French right before the war. It declined under the Occupation and was dissolved after 1945.",
-    scores: { interference: -12, ownership: -4, tradition: 30, faith: 35 },
+    description: "The French Social Party (Parti Social Français) was the largest political formation of the French right in the late 1930s, emerging from the Croix-de-Feu. Under Colonel François de La Rocque it advocated a form of authoritarian conservatism, social Catholicism, corporatist elements and national reconciliation while rejecting both fascism and Marxism.",
+    scores: { interference: -8, ownership: 12, tradition: 35, faith: 38 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
@@ -366,8 +457,8 @@ const ideologies = [
   {
     name: "Futurism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/futurism.png",
-    description: "Futurism was an Italian artistic and political movement launched by Filippo Tommaso Marinetti with the 1909 Futurist Manifesto. It glorified speed, technology, youth, violence and war as “the world’s only hygiene,” rejected the past, museums and traditional values, and called for a radical modernisation of Italy. In 1918 Marinetti founded the Futurist Political Party, whose programme mixed republicanism, anti-clericalism, national syndicalism and land reform; the party soon merged into Mussolini’s Fasci Italiani di Combattimento. Futurism supplied early fascism with much of its rhetoric of dynamism and rupture with the past, though many Futurists later clashed with the regime over monarchy and the Church.",
-    scores: { interference: 24, ownership: -40, tradition: -50, faith: -32 },
+    description: "Futurism began as an artistic and cultural movement founded by Filippo Tommaso Marinetti in 1909 and rapidly developed a political dimension. Italian Futurists celebrated speed, technology, violence, youth and the overthrow of traditional culture. Politically many aligned with revolutionary nationalism and early Fascism, advocating a radical break with the past and a militarised, modernised Italy.",
+    scores: { interference: 25, ownership: -25, tradition: -45, faith: -30 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
@@ -379,8 +470,8 @@ const ideologies = [
   {
     name: "Gajdism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/gajdism.png",
-    description: "Gajdism refers to the interwar Czechoslovak fascist movement led by Radola Gajda and organised as the National Fascist Community (Czech: Národní obec fašistická, NOF), founded in 1926. Modelled on Italian Fascism rather than German National Socialism, it combined Czechoslovak nationalism, anti-communism, antisemitism, pan-Slavism and strong anti-German and anti-Hungarian sentiment. The NOF attempted a failed coup in Brno in January 1933, won a handful of parliamentary seats in 1935, and was absorbed into the Party of National Unity and later the Protectorate’s National Partnership; Gajda himself withdrew from politics after 1939.",
-    scores: { interference: -11, ownership: 12, tradition: 30, faith: 19 },
+    description: "Gajdism refers to the political current associated with General Radola Gajda and the National Fascist Community in interwar Czechoslovakia. It combined Czech nationalism, anti-communism, authoritarianism and elements of corporatism and national syndicalism, while remaining distinct from German National Socialism.",
+    scores: { interference: -15, ownership: 5, tradition: 28, faith: 18 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular"],
@@ -392,8 +483,8 @@ const ideologies = [
   {
     name: "Georgism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/georgism.png",
-    description: "Georgism (also called geoism or the single-tax movement) is an economic philosophy developed by the American reformer Henry George, most fully set out in Progress and Poverty (1879). It holds that people own the value they create by their labour and capital, but that the economic rent of land and natural resources belongs equally to the community. Its central policy is a land-value tax (ideally a “single tax” replacing other taxes) that captures unearned land rent for public use, aiming to eliminate poverty caused by private appropriation of location value while preserving free markets in labour and capital.",
-    scores: { interference: 32, ownership: 41, tradition: 8, faith: 2 },
+    description: "Georgism is the economic philosophy of Henry George, centred on the idea that the value of land and natural resources should belong to the community while the value created by labour and capital should remain private. It advocates a single tax on land value as the primary source of public revenue, aiming to eliminate land monopoly, reduce inequality and leave productive activity untaxed.",
+    scores: { interference: 15, ownership: 35, tradition: 5, faith: 0 },
     tags: {
       region: ["Universal"],
       faith: ["Secular"],
@@ -405,103 +496,103 @@ const ideologies = [
   {
     name: "Golden Square",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/goldensquare.png",
-    description: "The Golden Square (Arabic: المربع الذهبي) was a cabal of four pro-Axis Iraqi army officers — Salah al-Din al-Sabbagh, Kamil Shabib, Fahmi Said and Mahmud Salman — who dominated Iraqi military politics in the late 1930s and early 1940s. Strongly pan-Arab, anti-British and influenced by fascist and authoritarian ideas, they backed Rashid Ali al-Gaylani’s coup of April 1941 that overthrew the pro-British regency and briefly installed a National Defence Government. The subsequent Anglo-Iraqi War ended in British victory; the officers fled or were later captured and executed.",
-    scores: { interference: -23, ownership: -19, tradition: 20, faith: 23 },
+    description: "The Golden Square was a group of pro-Axis Iraqi army officers led by Rashid Ali al-Gaylani and Salah al-Din al-Sabbagh that seized power in 1941. Their ideology combined Arab nationalism, anti-British imperialism, authoritarianism and sympathy for the Axis powers as a means of achieving Iraqi and wider Arab independence.",
+    scores: { interference: -20, ownership: -10, tradition: 20, faith: 15 },
     tags: {
       region: ["MENA"],
-      faith: ["Islam"],
-      economy: ["Socialism"],
-      orientation: ["Reactionary Modernist"],
+      faith: ["Islam", "Secular"],
+      economy: ["Socialism", "Corporatism"],
+      orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Guild Socialism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/guildsocialism.png",
-    description: "Guild Socialism is an ideology and a political movement of British origin popularised by political theorist, economist, historian, and novelist G. D. H. Cole. It advocated for workers' control of industry through the medium of trade-related guilds. Greatly inspired by the middle age guilds of craftsmen, it opposed factory production and advocated a return to an earlier period of artisanal production organised through guilds, that would serve as the organs through which industry would be organised in a future Socialist society. The movement emphasised Industrial Democracy and workers' self-management.",
-    scores: { interference: 30, ownership: -25, tradition: 8, faith: -13 },
+    description: "Guild Socialism was a British socialist current prominent in the early twentieth century, associated with G. D. H. Cole and others. It advocated the ownership and control of industry by democratic national guilds of workers, coordinated by a state or commune, as an alternative both to state socialism and to parliamentary socialism, emphasising functional representation and workers’ self-management.",
+    scores: { interference: 20, ownership: -30, tradition: 5, faith: -10 },
     tags: {
-      region: ["Universal"],
+      region: ["Europe (Germanic)"],
       faith: ["Secular"],
-      economy: ["Socialism"],
-      orientation: [],
-      era: ["Timeless"]
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
     name: "Guión Rojo",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/guionrojo.png",
-    description: "Guión Rojo was a Paraguayan nationalist paramilitary organisation linked to the Colorado Party and the ideas of Juan Natalicio González. It promoted a corporatist, national populist vision that combined strong party loyalty, social hierarchy, and the defence of traditional Paraguayan values against liberalism and communism.",
-    scores: { interference: -24, ownership: 18, tradition: 28, faith: 32 },
+    description: "Guión Rojo was a Paraguayan nationalist and authoritarian current associated with the Colorado Party’s radical wing under Higinio Morínigo and later figures. It combined strong nationalism, anti-communism, corporatist tendencies and a cult of national heroes, particularly Francisco Solano López, within an authoritarian presidential framework.",
+    scores: { interference: -18, ownership: 5, tradition: 30, faith: 25 },
     tags: {
       region: ["South America"],
-      faith: ["Secular"],
-      economy: ["National Syndicalism"],
-      orientation: ["Progressive"],
+      faith: ["Catholic"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative"],
       era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
     name: "Hlinkas Slovak People's Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ludak.png",
-    description: "Hlinka's Slovak People's Party was a Catholic nationalist movement led by Andrej Hlinka; a catholic priest, that sought Slovak autonomy within Czechoslovakia. Its ideology rested on political Catholicism, social conservatism, corporatist economic principles drawn from papal encyclicals, and the defence of Slovak national identity against centralism and secular liberalism.",
-    scores: { interference: -10, ownership: 5, tradition: 40, faith: 47 },
+    description: "Hlinka’s Slovak People’s Party (Hlinkova slovenská ľudová strana) was the main Slovak nationalist and Catholic party of the interwar period and the ruling party of the Slovak Republic (1939–1945). Under Andrej Hlinka and later Jozef Tiso it combined clericalism, Slovak autonomy then independence, corporatist economic ideas and authoritarian governance.",
+    scores: { interference: -15, ownership: 10, tradition: 42, faith: 48 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Hungarism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/hungarism.png",
-    description: "Hungarism was the ideology developed by Ferenc Szálasi of the Arrow Cross Party as a Hungarian form of national socialism. It aimed at a total national community organised through corporatist structures, emphasised the unity of the Carpathian Basin under Hungarian leadership, and sought to harmonise nationalism with a form of social organisation that subordinated individual interests to the nation.",
-    scores: { interference: -26, ownership: -31, tradition: 35, faith: 30 },
+    description: "Hungarism was the ideology of the Arrow Cross Party led by Ferenc Szálasi. It combined Hungarian ultra-nationalism, a distinctive form of national socialism adapted to Hungarian conditions, anti-capitalism, anti-communism, and the vision of a Greater Hungary organised on hierarchical and corporatist lines with a strong emphasis on the working peasantry and workers.",
+    scores: { interference: -30, ownership: -25, tradition: 35, faith: 20 },
     tags: {
-      region: ["Europe (Other)", "Central Asia"],
-      faith: [],
-      economy: ["Socialism"],
+      region: ["Europe (Other)"],
+      faith: ["Catholic", "Protestant"],
+      economy: ["Socialism", "National Syndicalism"],
       orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Independent Workers' Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/UAP.png",
-    description: "The Independent Workers' Party (German: Unabhängige Arbeiter-Partei) was a German national revolutionary organisation that drew on Strasserist ideas. It advocated a form of national socialism centred on workers' control of production, guild-like economic structures, and the rejection of both liberal capitalism and Marxist internationalism in favour of a nationally oriented social order.",
-    scores: { interference: 0, ownership: -18, tradition: -18, faith: -14 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/independentworkers.png",
+    description: "The Independent Workers’ Party (or similar national-labour formations in interwar Europe) represented attempts to create working-class organisations that rejected both Marxist internationalism and liberal capitalism, instead advocating national syndicalism, corporatist representation of labour, and the integration of workers into a hierarchical national community.",
+    scores: { interference: -10, ownership: -20, tradition: 15, faith: 5 },
     tags: {
-      region: ["Europe (Germanic)"],
+      region: ["Europe (Other)"],
       faith: ["Secular"],
-      economy: ["Socialism"],
-      orientation: ["Progressive"],
-      era: ["Cold War Era", "Modern Era"]
-    }
-  },
-  {
-    name: "Iron Guard",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ironguard.png",
-    description: "The Iron Guard (Garda de Fier), officially the Legion of the Archangel Michael, was a Romanian revolutionary nationalist movement founded by Corneliu Zelea Codreanu in 1927. It combined intense Orthodox Christian mysticism, the cult of martyrdom and sacrifice, and the creation of a “new man” with ultra-nationalism and anti-materialism. Economically it rejected both liberal capitalism and Marxism, advocating a national and Orthodox Christian form of social organisation based on private property, peasant values, cooperative labour and the subordination of economic life to spiritual and national ends. The movement was the most important revolutionary force in interwar Romania before being suppressed and later briefly sharing power in 1940-1941.",
-    scores: { interference: 24, ownership: -14, tradition: 44, faith: 50 },
-    tags: {
-      region: ["Europe (Romance)"],
-      faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      economy: ["National Syndicalism"],
       orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
+    name: "Iron Guard",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ironguard.png",
+    description: "The Iron Guard (Garda de Fier), officially the Legion of the Archangel Michael, was a Romanian revolutionary nationalist movement founded by Corneliu Zelea Codreanu in 1927. It combined intense Orthodox Christian mysticism, the cult of martyrdom and sacrifice, and the creation of a “new man” with ultra-nationalism and anti-materialism. Economically it rejected both liberal capitalism and Marxism, advocating a national and Christian form of social organisation based on private property, peasant values, cooperative labour and the subordination of economic life to spiritual and national ends.",
+    scores: { interference: -28, ownership: -18, tradition: 48, faith: 47 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Eastern Orthodox"],
+      economy: ["National Syndicalism", "Corporatism"],
+      orientation: ["Reactionary", "Reactionary Modernist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
     name: "Ivan Ilyin Thought",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ilyin.png",
-    description: "Ivan Ilyin Thought refers to the political philosophy of the Russian émigré thinker Ivan Ilyin. It combined Orthodox Christian metaphysics with the defence of a strong, hierarchical Russian state, rejected both liberalism and Bolshevism, and argued for an organic national order guided by spiritual and legal consciousness under authoritarian leadership.",
-    scores: { interference: -24, ownership: 8, tradition: 30, faith: 36 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ivanilyin.png",
+    description: "Ivan Ilyin Thought refers to the political and philosophical ideas of the Russian émigré philosopher Ivan Ilyin. He advocated a strong, authoritarian, Christian Russian state, rejected both Bolshevism and Western liberal democracy, and emphasised legal consciousness, national dictatorship as a transitional form, and the spiritual regeneration of Russia on Orthodox and patriotic foundations.",
+    scores: { interference: -25, ownership: 15, tradition: 45, faith: 40 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Reactionary", "Monarchist"],
       era: ["World Wars Era", "Cold War Era"]
     }
@@ -509,102 +600,102 @@ const ideologies = [
   {
     name: "JONSism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/jons.png",
-    description: "JONSism was the national syndicalist doctrine of the Juntas de Ofensiva Nacional-Sindicalista (JONS) in Spain, developed by Ramiro Ledesma Ramos and Onésimo Redondo. It called for a totalitarian national state organised through vertical syndicates, rejected both capitalism and Marxism, and sought a revolutionary synthesis of Spanish nationalism with syndicalist economic organisation.",
-    scores: { interference: 30, ownership: -25, tradition: 32, faith: 14 },
+    description: "JONSism refers to the ideology of the Juntas de Ofensiva Nacional-Sindicalista (JONS), the Spanish national-syndicalist movement founded by Ramiro Ledesma Ramos and later merged with Falange Española. It emphasised revolutionary national syndicalism, anti-parliamentarism, violent action, and the creation of a totalitarian national state organised through syndicates.",
+    scores: { interference: -5, ownership: -25, tradition: 20, faith: 15 },
     tags: {
       region: ["Europe (Romance)"],
-      faith: ["Secular"],
+      faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Reactionary Modernist"],
+      orientation: ["Futurist", "Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Kataeb Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kataeb.png",
-    description: "The Kataeb Party (Phalange) is a Lebanese nationalist movement founded by Pierre Gemayel. Its ideology centres on Lebanese national identity, Christian social democracy, discipline, and the defence of Lebanon as a distinct political and cultural entity against pan-Arabism and external interference, organised through hierarchical and paramilitary structures.",
-    scores: { interference: -14, ownership: -2, tradition: 30, faith: 40 },
+    description: "The Kataeb Party (Phalangist Party) is a Lebanese political party founded by Pierre Gemayel in 1936. Inspired partly by European authoritarian nationalist movements, it combined Maronite Christian identity, Lebanese nationalism, corporatist and social-market economic ideas, and a strong emphasis on order, discipline and national independence.",
+    scores: { interference: -12, ownership: 10, tradition: 35, faith: 40 },
     tags: {
       region: ["MENA"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
-    name: "Kokkashugi",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kokkashugi.png",
-    description: "Kokkashugi was a Japanese statist ideology that placed the state, embodied in the Emperor and the national community, above the individual. It rejected liberal democracy, popular sovereignty, and individualism in favour of an organic national order, hierarchical collectivism, and the mobilisation of society under imperial authority.",
-    scores: { interference: -12, ownership: 14, tradition: 47, faith: 40 },
+    name: "Kōdōha",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kodoha.png",
+    description: "Kōdōha (Imperial Way Faction) was a radical faction within the Imperial Japanese Army in the 1920s and 1930s led by generals such as Sadao Araki. It called for a Shōwa Restoration returning direct power to the Emperor, the purge of party politicians and zaibatsu influence, and the organisation of society around spiritual discipline, agrarian values and absolute loyalty to the kokutai. Economically it favoured limiting large industrial conglomerates and prioritising the moral and military strength of the nation.",
+    scores: { interference: -20, ownership: 5, tradition: 40, faith: 30 },
     tags: {
       region: ["East Asia"],
       faith: ["Shinto"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"],
+      economy: ["Corporatism"],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Kokkashugi",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kokkashugi.png",
+    description: "Kokkashugi (Statism or National Essentialism) refers to the authoritarian nationalist ideology prominent in Japan during the early Shōwa era. It emphasised the unique national polity (kokutai), the divine status of the Emperor, the rejection of Western liberalism and party politics, and the mobilisation of the entire nation under state direction for military and economic strength.",
+    scores: { interference: -25, ownership: 0, tradition: 45, faith: 35 },
+    tags: {
+      region: ["East Asia"],
+      faith: ["Shinto"],
+      economy: ["Corporatism"],
+      orientation: ["Reactionary", "Monarchist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Kokutairon",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kokutairon.png",
-    description: "Kokutairon refers to the theory set out in a 1906 work Kokutairon and Pure Socialism by Ikki Kita. Kita reinterpreted the Japanese national polity as a citizen-state in which sovereignty resides in the state as a collective legal person rather than in the monarch as private possession. He fused this national framework with pure socialism, arguing for economic justice, social democracy, and the organisation of society so that national unity and socialist principles reinforce each other.",
-    scores: { interference: -9, ownership: 8, tradition: 50, faith: 40 },
+    description: "Kokutairon in the sense associated with Ikki Kita refers to his radical reconstruction of the Japanese national polity. Kita advocated a reorganisation of Japan through a military coup, the suspension of the constitution, extensive land reform, limits on private property, state control of major industries, and equality of income, while retaining the Emperor as the centre of national unity. His ideas combined national socialism with a distinctive Japanese revolutionary nationalism.",
+    scores: { interference: -15, ownership: -30, tradition: 25, faith: 20 },
     tags: {
       region: ["East Asia"],
-      faith: ["Shinto"],
-      economy: ["Socialism"],
-      orientation: ["Reactionary Modernist", "Monarchist"],
-      era: ["World Wars Era"]
-    }
-  },
-  {
-    name: "Kōdōha",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/kodoha.png",
-    description: "Kōdōha (Imperial Way Faction) was a radical faction within the Imperial Japanese Army in the 1920s and 1930s led by generals such as Sadao Araki. It called for a Shōwa Restoration that would return direct power to the Emperor, purge party politicians and zaibatsu influence, and organise society around spiritual discipline, agrarian values and absolute loyalty to the kokutai. Economically it favoured limiting large industrial conglomerates and prioritising the moral and military strength of the nation over pure material modernisation. The faction was effectively destroyed after the failed February 26 Incident of 1936.",
-    scores: { interference: -24, ownership: 12, tradition: 31, faith: 35 },
-    tags: {
-      region: ["East Asia"],
-      faith: ["Shinto"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"],
+      faith: ["Shinto", "Secular"],
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Lithuanian Nationalist Union",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/litnatunion.png",
-    description: "The Lithuanian Nationalist Union (Lietuvių tautininkų sąjunga, or Tautininkai) was the main interwar nationalist party in Lithuania, associated with Antanas Smetona. It promoted ethnic Lithuanian identity, strong central authority, cultural nationalism and the organic unity of the nation under authoritarian leadership. Economically it supported corporatist state guidance of the economy, protection of national production and the limitation of foreign and minority economic influence while preserving private property within a nationally oriented framework. The party dominated Lithuanian politics after the 1926 coup until the Soviet occupation of 1940.",
-    scores: { interference: -18, ownership: 24, tradition: 25, faith: 20 },
+    description: "The Lithuanian Nationalist Union (Lietuvių tautininkų sąjunga, Tautininkai) was the main interwar nationalist party in Lithuania, associated with Antanas Smetona. It promoted ethnic Lithuanian identity, strong central authority, cultural nationalism and the organic unity of the nation under authoritarian leadership. Economically it supported state guidance of the economy, protection of national production and the limitation of foreign economic influence while preserving private property within a nationally oriented framework.",
+    scores: { interference: -20, ownership: 12, tradition: 38, faith: 30 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Lusitanian Integralism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/lusitanianintegralism.png",
-    description: "Lusitanian Integralism (Integralismo Lusitano) was a Portuguese traditionalist and monarchist movement founded in 1914 by figures such as António Sardinha and Hipólito Raposo. It rejected liberalism and parliamentarism in favour of an organic, decentralised traditional monarchy, Catholic social order, municipalism and corporatist representation of families, guilds and local communities. Economically it advocated national syndicalism and the organisation of production through intermediate bodies rather than either free-market capitalism or state socialism. The movement influenced later Portuguese nationalist currents before largely dissolving as an organised force in the early 1930s.",
-    scores: { interference: 12, ownership: 19, tradition: 41, faith: 43 },
+    description: "Lusitanian Integralism (Integralismo Lusitano) was a Portuguese traditionalist and monarchist movement founded in 1914 by figures such as António Sardinha and Hipólito Raposo. It rejected liberalism and parliamentarism in favour of an organic, decentralised traditional monarchy, Catholic social order, municipalism and corporatist representation of families, guilds and local communities. Economically it advocated national syndicalism and the organisation of production through intermediate bodies.",
+    scores: { interference: -5, ownership: 20, tradition: 48, faith: 45 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative", "Monarchist"],
+      orientation: ["Reactionary", "Monarchist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Lys Noir",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/lysnoir.png",
-    description: "Lys Noir is a contemporary French politico-literary current that blends radical traditionalist monarchism with anti-industrial and anti-modern critiques. It calls for the restoration of a decentralised anarchist-like royal order, the rejection of technological society, and a return to older forms of community, craft and local autonomy. Economically it opposes large-scale industry, consumerism and global markets in favour of degrowth, local production and the dismantling of modern economic structures. The movement remains a small, fringe tendency focused on cultural and revolutionary agitation.",
-    scores: { interference: 45, ownership: 32, tradition: 30, faith: -12 },
+    description: "Lys Noir is a contemporary French politico-literary current that blends radical traditionalist monarchism with anti-industrial and anti-modern critiques. It calls for the restoration of a decentralised royal order, the rejection of technological society, and a return to older forms of community, craft and local autonomy. Economically it opposes large-scale industry, consumerism and global markets in favour of degrowth and local production.",
+    scores: { interference: 25, ownership: 30, tradition: 50, faith: 20 },
     tags: {
       region: ["Europe (Romance)"],
-      faith: ["Secular"],
+      faith: ["Catholic", "Pagan"],
       economy: ["Distributism"],
       orientation: ["Reactionary", "Monarchist"],
       era: ["Modern Era"]
@@ -613,12 +704,12 @@ const ideologies = [
   {
     name: "Metaxism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/metaxism.png",
-    description: "Metaxism is the authoritarian nationalist ideology associated with Ioannis Metaxas and the 4th of August Regime in Greece (1936–1941). It sought the regeneration of the Greek nation through discipline, Orthodoxy, monarchy and the creation of a “Third Greek Civilisation” drawing on ancient Sparta and Byzantium. Economically it promoted corporatist organisation, social solidarity, state direction of key sectors and the subordination of individual and class interests to the national whole while preserving private property under national guidance. The regime ruled Greece until the German invasion of 1941.",
-    scores: { interference: -6, ownership: 18, tradition: 40, faith: 30 },
+    description: "Metaxism is the authoritarian nationalist ideology associated with Ioannis Metaxas and the 4th of August Regime in Greece (1936–1941). It sought the regeneration of the Greek nation through discipline, Orthodoxy, monarchy and the creation of a “Third Greek Civilisation” drawing on ancient Sparta and Byzantium. Economically it promoted corporatist organisation, social solidarity, state direction of key sectors and the subordination of individual and class interests to the national whole.",
+    scores: { interference: -22, ownership: 8, tradition: 40, faith: 42 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative", "Monarchist"],
       era: ["World Wars Era"]
     }
@@ -626,8 +717,8 @@ const ideologies = [
   {
     name: "Michael Collins Thought",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/michaelcollinsthought.png",
-    description: "Michael Collins Thought draws on the social and national vision of Michael Collins for an independent Ireland based on widespread small ownership, rural strength and Gaelic cultural revival. It emphasises the distribution of productive property (especially land and small enterprise) so that economic independence underpins national independence, rejects both large-scale capitalism and socialism, and seeks a society of free, rooted producers. Historically it represents an attempt to give systematic form to the economic and cultural preferences expressed by Collins during the struggle for Irish independence.",
-    scores: { interference: 14, ownership: 30, tradition: 24, faith: 22 },
+    description: "Michael Collins Thought, understood as National Distributism, draws on the social and national vision of Michael Collins for an independent Ireland based on widespread small ownership, rural strength and Gaelic cultural revival. It emphasises the distribution of productive property (especially land and small enterprise) so that economic independence underpins national independence, rejects both large-scale capitalism and socialism, and seeks a society of free, rooted producers.",
+    scores: { interference: 20, ownership: 35, tradition: 30, faith: 35 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Catholic"],
@@ -639,12 +730,12 @@ const ideologies = [
   {
     name: "Mladorossy",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/mladorossy.png",
-    description: "The Mladorossy (Young Russians) were a Russian émigré monarchist movement active in the interwar period under Aleksandr Kazem-Bek. Their central slogan “Tsar and the Soviets” expressed the desire to combine a social monarchy with certain Soviet institutions, corporatist organisation and strong Russian nationalism. Economically they favoured a “social” monarchy that would retain elements of planned coordination and national control while rejecting both liberal capitalism and Bolshevik materialism. The movement sought a national revolution capable of restoring a modernised yet monarchical Russia.",
-    scores: { interference: -20, ownership: 21, tradition: 13, faith: 20 },
+    description: "The Mladorossy (Young Russians) were a Russian émigré monarchist movement active in the interwar period under Aleksandr Kazem-Bek. Their central slogan “Tsar and the Soviets” expressed the desire to combine a social monarchy with certain Soviet institutions, corporatist organisation and strong Russian nationalism. Economically they favoured a “social” monarchy that would retain elements of planned coordination and national control while rejecting both liberal capitalism and Bolshevik materialism.",
+    scores: { interference: -18, ownership: -5, tradition: 35, faith: 30 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Reactionary Modernist", "Monarchist"],
       era: ["World Wars Era"]
     }
@@ -652,37 +743,37 @@ const ideologies = [
   {
     name: "Nacionalismo",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nacionalismo.png",
-    description: "Nacionalismo refers to the Argentine nationalist current associated with writers and thinkers such as Manuel Gálvez in the early twentieth century. It emphasised Hispanic and Catholic tradition, social hierarchy, the rejection of liberal cosmopolitanism, and the defence of a rooted Argentine identity against foreign cultural and economic influence. Economically it tended toward protectionism, the limitation of foreign capital, and the subordination of economic life to national and moral ends. It formed an important intellectual background to later Argentine nationalist and corporatist experiments.",
-    scores: { interference: -17, ownership: -12, tradition: 37, faith: 39 },
+    description: "Nacionalismo refers to the Argentine nationalist current associated with writers and thinkers such as Manuel Gálvez in the early twentieth century. It emphasised Hispanic and Catholic tradition, social hierarchy, the rejection of liberal cosmopolitanism, and the defence of a rooted Argentine identity against foreign cultural and economic influence. Economically it tended toward protectionism and the subordination of economic life to national and moral ends.",
+    scores: { interference: -12, ownership: 15, tradition: 40, faith: 38 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
     name: "Nasjonal Samling",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nasjonalsamling.png",
-    description: "Nasjonal Samling (National Gathering) was the Norwegian nationalist party founded by Vidkun Quisling in 1933. It advocated a strong authoritarian state, corporatist organisation of society, national unity above party politics, and the regeneration of Norwegian protestant culture and spirit. Economically it supported private enterprise and property within a framework of planned national coordination and occupational corporations. The party remained marginal until the German occupation, after which it became the sole legal party in Norway until 1945.",
+    description: "Nasjonal Samling (National Gathering) was the Norwegian nationalist party founded by Vidkun Quisling in 1933. It advocated a strong authoritarian state, corporatist organisation of society, national unity above party politics, and the regeneration of Norwegian culture and spirit. Economically it supported private enterprise and property within a framework of planned national coordination and occupational corporations.",
     scores: { interference: -26, ownership: -23, tradition: 23, faith: 20 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism", "Socialism"],
-      orientation: ["Progressive", "Reactionary Modernist"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Nasserism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nasserism.png",
-    description: "Nasserism is the Arab nationalist and socialist ideology associated with Gamal Abdel Nasser and the Egyptian Free Officers’ regime after 1952. It combines pan-Arabism, anti-imperialism, republicanism and a form of Arab socialism based on state-led development, land reform, nationalisation of key industries and the mobilisation of the popular classes. Economically it prioritised public ownership of strategic sectors, central planning and social justice while retaining a significant private sector under national guidance. It became one of the most influential currents in the Arab world during the 20th century.",
-    scores: { interference: -31, ownership: -34, tradition: 20, faith: -15 },
+    description: "Nasserism is the Arab nationalist and socialist ideology associated with Gamal Abdel Nasser and the Egyptian Free Officers’ regime after 1952. It combines pan-Arabism, anti-imperialism, republicanism and a form of Arab socialism based on state-led development, land reform, nationalisation of key industries and the mobilisation of the popular classes. Economically it prioritised public ownership of strategic sectors, central planning and social justice while retaining a significant private sector under national guidance.",
+    scores: { interference: -28, ownership: -32, tradition: 10, faith: -5 },
     tags: {
       region: ["MENA"],
-      faith: ["Secular"],
+      faith: ["Secular", "Islam"],
       economy: ["Socialism"],
       orientation: ["Progressive"],
       era: ["Cold War Era"]
@@ -691,51 +782,51 @@ const ideologies = [
   {
     name: "National Alliance of Russian Solidarists",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/natsolRU.png",
-    description: "The National Alliance of Russian Solidarists (Narodno-Trudovoy Soyuz rossiyskikh solidaristov, NTS) is a Russian anti-communist organisation founded in 1930 by young White émigrés in Belgrade. Its core ideology is solidarism, which rejects both Marxist class struggle and pure liberal individualism in favour of voluntary cooperation between the different layers of society, the dignity of the person, and Christian social responsibility. Economically it supports a coordinated national economy based on solidarity rather than either unrestricted capitalism or state socialism. The NTS sought the liberation of Russia through a national revolution carried out primarily from within, and remained active in anti-Soviet propaganda and underground work throughout the Cold War.",
-    scores: { interference: -16, ownership: 10, tradition: 26, faith: 32 },
+    description: "The National Alliance of Russian Solidarists (Narodno-Trudovoy Soyuz rossiyskikh solidaristov, NTS) is a Russian anti-communist organisation founded in 1930 by young White émigrés in Belgrade. Its core ideology is solidarism, which rejects both Marxist class struggle and pure liberal individualism in favour of voluntary cooperation between the different layers of society, the dignity of the person, and Christian social responsibility. Economically it supports private property (especially of land), free labour, and a coordinated national economy based on solidarity.",
+    scores: { interference: -10, ownership: 15, tradition: 30, faith: 35 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"],
+      orientation: ["Conservative", "Reactionary Modernist"],
       era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
     name: "National Corps",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalcorps.png",
-    description: "The National Corps (Національний корпус) is a contemporary Ukrainian nationalist party founded in 2016 by Andriy Biletsky and veterans of the Azov Battalion. It promotes Ukrainian ultranationalism, anti-Russian positions, economic nationalism and third position ideas, combining street activism with electoral participation.",
-    scores: { interference: -20, ownership: -6, tradition: 26, faith: 12 },
+    description: "National Corps (Національний корпус) is a Ukrainian nationalist party and movement that emerged from the Azov milieu. It advocates Ukrainian nationalism, anti-communism, anti-liberalism, and a strong national state with social and corporatist economic elements, emphasising national solidarity, military values and cultural revival.",
+    scores: { interference: -15, ownership: -5, tradition: 30, faith: 15 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Secular", "Eastern Orthodox"],
-      economy: ["Socialism"],
-      orientation: ["Conservative"],
+      economy: ["National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
       era: ["Modern Era"]
     }
   },
   {
     name: "National Fascist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalfascist.png",
-    description: "The National Fascist Party (Partito Nazionale Fascista, PNF) was the ruling party of Italy under Benito Mussolini from 1921 until 1943. It promoted the totalitarian organisation of society under the state, the cult of the leader, and the regeneration of the Italian nation through discipline, hierarchy and imperial expansion. Economically it developed a corporatist system in which employers and workers were organised into state-supervised corporations meant to eliminate class conflict and direct production toward national goals, while pursuing autarky and increasing state control over major industries. The party dominated Italian political life until the fall of the regime in 1943.",
-    scores: { interference: -35, ownership: 23, tradition: -11, faith: 21 },
+    description: "The National Fascist Party (Partito Nazionale Fascista, PNF) was the ruling party of Italy under Benito Mussolini from 1921 until 1943. It promoted the totalitarian organisation of society under the state, the cult of the leader, and the regeneration of the Italian nation through discipline, hierarchy and imperial expansion. Economically it developed a corporatist system in which employers and workers were organised into state-supervised corporations meant to eliminate class conflict and direct production toward national goals, while pursuing autarky and increasing state control over major industries.",
+    scores: { interference: -22, ownership: -8, tradition: 28, faith: 12 },
     tags: {
       region: ["Europe (Romance)"],
-      faith: ["Secular"],
+      faith: ["Secular", "Catholic"],
       economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Futurist"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Front",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalfront.png",
-    description: "The National Front (Nationale Front) was the largest Swiss nationalist party of the 1930s. Emerging from student and nationalist circles, it promoted authoritarian nationalism, corporatism and antisemitism while adapting fascist ideas to Swiss conditions. It achieved limited electoral success, particularly in Zürich and Schaffhausen, before declining and dissolving under pressure in 1940.",
-    scores: { interference: -28, ownership: 25, tradition: 25, faith: 8 },
+    description: "The National Front (various national contexts, notably the Swiss National Front of the 1930s) was an authoritarian nationalist movement that advocated corporatist economic organisation, strong national government, anti-communism and the rejection of liberal parliamentarism in favour of a more hierarchical and organic national order.",
+    scores: { interference: -18, ownership: 5, tradition: 30, faith: 20 },
     tags: {
       region: ["Europe (Germanic)"],
-      faith: ["Secular"],
-      economy: ["Corporatism", "National Syndicalism"],
+      faith: ["Protestant", "Catholic"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
@@ -743,38 +834,38 @@ const ideologies = [
   {
     name: "National Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalparty.png",
-    description: "The National Party (Stronnictwo Narodowe) was the main interwar political organisation of Polish National Democracy (Endecja), led by figures associated with Roman Dmowski. It advocated Polish nationalism, Catholic social teaching, anti-communism, antisemitism and a strong national state. It was the largest opposition party in the 1930s and influenced both parliamentary and radical nationalist currents.",
-    scores: { interference: 18, ownership: 21, tradition: 42, faith: 45 },
+    description: "The National Party (Stronnictwo Narodowe) was the main interwar Polish nationalist party, heir to the National Democracy (Endecja) of Roman Dmowski. It advocated Polish ethnic nationalism, Catholic social teaching, economic nationalism, and a strong but constitutional state, opposing both socialism and liberal individualism while supporting private property and national economic self-sufficiency.",
+    scores: { interference: -8, ownership: 20, tradition: 40, faith: 42 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Distributism"],
-      orientation: ["Conservative"],
+      economy: ["Corporatism", "Distributism"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Radical Camp",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/onr-falanga.png",
-    description: "The National Radical Camp (Polish: Obóz Narodowo-Radykalny, ONR) was a Polish nationalist organisation founded in 1934. Strongly Catholic, anti-communist and antisemitic, it advocated a radical national state based on corporatism, national syndicalism and distributist elements. It split into factions - ONR-ABC and ONR-Falanga under Bolesław Piasecki, which pushed a totalitarian, hierarchical and socially radical vision of the Polish nation and took arms inside the Polish resistance.",
-    scores: { interference: -38, ownership: -18, tradition: 42, faith: 35 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/onr.png",
+    description: "The National Radical Camp (Obóz Narodowo-Radykalny, ONR) was a radical Polish nationalist movement of the 1930s. It combined intense Catholic nationalism, anti-communism, economic ideas ranging from corporatism to national syndicalism and distributism, and a generational revolt against the more moderate National Party, advocating a more authoritarian and socially radical national revolution.",
+    scores: { interference: -20, ownership: 5, tradition: 42, faith: 45 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
       economy: ["Corporatism", "National Syndicalism", "Distributism"],
-      orientation: ["Conservative", "Reactionary Modernist"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Radical Movement for Renewal",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nrmr.png",
-    description: "The National Radical Movement for Renewal was a short lived Polish group that emerged from the interwar nationalist currents from Silesia, founded by Józef Kowal-Lipiński. It combined Catholic traditionalism, monarchist leanings and socialist economic rhetoric, seeking a radical renewal of the Polish state through authoritarian means and opposition to both liberalism and Marxism. The party argued that it's ideas are different from Italian Fascism or Nazism because they are adapted to 'the Slavic race and the Polish soul'",
-    scores: { interference: 0, ownership: 0, tradition: 0, faith: 0 },
+    description: "The National Radical Movement for Renewal was a Polish nationalist and monarchist current of the interwar period that sought a radical moral and political renewal of the nation on Catholic and hierarchical foundations, opposing both liberalism and socialism while advocating a strong authoritarian or monarchist state.",
+    scores: { interference: -15, ownership: 10, tradition: 45, faith: 40 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Socialism"],
+      economy: ["Corporatism"],
       orientation: ["Reactionary", "Monarchist"],
       era: ["World Wars Era"]
     }
@@ -782,25 +873,25 @@ const ideologies = [
   {
     name: "National Renaissance Front",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalrenaissancefront.png",
-    description: "The National Renaissance Front (Romanian: Frontul Renașterii Naționale) was the sole legal party of Romania under King Carol II from 1938 to 1940. Created as a royalist, corporatist and authoritarian structure to neutralise the Iron Guard and other radical movements, it promoted a moderated form of national rebirth, organic hierarchy and state-directed economy while retaining monarchical authority.",
-    scores: { interference: -31, ownership: 17, tradition: 20, faith: 13 },
+    description: "The National Renaissance Front (Frontul Renașterii Naționale) was the sole legal party of King Carol II’s royal dictatorship in Romania (1938–1940). It attempted to create a corporatist, authoritarian national state that would transcend party politics, incorporate various social and national currents, and modernise Romania under royal leadership while opposing both the Iron Guard and the traditional parties.",
+    scores: { interference: -20, ownership: 10, tradition: 25, faith: 20 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary", "Monarchist"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative", "Monarchist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Social Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalsocial.png",
-    description: "The National Social Movement (Bulgarian: Национално социално движение) was a Bulgarian organisation led by Aleksandar Tsankov in the 1930s. It promoted authoritarian nationalism, corporatism and anti-communism, preaching its own idea of 'social nationalism' which for Tsankov involved support of a national workers' syndicate against class struggle. In opposition to other Bulgarian parties, it rejected racialism; Tsankov giving aid to jewish families during WW2.",
-    scores: { interference: -20, ownership: -15, tradition: 25, faith: 18 },
+    description: "The National Social Movement (or National Social Movement of Bulgaria) was an interwar Bulgarian nationalist and authoritarian current that combined social reform, anti-communism, corporatist economic ideas and strong national government, seeking a third path between liberalism and Marxism.",
+    scores: { interference: -18, ownership: -8, tradition: 28, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism", "Socialism"],
+      economy: ["Corporatism", "National Syndicalism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
@@ -808,21 +899,21 @@ const ideologies = [
   {
     name: "National Socialist Movement in the Netherlands",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nsb.png",
-    description: "The National Socialist Movement in the Netherlands (Nationaal-Socialistische Beweging, NSB) was the main Dutch National Socialist party, founded in 1931 by Anton Mussert. Initially more fascist-oriented than Nazist and relatively open to Jewish members, it radicalised in the late 1930s, became openly antisemitic, and served as the sole legal collaborationist party under German occupation until 1945.",
-    scores: { interference: -29, ownership: 31, tradition: 38, faith: 39 },
+    description: "The National Socialist Movement in the Netherlands (Nationaal-Socialistische Beweging, NSB) was the principal Dutch National Socialist party led by Anton Mussert. It advocated a Dutch form of national socialism, corporatist economic organisation, authoritarian government and, increasingly during the occupation, collaboration with German authorities while attempting to retain a distinct Dutch national identity.",
+    scores: { interference: -25, ownership: -15, tradition: 25, faith: 10 },
     tags: {
       region: ["Europe (Germanic)"],
-      faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism", "Socialism"],
-      orientation: ["Progressive"],
+      faith: ["Protestant", "Secular"],
+      economy: ["Corporatism", "Socialism"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Socialist Movement of Chile",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nsmchile.png",
-    description: "The National Socialist Movement of Chile (Movimiento Nacional Socialista de Chile), also known as the Nacistas, was a Chilean party founded in 1932 by Jorge González von Marées and Carlos Keller. Initially modelled on German Nazism, it later developed a more local form emphasising corporatism, Chilean nationalism and anti-parliamentarism. It participated in elections and was involved in the failed 1938 putsch before dissolving.",
-    scores: { interference: -24, ownership: 14, tradition: 22, faith: 8 },
+    description: "The National Socialist Movement of Chile (Movimiento Nacional Socialista de Chile) was a Chilean political movement of the 1930s that adapted national socialist and corporatist ideas to Chilean conditions. It advocated authoritarian nationalism, social justice, anti-liberalism and anti-communism, and participated in the failed Seguro Obrero coup of 1938.",
+    scores: { interference: -20, ownership: -12, tradition: 25, faith: 18 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -833,65 +924,65 @@ const ideologies = [
   },
   {
     name: "National Socialist Workers' Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/NSPR.png",
-    description: "The National Socialist Workers’ Party (Narodowo-Socjalistyczna Partia Robotnicza, NSPR) was a short lived Polish national socialist organisation active in 1933-1934. It combined radical Polish nationalism, antisemitism and anti-Marxism with social radicalism, while maintaining a distinctly anti-German stance. It split internally and was dissolved in 1934.",
-    scores: { interference: -25, ownership: -20, tradition: 30, faith: 22 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/polishnatsoc.png",
+    description: "The National Socialist Workers’ Party (Partia Narodowych Socjalistów) was a small Polish interwar party that attempted to combine Polish nationalism with a form of national socialism. It advocated anti-capitalism, anti-communism, authoritarian government and the organisation of society on national rather than class lines.",
+    scores: { interference: -22, ownership: -20, tradition: 25, faith: 20 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
-      economy: ["Socialism"],
-      orientation: ["Conservative"],
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Synarchist Union",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalsynarchist.png",
-    description: "The National Synarchist Union (Unión Nacional Sinarquista) was a Mexican Catholic ultra-nationalist movement founded in 1937. Strongly opposed to the secular and leftist policies of the post-revolutionary state, it promoted corporatism, traditional social order and Mexican nationalism. It grew rapidly in the late 1930s and early 1940s before declining and later evolving into smaller successor groups.",
-    scores: { interference: 13, ownership: 30, tradition: 38, faith: 43 },
+    description: "The National Synarchist Union (Unión Nacional Sinarquista) is a Mexican Catholic traditionalist and nationalist movement founded in 1937. It opposes liberalism, socialism and secularism, advocating a corporatist, hierarchical and confessional social order inspired by Catholic social teaching and Hispanic tradition, with strong emphasis on the peasantry, local communities and anti-communism.",
+    scores: { interference: -5, ownership: 25, tradition: 45, faith: 48 },
     tags: {
       region: ["North America"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"],
-      era: ["World Wars Era", "Cold War Era"]
+      economy: ["Corporatism", "Distributism"],
+      orientation: ["Reactionary"],
+      era: ["World Wars Era", "Cold War Era", "Modern Era"]
     }
   },
   {
     name: "National Syndicalist Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/natsyndmovement.png",
-    description: "The National Syndicalist Movement (Movimento Nacional-Sindicalista) was a Portuguese syndicalist organisation led by Francisco Rolão Preto in the early 1930s. Rooted in Lusitanian Integralism and Catholic social teaching, it advocated national syndicalism, corporatism and a revolutionary alternative to both liberalism and communism. Known as the Blueshirts, it was banned by Salazar in 1934 after opposing the Estado Novo’s more conservative authoritarianism.",
-    scores: { interference: 30, ownership: -17, tradition: 31, faith: 28 },
+    description: "The National Syndicalist Movement (Movimento Nacional-Sindicalista) was a Portuguese radical nationalist and national-syndicalist organisation led by Francisco Rolão Preto in the early 1930s. It advocated a revolutionary national syndicalism inspired by both integralism and fascism, opposing both liberalism and the more conservative Estado Novo of Salazar, and was eventually suppressed by the regime.",
+    scores: { interference: 10, ownership: -20, tradition: 25, faith: 30 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
       economy: ["National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Monarchist"],
+      orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Union for Social Justice",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/NUSJ.png",
-    description: "The National Union for Social Justice was an American populist organisation founded in 1934 by the Catholic radio priest Charles Coughlin. It criticised both capitalism and communism, called for the nationalisation of key industries and banks, and promoted social justice through a strongly nationalist and later increasingly corporatist and solidarist lens. At its peak it claimed millions of supporters before fading after Coughlin’s political decline.",
-    scores: { interference: 3, ownership: 25, tradition: 22, faith: 30 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalunionforsocialjustice.png",
+    description: "The National Union for Social Justice was the political organisation founded by Father Charles Coughlin in the United States in the 1930s. It combined populist monetary reform, opposition to both capitalism and communism, strong social Catholicism, isolationism and increasingly authoritarian and nationalist rhetoric, advocating a form of corporatist social justice.",
+    scores: { interference: -10, ownership: 5, tradition: 30, faith: 40 },
     tags: {
       region: ["North America"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism", "Distributism"],
+      economy: ["Corporatism", "Distributism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "National Union of Greece",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/EEE.png",
-    description: "The National Union of Greece (Ethniki Enosis Ellados, EEE) was a nationalist organisation founded in Thessaloniki in 1927 by Asia Minor refugee merchants. Restricted to Christians, it combined Greek nationalism, anti-communism and intense hostility toward the local Jewish community. It was involved in the 1931 Campbell riots, was suppressed under Metaxas, and later collaborated with the German occupation authorities during the Second World War.",
-    scores: { interference: -24, ownership: 19, tradition: 23, faith: 20 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationaluniongreece.png",
+    description: "The National Union of Greece (Ethniki Enosis Ellados) was an interwar Greek nationalist organisation. It advocated authoritarian nationalism, anti-communism, corporatist economic ideas and the strengthening of national institutions against both liberal parliamentarism and left-wing movements.",
+    scores: { interference: -15, ownership: 5, tradition: 35, faith: 30 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
@@ -899,116 +990,116 @@ const ideologies = [
   {
     name: "Nationalist Front of Mexico",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nationalistfrontmexico.png",
-    description: "The Nationalist Front of Mexico (Frente Nacionalista de México) is a contemporary Mexican third position organisation founded in 2006. It advocates Mexican ultra-nationalism, pan-Hispanism, rejection of the Treaty of Guadalupe Hidalgo, corporatism, social conservatism and opposition to globalism, liberalism and leftism. Besides Catholicism, it promotes the cultural and political recovery of territories lost to the United States and a hierarchical national order.",
-    scores: { interference: 27, ownership: 33, tradition: 36, faith: 43 },
+    description: "The Nationalist Front of Mexico (Frente Nacionalista de México) is a contemporary Mexican nationalist movement that advocates ethnic and cultural nationalism, anti-liberalism, anti-communism and the defence of Mexican identity against globalism, with economic views ranging from protectionism to national syndicalist and corporatist ideas.",
+    scores: { interference: -10, ownership: 10, tradition: 35, faith: 25 },
     tags: {
       region: ["North America"],
-      faith: ["Catholic"],
-      economy: ["Distributism"],
-      orientation: ["Reactionary", "Monarchist"],
+      faith: ["Catholic", "Secular"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
       era: ["Modern Era"]
     }
   },
   {
     name: "Neosocialism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/neosocialism.png",
-    description: "Neosocialism was a political faction that existed in France and Belgium during the 1930s established by Marcel Deat. Marcel Deat believed in class collaboration and national solidarity, advocated Social Corporatism as a model of organisation, replaced the Marxist socialist mode of production with anti-Capitalism and supported a technocratic state, which would plan the economy and in which parliamentarism would be replaced by political technocracy. Neosocialism also believes in a revolution from above, which they termed as a constructive revolution.",
-    scores: { interference: -23, ownership: -19, tradition: 7, faith: -7 },
+    description: "Neosocialism was a current within the French Socialist Party in the 1930s led by figures such as Marcel Déat. It advocated a move away from orthodox Marxism toward a more authoritarian, planist and national form of socialism, emphasising order, authority and national economic coordination, and later collaborated with the Vichy regime.",
+    scores: { interference: -20, ownership: -25, tradition: 10, faith: -5 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
       economy: ["Socialism"],
-      orientation: ["Reactionary Modernist"],
+      orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Neue Rechte",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/neuerechte.png",
-    description: "The Neue Rechte (New Right) is a German intellectual and political current that emerged in the late 1960s and 1970s as a response to the New Left and as a german variant of the broader Nouvelle Droite. It distances itself from classical National Socialism, emphasises ethno-cultural identity, anti-liberalism and metapolitics, and seeks to influence mainstream conservatism. Key themes include opposition to mass immigration, defence of European identity, and cultural hegemony rather than immediate electoral seizure of power.",
-    scores: { interference: -14, ownership: 0, tradition: 28, faith: 10 },
+    description: "The Neue Rechte (New Right) is a German intellectual and political current that emerged in the post-war period. Drawing on the Conservative Revolution of the interwar years, it advocates ethno-cultural identity, critique of liberalism and multiculturalism, and a metapolitical strategy for cultural hegemony, while generally rejecting both National Socialism and conventional conservatism.",
+    scores: { interference: 5, ownership: 15, tradition: 40, faith: 10 },
     tags: {
       region: ["Europe (Germanic)"],
-      faith: ["Catholic", "Protestant"],
+      faith: ["Secular", "Pagan"],
       economy: [],
-      orientation: ["Reactionary Modernist", "Conservative"],
+      orientation: ["Reactionary Modernist"],
       era: ["Cold War Era", "Modern Era"]
     }
   },
   {
     name: "New Swedish Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/newswedishmovement.png",
-    description: "The New Swedish Movement (Nysvenska rörelsen) was a Swedish nationalist organisation led by Per Engdahl from the 1930s until his death in 1994. It promoted a corporatist, strongly nationalist ideology called “New Swedishness,” rejecting both liberal democracy and Nazism while drawing inspiration from Italian Fascism. After 1945 it played a key role in attempts to unite European fascist remnants through the European Social Movement.",
-    scores: { interference: -20, ownership: 5, tradition: 30, faith: 10 },
+    description: "The New Swedish Movement (Nysvenska rörelsen) was a Swedish nationalist and authoritarian current led by Per Engdahl. It advocated a corporatist, anti-parliamentary national socialism adapted to Swedish conditions, emphasising social solidarity, national unity and opposition to both liberalism and Marxism.",
+    scores: { interference: -18, ownership: -5, tradition: 30, faith: 15 },
     tags: {
       region: ["Europe (Germanic)"],
-      faith: ["Protestant"],
+      faith: ["Protestant", "Secular"],
       economy: ["Corporatism", "National Syndicalism"],
       orientation: ["Conservative"],
-      era: ["World Wars Era"]
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
     name: "Nichirenism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nichirenism.png",
-    description: "Nichirenism was a modern Japanese nationalist interpretation of Nichiren Buddhism developed primarily by Tanaka Chigaku. It fused the Lotus Sutra with extreme Japanese nationalism, emperor reverence, and the idea that Japan had a divine mission to lead the world. Influential in interwar ultranationalist and militarist circles, it called for the unity of religion and state and the spiritual regeneration of the nation under imperial rule.",
-    scores: { interference: -6, ownership: 10, tradition: -1, faith: 35 },
+    description: "Nichirenism refers to the political interpretation of Nichiren Buddhism developed by Tanaka Chigaku and others in modern Japan. It combined religious devotion to the Lotus Sutra with intense Japanese nationalism, the idea of Japan as a morally superior nation destined to lead Asia, and support for imperial expansion and national unity under the Emperor.",
+    scores: { interference: -15, ownership: 5, tradition: 35, faith: 45 },
     tags: {
       region: ["East Asia"],
-      faith: ["Shinto"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary"],
+      faith: ["Shinto", "Secular"],
+      economy: [],
+      orientation: ["Reactionary", "Monarchist"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Nouvelle Droite",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nouvelledroitte.png",
-    description: "The New Right (French: Nouvelle Droite), is a political movement and the origin of the wider European New Right, which emerged in France during the late 1960s. It openly opposes Multiculturalism, Liberal Democracy, Capitalism and the mixing of different cultures within a single society. It pushes for an \"Archeofuturistic\"; non-Reactionary \"Revolutionary Conservative\", method to the reinvigoration of the Pan-European identity and culture, while encouraging the preservation of regions where Europeans may reside, like in the Identitarian movement.",
-    scores: { interference: 30, ownership: 20, tradition: 16, faith: -18 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/nouvelledroite.png",
+    description: "The Nouvelle Droite (New Right) is a French intellectual school founded by Alain de Benoist and the GRECE in the late 1960s. It advocates a pagan, anti-liberal, anti-egalitarian and ethno-pluralist worldview, rejecting both Christianity and liberalism while promoting cultural identity, organic society and a radical critique of modernity through metapolitical means.",
+    scores: { interference: 10, ownership: 20, tradition: 35, faith: -20 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Pagan"],
       economy: [],
       orientation: ["Reactionary Modernist"],
-      era: ["Modern Era"]
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
     name: "Organisation of Yugoslav Nationalists",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/oryuna.png",
-    description: "The Organisation of Yugoslav Nationalists (ORJUNA) was a proto-fascist, ultra-Yugoslavist movement active in the Kingdom of Serbs, Croats and Slovenes from 1921 to 1929. Strongly anti-communist, anti-separatist and antisemitic, it glorified violence, rejected parliamentarism, and organised paramilitary Action Groups modelled on Italian squadrismo. It sought a centralised, authoritarian Yugoslav state and clashed with both Croatian nationalists and Serbian particularists.",
-    scores: { interference: -34, ownership: 16, tradition: 13, faith: -15 },
+    description: "The Organisation of Yugoslav Nationalists (ORJUNA) was a Yugoslav nationalist and anti-communist organisation active in the 1920s. It combined integral Yugoslavism, paramilitary organisation, anti-communism and authoritarian tendencies, opposing both separatist movements and Marxist influences while supporting the centralised Yugoslav state.",
+    scores: { interference: -12, ownership: 5, tradition: 25, faith: 15 },
     tags: {
       region: ["Europe (Slavic)"],
-      faith: ["Eastern Orthodox", "Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"],
+      faith: ["Secular", "Eastern Orthodox", "Catholic"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Pan-Iranist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/paniran.png",
-    description: "The Pan-Iranist Party is an Iranian nationalist organisation founded in the early 1950s that promotes the cultural and political unity of all Iranian peoples. Historically secular, anti-communist and expansionist in outlook, it emphasises social nationalism and Iranian civilisational identity over pan-Islamism or ethnic separatism. It operated as a semi-legal opposition under the Pahlavi monarchy and continues as an unregistered nationalist current opposed to the Islamic Republic.",
-    scores: { interference: -13, ownership: -20, tradition: 18, faith: -32 },
+    description: "The Pan-Iranist Party is an Iranian nationalist political organisation founded in the 1940s. It advocates pan-Iranism (the cultural and political unity of Iranian peoples), secular nationalism, opposition to both communism and clerical rule, and a strong centralised national state with protectionist and developmentalist economic policies.",
+    scores: { interference: -15, ownership: 5, tradition: 30, faith: -10 },
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
-      economy: ["Socialism"],
-      orientation: ["Progressive"],
-      era: ["World Wars Era", "Cold War Era", "Modern Era"]
+      economy: ["Corporatism"],
+      orientation: ["Conservative"],
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
     name: "Papadopoulism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/papadopoulism.png",
-    description: "Papadopoulism refers to the ideology and regime of Georgios Papadopoulos, leader of the Greek military junta that ruled from 1967 to 1973. It combined extreme anti-communism, Greek nationalism, authoritarian social conservatism, and a strong military role in politics. The regime abolished democracy, suppressed political opposition, and later abolished the monarchy, presenting itself as a national regeneration movement against parliamentary corruption and leftist influence.",
-    scores: { interference: -18, ownership: 10, tradition: 40, faith: 35 },
+    description: "Papadopoulism refers to the ideology of the Greek military regime of 1967–1974 led by Georgios Papadopoulos. It combined authoritarian nationalism, anti-communism, social conservatism, paternalistic economic policies and the rhetoric of a “Greece of the Christian Greeks”, presenting the regime as a temporary revolution to cleanse and regenerate the nation.",
+    scores: { interference: -20, ownership: 5, tradition: 35, faith: 40 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Eastern Orthodox"],
-      economy: ["Corporatism", "National Syndicalism"],
+      economy: ["Corporatism"],
       orientation: ["Conservative"],
       era: ["Cold War Era"]
     }
@@ -1016,37 +1107,50 @@ const ideologies = [
   {
     name: "Party of National Socialists",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/polishnatsoc.png",
-    description: "The Party of National Socialists (Polish: Partia Narodowych Socjalistów), was a polish National Socialist party founded in 1933. The PNS developed its own variant of National Socialism that was explicitly anti-German and declaredly Democratic. The PNS proposed the creation of a bloc of Slavic states and, on a global scale, the establishment of a general union of National Socialist republics. It declared attachment to Christianity, though anti-Clerical tendencies sometimes emerged. While critical of Fascism and Nazism as foreign models, it acknowledged the anti-Semitism and Revisionist aims with approval.",
-    scores: { interference: -25, ownership: -20, tradition: 30, faith: 22 },
+    description: "The Party of National Socialists (Partia Narodowych Socjalistów) was a Polish interwar political group that sought to create a Polish form of national socialism. It emphasised anti-capitalism, anti-communism, national solidarity, and the organisation of the economy and state on hierarchical national rather than class or liberal-democratic lines.",
+    scores: { interference: -22, ownership: -18, tradition: 28, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
-      faith: ["Secular", "Catholic"],
-      economy: ["Socialism"],
-      orientation: ["Reactionary Modernist"],
+      faith: ["Catholic"],
+      economy: ["Socialism", "National Syndicalism"],
+      orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Patriot Front",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/patriotfront.png",
-    description: "The Patriot Front is an active American neo-Fascist group in the USA. The movement focuses on promoting White Nationalism and the tradition of the \"pre-Columbian forefathers\"; seeing the American identity as an extraordinary one. It emphasizes a need for a hard reset of society and a return to the traditions and virtues of the European Settlers, calling for a balance of personal liberty alongside social responsibility for the betterment of both. It openly opposes Modernism, Leftism, Democracy, Communism and modern-time points of discourse like abortion, gay rights and mass migration.",
-    scores: { interference: 22, ownership: 38, tradition: 41, faith: 18 },
+    description: "Patriot Front is a contemporary American nationalist organisation. It advocates a form of American nationalism rooted in European identity, rejects both liberalism and communism, and promotes the creation of a disciplined national community with social and economic policies oriented toward national solidarity and cultural preservation.",
+    scores: { interference: -5, ownership: 10, tradition: 35, faith: 15 },
     tags: {
       region: ["North America"],
-      faith: ["Secular", "Protestant", "Catholic", "Eastern Orthodox", "Pagan"],
-      economy: [],
-      orientation: ["Conservative"],
+      faith: ["Secular", "Christian"],
+      economy: ["Corporatism"],
+      orientation: ["Reactionary Modernist"],
       era: ["Modern Era"]
     }
   },
   {
     name: "Patriotic People's Movement",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/finnishfascism.png",
-    description: "The Patriotic People's Movement (Finnish: Isänmaallinen kansanliike) is a Finnish Nationalist and anti-Communist political party which was the continuation of it's predecessor (The Lapua Movement). Ideologically the party was anti-Communist and very Nationalistic, endorsing an aggressive foreign policy against the Soviet Union and hostility towards the Swedish language. The creation of a Greater Finland was one of the party's big long-term goals, though It's manifested purpose was to be the Christian-moral conscience of the parliament.",
-    scores: { interference: -19, ownership: -14, tradition: 36, faith: 22 },
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/patriotfront.png",
+    description: "The Patriotic People's Movement (Isänmaallinen kansanliike, IKL) was a Finnish nationalist and authoritarian party founded in 1932 as a successor to the Lapua Movement. It advocated corporatism, anti-communism, strong national government, and the creation of a more hierarchical and organic Finnish society while operating within a legal framework.",
+    scores: { interference: -18, ownership: 5, tradition: 35, faith: 30 },
     tags: {
       region: ["Europe (Other)"],
       faith: ["Protestant"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Pērkonkrusts",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/perkonkrusts.png",
+    description: "Pērkonkrusts (Thunder Cross) was a Latvian ultra-nationalist and authoritarian movement of the 1930s. It advocated Latvian ethnic nationalism, anti-communism, anti-liberalism, corporatist economic organisation and the creation of a strong national authoritarian state based on Latvian cultural and biological identity.",
+    scores: { interference: -20, ownership: -5, tradition: 35, faith: 15 },
+    tags: {
+      region: ["Europe (Other)"],
+      faith: ["Secular", "Protestant"],
       economy: ["Corporatism", "National Syndicalism"],
       orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
@@ -1055,129 +1159,116 @@ const ideologies = [
   {
     name: "Peronism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/peronism.png",
-    description: "The Justicialist Party (Spanish: Partido Justicialista), is a political party in Argentina, known for it's ideology of Peronism; named after the founder Juan Perón and his wife Eva. Inspired by European Fascism, it created a more left-wing approach, focused on Patriotism, Ehtno-Nationalism and the expansion of worker's and women's rights. The ideology opposed Communism, Anarchism and Capitalism, though Peron's views were heavily based on the Socialist rhetoric. It promoted a \"worker-style\" Populist mix of Corporatism and Socialism, heavily shaped by the Catholic social teachings.",
-    scores: { interference: -8, ownership: -11, tradition: 19, faith: 13 },
+    description: "Peronism is the political movement founded by Juan Domingo Perón in Argentina. It combines nationalism, a strong role for the state in the economy, social justice for workers, corporatist representation of organised labour and business, and a third-position stance rejecting both liberal capitalism and orthodox Marxism, while maintaining a powerful presidential leadership.",
+    scores: { interference: -20, ownership: -15, tradition: 15, faith: 20 },
     tags: {
       region: ["South America"],
-      faith: ["Secular"],
-      economy: ["Socialism", "National Syndicalism"],
+      faith: ["Catholic", "Secular"],
+      economy: ["Corporatism", "National Syndicalism"],
       orientation: ["Progressive"],
-      era: ["World Wars Era", "Cold War Era", "Modern Era"]
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
     name: "Petainism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/petainism.png",
-    description: "Petainism, or the Révolution nationale (National Revolution) was the official ideological program promoted by Vichy France which had been established in July 1940 and led by Marshal Philippe Pétain. Pétain's regime was characterized by anti-Parliamentarism, personality cultism, Xenophobia, promotion of traditional values, rejection of the constitutional separation of powers, and State Corporatism, as well as opposition to the theory of class conflict. Though not Fascist, it exhibited characteristics of the traditional right; being strongly clericalist and eulogising national religious figures such as Joan d'Arc",
-    scores: { interference: -22, ownership: -3, tradition: 40, faith: 35 },
+    description: "Pétainism refers to the ideology of the Vichy regime led by Marshal Philippe Pétain (1940–1944). It advocated the “National Revolution” – a programme of authoritarian traditionalism, Catholic social values, corporatism, anti-parliamentarism, the rejection of the Third Republic’s liberalism, and the reorganisation of French society along hierarchical and organic lines.",
+    scores: { interference: -18, ownership: 10, tradition: 42, faith: 40 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist"],
+      economy: ["Corporatism"],
+      orientation: ["Reactionary"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Phibunism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/phibunism.png",
-    description: "Phibunism is a term for the ideological framework of Thai Field Marshal Plaek Phibunsongkhram, who governed Thailand; earlier Siam, from 1939 to 1957. The regime; inspired by Italian Fascism, focused on Thai Nationalism, strong Sinophobia; along with anti-Communism. Allied to the Imperial Japan, it opted for a Militarist Agrarian based state, passing cultural mandates promoting Western-style dress and emphasizing the Thai language. Although the ideology played a part in changing the Absolute Monarchy to a Constitutional one, some factions supported the King as a national symbol.",
-    scores: { interference: -26, ownership: -21, tradition: 28, faith: 6 },
+    description: "Phibunism refers to the authoritarian modernising nationalism of Plaek Phibunsongkhram in Thailand. It combined strong state leadership, cultural nationalism (including the promotion of Thai identity and manners), anti-communism, state-directed economic development and the centralisation of power, drawing partial inspiration from contemporary European authoritarian models while remaining rooted in Thai conditions.",
+    scores: { interference: -22, ownership: 0, tradition: 25, faith: 10 },
     tags: {
-      region: ["South Asia"],
+      region: ["East Asia"],
       faith: ["Secular"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Progressive"],
+      economy: ["Corporatism"],
+      orientation: ["Conservative"],
       era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
     name: "Political Circle \"Zveno\"",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/zveno.png",
-    description: "Political Circle "Zveno" was a Bulgarian authoritarian organisation founded in the late 1920s by army officers and intellectuals, notably Kimon Georgiev and Damyan Velchev. It rejected multi-party democracy, advocated technocratic and corporatist dictatorship, a Bulgarian Yugoslavic initiative and seized power in the 1934 coup. The short lived Zveno regime dissolved all parties, imposed censorship, suppressed the IMRO, and pursued national regeneration through strong central authority before being ousted by King Boris III in 1935.",
-    scores: { interference: -22, ownership: -5, tradition: 5, faith: -15 },
+    description: "Zveno (Звено) was a Bulgarian political organisation of military officers and intellectuals that seized power in 1934. It advocated authoritarian modernisation, corporatist economic organisation, anti-party politics, and a strong centralised state that would overcome parliamentary fragmentation and modernise Bulgaria from above.",
+    scores: { interference: -20, ownership: -5, tradition: 15, faith: 5 },
     tags: {
       region: ["Europe (Slavic)"],
-      faith: ["Secular"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"],
-      era: ["World Wars Era", "Cold War Era"]
+      faith: ["Eastern Orthodox", "Secular"],
+      economy: ["Corporatism"],
+      orientation: ["Progressive"],
+      era: ["World Wars Era"]
     }
   },
   {
     name: "Poujadism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/poujadism.png",
-    description: "Poujadism is a political ideology and movement named after Pierre Poujade. On 29 November 1953, Pierre Poujade created the Union de Défense des Commerçants et Artisans (Defense Union of Shopkeepers and Craftsmen) to organize tax protests. He articulated the economic interests and grievances of shopkeepers and other proprietor-managers of small businesses facing economic and social change. Poujadism was opposed to industrialization, urbanization, and American-style modernization, which were perceived as a threat to the identity of rural France.",
-    scores: { interference: 31, ownership: 33, tradition: 31, faith: 29 },
+    description: "Poujadism was a French populist movement led by Pierre Poujade in the 1950s. It defended small shopkeepers and artisans against big capital, the tax system and the centralising state, combining anti-fiscal protest, defence of the “little man”, social conservatism and elements of French nationalism in a broadly anti-establishment framework.",
+    scores: { interference: 15, ownership: 30, tradition: 25, faith: 20 },
     tags: {
       region: ["Europe (Romance)"],
-      faith: ["Secular"],
+      faith: ["Catholic", "Secular"],
       economy: ["Distributism"],
       orientation: ["Conservative"],
-      era: ["World Wars Era"]
-    }
-  },
-  {
-    name: "Pērkonkrusts",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/perkonkrusts.png",
-    description: "Pērkonkrusts (Thunder Cross) was a Latvian ultranationalist and fascist party founded in 1933 by Gustavs Celmiņš. It demanded ‘Latvia for Latvians’, a corporatist authoritarian state, and the exclusion of Germans, Slavs and Jews from political and economic life. Strongly anti-German as well as antisemitic, it rejected Christianity in favour of the neo-pagan Dievturība movement and sought a revolutionary national rebirth through a new ethnic elite. Banned in 1934, it continued underground and some members later collaborated with the German occupation.",
-    scores: { interference: -25, ownership: 7, tradition: 28, faith: 8 },
-    tags: {
-      region: ["Europe (Other)"],
-      faith: ["Protestant"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Conservative"],
-      era: ["World Wars Era"]
+      era: ["Cold War Era"]
     }
   },
   {
     name: "Qasimism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/qasimism.png",
-    description: "Qasimism is the Iraqi nationalist ideology associated with General Abd al-Karim Qasim, who ruled Iraq from the 1958 revolution until 1963. It prioritised Iraqi unity and equality among all ethnic and religious groups inside Iraq over pan-Arabism, opposed both Nasserist unionism and Kurdish separatism, and pursued secular, populist and redistributive policies, including land reform and the assertion of national control over oil. Qasimism placed Iraqi identity and sovereignty above religious or pan-Arab loyalties.",
-    scores: { interference: -31, ownership: 10, tradition: -9, faith: -3 },
+    description: "Qasimism refers to the political ideology and practice of Abdul Karim Qasim, who ruled Iraq from 1958 to 1963. It combined Iraqi nationalism (as opposed to pan-Arabism), social reform, land reform, a strong role for the state in the economy, and a relatively inclusive approach to ethnic and religious communities within an authoritarian developmentalist framework.",
+    scores: { interference: -25, ownership: -20, tradition: 5, faith: -5 },
     tags: {
       region: ["MENA"],
       faith: ["Secular"],
       economy: ["Socialism"],
-      orientation: ["Conservative"],
+      orientation: ["Progressive"],
       era: ["Cold War Era"]
     }
   },
   {
     name: "Ragnarok Circle",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ragnarok.png",
-    description: "The Ragnarok Circle was a radical Norwegian Socialist group centred on the journal Ragnarok (1935–1945). It rejected both Quisling’s Nasjonal Samling and mainstream German Nazism as insufficiently pure, combining extreme Germanic racialism, neo-paganism rooted in Norse tradition, and a cult of the ‘Norwegian tribe’. Members sought a total cultural and spiritual revolution returning to pre-Christian values and pan-Germanic unity ordered by ‘divine racial law’. Strongly anti-Christian, some later planned resistance against the German occupation when it violated their principles.",
-    scores: { interference: -28, ownership: -22, tradition: 25, faith: -38 },
+    description: "The Ragnarök Circle refers to a radical traditionalist and pagan nationalist current that draws on Norse mythology, the concept of cyclical decline and renewal, and the rejection of modernity, liberalism and monotheistic universalism in favour of an ethno-cultural and spiritual rebirth of European peoples.",
+    scores: { interference: 5, ownership: 10, tradition: 45, faith: -30 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Pagan"],
-      economy: ["Socialism"],
-      orientation: ["Reactionary Modernist", "Futurist"],
-      era: ["World Wars Era"]
+      economy: [],
+      orientation: ["Reactionary", "Futurist"],
+      era: ["Modern Era"]
     }
   },
   {
     name: "Republican Fascist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/republicanfascist.png",
-    description: "The Republican Fascist Party (Italian: Partito Fascista Repubblicano, PFR) was the sole party of the Italian Social Republic (Republic of Salò) from 1943 to 1945. Refounded by Mussolini after his rescue by German forces, it abandoned the monarchy, returned to the more radical, anti-monarchist and ‘sansepolcrista’ currents of early fascism, and operated as a German client regime in northern Italy. It retained corporatism, the one-party state and the cult of the Duce while fighting the Allies and the Italian Resistance until the collapse of 1945.",
-    scores: { interference: -36, ownership: 0, tradition: 8, faith: 9 },
+    description: "The Republican Fascist Party (Partito Fascista Repubblicano) was the political party of the Italian Social Republic (Salo Republic) founded by Benito Mussolini in 1943. It attempted a return to the more radical, anti-monarchical, national-syndicalist and socialising aspects of early Fascism, while operating as a collaborationist regime under German occupation.",
+    scores: { interference: -15, ownership: -25, tradition: 10, faith: 5 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Secular"],
-      economy: ["Corporatism", "National Syndicalism"],
-      orientation: ["Reactionary Modernist", "Futurist"],
+      economy: ["National Syndicalism", "Socialism"],
+      orientation: ["Futurist", "Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Revolutionary Mexicanist Action",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/revolutionarymexicanist.png",
-    description: "Revolutionary Mexicanist Action (Spanish: Acción Revolucionaria Mexicanista), better known as the Gold Shirts (Camisas Doradas), was a Mexican fascist paramilitary organisation founded in 1934 by Nicolás Rodríguez Carrasco. Ultra-nationalist, secular, antisemitic, anti-Chinese and anti-communist, it sought to expel ‘foreign’ elements and crush leftist labour movements. Modelled on European fascist styles and receiving some Axis support, it engaged in street violence until it was banned by the Cárdenas government in 1936.",
-    scores: { interference: 7, ownership: 35, tradition: 34, faith: 15 },
+    description: "Revolutionary Mexicanist Action (Acción Revolucionaria Mexicanista), known as the Gold Shirts, was a Mexican paramilitary nationalist organisation of the 1930s led by Nicolás Rodríguez. It combined intense nationalism, anti-communism, anti-Chinese and anti-Jewish rhetoric, corporatist ideas and opposition to the leftist policies of the Cárdenas government.",
+    scores: { interference: -15, ownership: 5, tradition: 30, faith: 20 },
     tags: {
       region: ["North America"],
-      faith: ["Secular"],
-      economy: ["Corporatism", "National Syndicalism"],
+      faith: ["Catholic", "Secular"],
+      economy: ["Corporatism"],
       orientation: ["Reactionary Modernist"],
       era: ["World Wars Era"]
     }
@@ -1185,8 +1276,8 @@ const ideologies = [
   {
     name: "Revolutionary National Syndicalist Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/revnatsynd.png",
-    description: "The Revolutionary National Syndicalist Movement (Spanish: Movimiento Revolucionario Nacional Sindicalista, MRNS) was a Chilean fascist and national-syndicalist organisation founded in 1952 (with roots in the late 1940s). Inspired by Spanish Falangism, José Antonio Primo de Rivera and Catholic traditionalists such as Osvaldo Lira, it advocated a corporatist, hierarchical national state organised through syndicates and functional communities. Strongly anti-communist, anti-liberal and Hispanicist, it later collaborated with the Pinochet regime through the guilds system.",
-    scores: { interference: 15, ownership: -22, tradition: 35, faith: 32 },
+    description: "The Revolutionary National Syndicalist Movement (Movimiento Revolucionario Nacional Sindicalista) was a Chilean national-syndicalist organisation founded in the early 1950s. Inspired by Spanish Falangism and Catholic traditionalism, it advocated a corporatist, hierarchical national state organised through syndicates, strong anti-communism and Hispanic cultural values.",
+    scores: { interference: 10, ownership: -20, tradition: 35, faith: 35 },
     tags: {
       region: ["South America"],
       faith: ["Catholic"],
@@ -1198,7 +1289,7 @@ const ideologies = [
   {
     name: "Rexist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/rexism.png",
-    description: "The Rexist Party was a political party active in Belgium from 1935 until 1945. It was deeply rooted in National Catholicism, calling for a national \"moral renewal\". The party name came from the phrase \"Christ the King\" (Latin: Christus Rex). It sough to achieve a Corporatist and Royalist Belgium, while also advocating for Belgian Unitarism. Modelled on Italian Fascism and Spanish Falangism, it rejected Capitalism, Liberalism and Marxism, idealising rural life and traditional family values instead. The party later called for \"Burgundian Nationalism\" - the Nationalism within the framework of a pan-German state.",
+    description: "The Rexist Party was a Belgian political party active from 1935 to 1945, founded by Léon Degrelle. Deeply rooted in National Catholicism, it called for a moral and national renewal under the slogan “Christus Rex”. It sought a corporatist and authoritarian Belgium, rejected liberalism and Marxism, and idealised rural life and traditional family values.",
     scores: { interference: -29, ownership: -25, tradition: 38, faith: 45 },
     tags: {
       region: ["Europe (Romance)", "Europe (Germanic)"],
@@ -1211,7 +1302,7 @@ const ideologies = [
   {
     name: "Right Japanese Socialism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/spj.png",
-    description: "Right Japanese Socialism refers to the nationalist current within the Japan Socialist Party associated with Inejiro Asanuma. While firmly socialist and later strongly anti-American and pro-People’s Republic of China, it retained respect for the Emperor as a symbol of national unity, rejected calls to abolish the imperial institution, and sought a distinctly Japanese path that combined socialisation with ethnic and cultural continuity. Asanuma’s wartime support for the Imperial Rule Assistance Association and his postwar ‘Asianist’ stance marked this current as more nationalist than the party’s Marxist wing.",
+    description: "Right Japanese Socialism refers to the nationalist current within the Japanese socialist movement associated with Inejiro Asanuma and others. While socialist and often anti-American, it retained respect for the Emperor as a symbol of national unity, rejected the abolition of the imperial institution, and sought a distinctly Japanese path that combined socialisation with ethnic and cultural continuity.",
     scores: { interference: -12, ownership: -12, tradition: 10, faith: 2 },
     tags: {
       region: ["East Asia"],
@@ -1224,12 +1315,12 @@ const ideologies = [
   {
     name: "Salazarism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/salazarism.png",
-    description: "Salazarism is an ideology based on the \"Estado Novo\" regime of António de Oliveira Salazar, who ruled Portugal from 1933 to 1974. His rule; characterized by opposition to Communism, Socialism, Syndicalism, Anarchism and Liberalism, focused on economic stabilization of the country by a Corporatist economy with Distributist imputs. The regime was staunchly Reformist and keen on keeping Portugal from joining World War II. It focused on enforcing the rule by secret police activity and on paying off Portugal's public debt; all to focus on the group considered the most important - the family.",
+    description: "Salazarism is the ideology of the Estado Novo regime of António de Oliveira Salazar in Portugal (1933–1974). It was characterised by opposition to communism, liberalism and parliamentary democracy, a corporatist economic system with distributist influences, Catholic social teaching, colonial retention, and a strong emphasis on order, tradition and the family as the basic unit of society.",
     scores: { interference: -7, ownership: 28, tradition: 35, faith: 40 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Catholic"],
-      economy: ["Corporatism", "National Syndicalism", "Distributism"],
+      economy: ["Corporatism", "Distributism"],
       orientation: ["Conservative"],
       era: ["World Wars Era", "Cold War Era"]
     }
@@ -1237,7 +1328,7 @@ const ideologies = [
   {
     name: "Sansepolcrismo",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/sansepolcrismo.png",
-    description: "Sansepolcrismo was an Italian movement that preceded Fascism, based on the rally organized by Mussolini at Piazza San Sepolcro in Milan on March 23, 1919, where he proclaimed the manifesto of the Fasci Italiani di Combattimento (English: Italian Fasces of Combat). The ideology advocated for a more Revolutionary Nationalism, combined with a National Syndicalist economy and Futurist ideals. Known for using paramilitary violence against its political opponents and calls for a Nationalist Revolution to institute a government of a new ruling class, one made up primarily by the veterans of WW1.",
+    description: "Sansepolcrismo refers to the original programme of the Fasci Italiani di Combattimento proclaimed by Mussolini in Milan’s Piazza San Sepolcro on 23 March 1919. It combined revolutionary nationalism, national syndicalism, republicanism, anti-clericalism and demands for extensive socialisation and land reform, representing the most left-wing and futurist phase of early Fascism.",
     scores: { interference: 19, ownership: -16, tradition: -20, faith: -28 },
     tags: {
       region: ["Europe (Romance)"],
@@ -1250,7 +1341,7 @@ const ideologies = [
   {
     name: "Scottish Democratic Fascist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/scottishfascist.png",
-    description: "The Scottish Democratic Fascist Party (SDFP) was a short lived fascist party founded in 1933 by William Weir Gilmour and Major Hume Sleigh out of the Scottish section of Mosley’s New Party. It combined british fascism with Scottish nationalism and independence, calling for a Scottish Corporate Commonwealth, an industrial parliament, and a permanent Empire secretariat. Strongly anti-Catholic and anti-Irish, it banned Catholics from membership, demanded the expulsion of religious orders, the prohibition of Irish immigration, and the repeal of state funding for Catholic schools.",
+    description: "The Scottish Democratic Fascist Party was a short-lived party founded in 1933 by William Weir Gilmour out of the Scottish section of Mosley’s New Party. It combined British fascist ideas with Scottish nationalism, calling for a Scottish Corporate Commonwealth, an industrial parliament, and measures against Irish immigration and Catholic influence.",
     scores: { interference: -20, ownership: 10, tradition: 28, faith: 18 },
     tags: {
       region: ["Europe (Other)"],
@@ -1263,20 +1354,20 @@ const ideologies = [
   {
     name: "Self-Defence of the Republic of Poland",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/selfdefenceoftherepublicofpoland.png",
-    description: "Self-Defence of the Republic of Poland (Polish: Samoobrona Rzeczypospolitej Polskiej) was a populist agrarian and Christian socialist party and trade union led by Andrzej Lepper from the 1990s until the late 2000s. It combined left-wing nationalism, agrarian socialism, Catholic social teaching, anti-neoliberalism and anti-globalisation, presenting itself as the voice of farmers, workers and the ‘patriotic left’ against post-communist elites and foreign capital.",
+    description: "Self-Defence of the Republic of Poland (Samoobrona Rzeczypospolitej Polskiej) was a populist agrarian and Christian socialist party and trade union led by Andrzej Lepper. It combined left-wing nationalism, agrarian socialism, Catholic social teaching, anti-neoliberalism and anti-globalisation, presenting itself as the voice of farmers, workers and the patriotic left against post-communist elites and foreign capital.",
     scores: { interference: -16, ownership: -12, tradition: 22, faith: 24 },
     tags: {
       region: ["Europe (Slavic)"],
       faith: ["Catholic"],
       economy: ["Socialism"],
       orientation: ["Progressive"],
-      era: ["Cold War Era"]
+      era: ["Cold War Era", "Modern Era"]
     }
   },
   {
     name: "Sosism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/sosism.png",
-    description: "Sosism (Spanish: Sosismo) was a short lived corporatist current within Uruguay’s Colorado Party led by Julio María Sosa in the late 1920s. Influenced by Italian Fascism after Sosa’s meeting with Mussolini, it advocated a corporatist state, the replacement of the presidency by a directorial system, and the integration of occupational corporations into parliament. Officially organised as the Colorado Party for Tradition, it opposed Batllismo from the right while claiming to defend progress and labour rights against both reaction and revolutionary socialism.",
+    description: "Sosism (Spanish: Sosismo) was a short-lived corporatist current within Uruguay’s Colorado Party led by Julio María Sosa in the late 1920s. Influenced by Italian Fascism, it advocated a corporatist state, the replacement of the presidency by a directorial system, and the integration of occupational corporations into parliament, while claiming to defend progress and labour rights.",
     scores: { interference: -20, ownership: 21, tradition: 13, faith: 25 },
     tags: {
       region: ["South America"],
@@ -1289,20 +1380,20 @@ const ideologies = [
   {
     name: "Spenglerianism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/spenglerianism.png",
-    description: "Spenglerianism is a term used for the political and philosophical views of Oswald Spengler; a German polymath. In his books, he strongly criticized Materialism, Capitalism, Communism, Political Liberalism, Rationalism and Democracy; which he considered an Anglo-French remnant. His concept of a \"Prussian Socialism\" rebuked the Marxist approach, proposing a more Corporatist-like economic system, where the proletariat doesn't exploit the exploiters. He openly opposed labor strikes, trade unions and progressive taxation; simuntaniously celebrating private property and market competition.",
+    description: "Spenglerianism refers to the political and philosophical views of Oswald Spengler. He criticised materialism, capitalism, communism, liberalism and democracy, and proposed a “Prussian Socialism” that rejected Marxist class struggle in favour of a hierarchical, corporatist national community bound by duty, discipline and shared historical destiny, while affirming private property and authority.",
     scores: { interference: -14, ownership: -1, tradition: 45, faith: 12 },
     tags: {
       region: ["Europe (Germanic)"],
       faith: ["Secular", "Pagan"],
-      economy: ["Socialism"],
-      orientation: ["Conservative"],
+      economy: ["Socialism", "Corporatism"],
+      orientation: ["Conservative", "Reactionary"],
       era: ["World Wars Era"]
     }
   },
   {
     name: "Squadrismo",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/squadrismo.png",
-    description: "The Squadrismo were the fascist militias that were organised outside the authority of the Italian state and led by local leaders called ras (a title given to Abyssinian headmen). The group was initially Mussolini loyalists but later they felt betrayed by his efforts to moderate the movement and consolidate power through traditional state institutions after 1921. The radical local leaders, or ras, believed Mussolini was abandoning the \"revolutionary\" roots of Fascism and compromising with the liberal establishment they sought to destroy. The group adhered to anarcho-Fascism and Fascist Syndicalism.",
+    description: "Squadrismo refers to the fascist squads (squadre d’azione) and their culture in early 1920s Italy. Led by local ras, the squadristi practised paramilitary violence against socialists and opponents, celebrated action, hierarchy and loyalty, and often resisted Mussolini’s later efforts to institutionalise and moderate the movement, preserving a more radical, anti-bourgeois and national-syndicalist ethos.",
     scores: { interference: 42, ownership: 23, tradition: -17, faith: 14 },
     tags: {
       region: ["Europe (Romance)"],
@@ -1315,11 +1406,11 @@ const ideologies = [
   {
     name: "Strasserism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/strasser.png",
-    description: "Strasserism was an ideology created by the Strasser Brothers (Otto & Gregor) as a splinter faction to Nazism following Hitler's decision to abandon points within the initial 25 point program of the NSDAP. Focused on the national rejuvination of the German nation, culture and the worker, They believed in the de-urbanisation and re-agrarianization, seeing the agrarian lifestyle more tied to it's culture and history. They advocated for a medieval guild economy based on Social Corporatism. They conceived the nation not as an instrument of power, but as a living organism, bound together by shared culture, labour and destiny.",
+    description: "Strasserism refers to the current associated with the brothers Gregor and Otto Strasser within the early Nazi movement. It emphasised the socialist, anti-capitalist and revolutionary aspects of National Socialism, advocated extensive socialisation, land reform and a guild-based economy, and criticised Hitler’s accommodation with big business and the traditional elites.",
     scores: { interference: -33, ownership: -29, tradition: 17, faith: 15 },
     tags: {
       region: ["Europe (Germanic)"],
-      faith: ["Catholic"],
+      faith: ["Catholic", "Secular"],
       economy: ["Socialism"],
       orientation: ["Reactionary Modernist"],
       era: ["World Wars Era", "Cold War Era"]
@@ -1328,20 +1419,20 @@ const ideologies = [
   {
     name: "Superfascism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/superfascism.png",
-    description: "Superfascism is a term for the ideological theory of Italian philosopher and writer - Julius Evola. Derived from his admiration for Buddhism, Eastern Mysticism, Western Esotericism and the Occult, it preaches a doctrine of \"Magical Idealism\" that harshly rejects Modernism and consolidates the Hindu concept of Kali Yuga; humanity being stuck in a Dark Age of unleashed Materialistic appetites. The ideology also has a concept of racism of the body, soul, and spirit; hoping for the return of the \"celestial\" Aryan race. It invisions a deeply Spiritual Pagan empire based on hierarchy, order, discipline and obedience.",
+    description: "Superfascism is a term associated with the thought of Julius Evola. It designates a spiritual, hierarchical and anti-modern ideal that transcends ordinary fascism, drawing on Traditionalist philosophy, the idea of a solar and warrior aristocracy, and the rejection of both bourgeois liberalism and mass totalitarianism in favour of a radical, quality-oriented order rooted in transcendent values.",
     scores: { interference: -15, ownership: 23, tradition: 50, faith: 23 },
     tags: {
       region: ["Europe (Romance)"],
       faith: ["Pagan"],
       economy: [],
       orientation: ["Reactionary"],
-      era: ["World Wars Era"]
+      era: ["World Wars Era", "Cold War Era"]
     }
   },
   {
     name: "Swedish Socialist Gathering",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/SSS.png",
-    description: "Swedish Socialist Gathering (Svensk Socialistisk Samling, formerly the National Socialist Workers’ Party) was the principal Swedish National Socialist party under Sven Olov Lindholm. After an early phase closely copying German Nazism it rebranded toward a more national ‘Swedish socialism’, retaining antisemitism, anti-capitalism, anti-communism, corporatism and authoritarian nationalism. It organised youth and paramilitary structures and advocated strong state direction of the economy in the service of the national community.",
+    description: "Swedish Socialist Gathering (Svensk Socialistisk Samling), formerly the National Socialist Workers’ Party, was the principal Swedish national-socialist party under Sven Olov Lindholm. After an early phase closely copying German National Socialism it rebranded toward a more national “Swedish socialism”, retaining anti-capitalism, anti-communism, corporatism and authoritarian nationalism.",
     scores: { interference: -28, ownership: -22, tradition: 25, faith: 10 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -1354,7 +1445,7 @@ const ideologies = [
   {
     name: "Syrian Social Nationalism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/syriannatsoc.png",
-    description: "Syrian Social Nationalism was the ideology established by the Syrian Social Nationalist Party founded by Antoun Saadeh. It advocates the establishment of a Greater Syrian nation state spanning the Fertile Crescent, including present-day Syria, Lebanon, Jordan, Iraq, Kuwait, Palestine region, Cyprus, Sinai of Egypt, Hatay and Cilicia of Turkey, based on geographical boundaries and the common history people within the boundaries share. The movement itself was largely syncretic, incorporating Pan-Syrianism and a form of National Socialism as its ideological base.",
+    description: "Syrian Social Nationalism is the ideology of the Syrian Social Nationalist Party founded by Antoun Saadeh. It advocates the establishment of a Greater Syrian nation-state spanning the Fertile Crescent on the basis of geographical and historical unity, combined with a form of national socialism, secularism, and a strong centralised national state that transcends religious and ethnic particularisms within the Syrian nation.",
     scores: { interference: -21, ownership: -26, tradition: 12, faith: -10 },
     tags: {
       region: ["MENA"],
@@ -1367,7 +1458,7 @@ const ideologies = [
   {
     name: "Szeged Idea",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/szegedidea.png",
-    description: "The Szeged Idea (Hungarian: Szegedi gondolat) was an ideology of post WW1 Hungarians - especially the military officer and Prime Minister of Hungary from 1932 - Gyula Gömbös. Heavily inspired by his visits to Fascist Italy, he promoted irredentist claims, declaring violence to be \"an acceptable means of statecraft\". Focused on Agrarianism and Corporatism, his Unity Party (Hungarian: Egységes Párt) recanted previous antipathy to Jews and called for an \"unitary Hungarian nation with no class distinctions\" and to expand the size and power of the Hungarian military; much to Hitler's dismay.",
+    description: "The Szeged Idea (Szegedi gondolat) was the ideology associated with the post-1919 counter-revolutionary regime in Hungary and later with Gyula Gömbös. It combined Hungarian nationalism, anti-communism, agrarian and corporatist economic ideas, the cult of the nation and the army, and a desire for a strong, authoritarian national state that would overcome the Treaty of Trianon.",
     scores: { interference: -19, ownership: -14, tradition: 38, faith: 29 },
     tags: {
       region: ["Europe (Other)"],
@@ -1380,7 +1471,7 @@ const ideologies = [
   {
     name: "Tacuara Nationalist Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/tacuara.png",
-    description: "The Tacuara Nationalist Movement (Movimiento Nacionalista Tacuara) was an Argentine Catholic nationalist group active mainly in the late 1950s and 1960s. Combining a big political tent of falangist aesthetics, antisemitism, anti-communism and third position economic ideas, it engaged in street violence and paramilitary activity before fragmenting into more radical or Peronist-leaning splinters.",
+    description: "The Tacuara Nationalist Movement (Movimiento Nacionalista Tacuara) was an Argentine Catholic nationalist group active mainly in the late 1950s and 1960s. It combined falangist aesthetics, third-position economic ideas, intense nationalism and paramilitary activity, later fragmenting into various radical and Peronist-leaning splinters.",
     scores: { interference: -24, ownership: 12, tradition: 30, faith: 32 },
     tags: {
       region: ["South America"],
@@ -1391,14 +1482,40 @@ const ideologies = [
     }
   },
   {
+    name: "Tatenokai",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/tatenokai.png",
+    description: "The Tatenokai (Shield Society) was a private militia founded and led by the writer Yukio Mishima. Dedicated to traditional Japanese values and the veneration of the Emperor, it was formed to resist the erosion of Japanese spiritual identity and to defend the dignity of the Emperor as the symbol of the nation. It is best known for the failed coup attempt and Mishima’s ritual suicide on 25 November 1970.",
+    scores: { interference: 10, ownership: 20, tradition: 45, faith: 30 },
+    tags: {
+      region: ["East Asia"],
+      faith: ["Shinto"],
+      economy: [],
+      orientation: ["Reactionary", "Monarchist"],
+      era: ["Cold War Era"]
+    }
+  },
+  {
+    name: "Third International Theory",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/gaddafism.png",
+    description: "The Third International Theory was the ideology proposed by Muammar Gaddafi in his Green Book. It presented itself as an alternative to both capitalism and Marxism-Leninism for the Third World, combining Arab nationalism, Islamic socialism, direct popular democracy through people’s committees, anti-imperialism and a distinctive form of state-guided social and economic organisation.",
+    scores: { interference: -35, ownership: -40, tradition: 20, faith: 30 },
+    tags: {
+      region: ["MENA", "Africa"],
+      faith: ["Secular", "Islam"],
+      economy: ["Socialism"],
+      orientation: ["Progressive"],
+      era: ["Cold War Era", "Modern Era"]
+    }
+  },
+  {
     name: "Tōhōkai",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/tohokai.png",
-    description: "Tōhōkai (Eastern Society) was a Japanese political party founded in 1936 by Nakano Seigō after he left the Imperial Rule Assistance Association’s predecessor currents. It advocated a strong authoritarian state, anti-party politics, national syndicalist-style economic organisation, aggressive expansionism and a break with both liberal capitalism and Marxism. Nakano praised European fascist models while insisting on a distinct Japanese path centred on the Emperor and national mobilisation. The party was dissolved in 1944 after Nakano’s forced suicide.",
+    description: "Tōhōkai (Eastern Society) was a Japanese political party founded in 1936 by Nakano Seigō. It advocated a strong authoritarian state, anti-party politics, national-syndicalist-style economic organisation, aggressive expansionism and a break with both liberal capitalism and Marxism, while insisting on a distinct Japanese path centred on the Emperor and national mobilisation.",
     scores: { interference: -20, ownership: 12, tradition: 15, faith: 18 },
     tags: {
       region: ["East Asia"],
-      faith: ["Secular"],
-      economy: ["Socialism"],
+      faith: ["Secular", "Shinto"],
+      economy: ["Socialism", "National Syndicalism"],
       orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
@@ -1406,7 +1523,7 @@ const ideologies = [
   {
     name: "Ukrainian National Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ukrainiannationalparty.png",
-    description: "The Ukrainian National Party (Ukrainian: Українська Національна Партія) was a small interwar Western Ukrainian (Galician) nationalist party of a conservative, corporatist and pro-hetmanist orientation. It favoured an independent Ukrainian state organised on hierarchical, traditional and Christian (mainly Greek-Catholic) principles, rejected both liberal democracy and revolutionary integral nationalism of the OUN type, and looked toward conservative authoritarian models and cooperation with related Central European movements.",
+    description: "The Ukrainian National Party was a small interwar Western Ukrainian (Galician) nationalist party of conservative, corporatist and pro-hetmanist orientation. It favoured an independent Ukrainian state organised on hierarchical, traditional and Christian (mainly Greek-Catholic) principles, rejecting both liberal democracy and the revolutionary integral nationalism of the OUN.",
     scores: { interference: -4, ownership: 8, tradition: 18, faith: 22 },
     tags: {
       region: ["Europe (Slavic)"],
@@ -1417,9 +1534,35 @@ const ideologies = [
     }
   },
   {
+    name: "Union of Bulgarian National Legions",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/bulgarianfascism.png",
+    description: "The Union of Bulgarian National Legions was a Bulgarian ultranationalist organisation founded in 1932 by Hristo Lukov. It advocated a totalitarian one-party regime, extensive state control over the economy and society, anti-communism, and a hierarchical national order, later becoming more favourable to the monarchy.",
+    scores: { interference: -25, ownership: -30, tradition: 35, faith: 27 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Eastern Orthodox"],
+      economy: ["Socialism", "National Syndicalism", "Corporatism"],
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Union of Dutch National Solidarists",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/verdinaso.png",
+    description: "The Union of Dutch National Solidarists (Verbond van Dietsche Nationaal-Solidaristen, Verdinaso) was a political movement active in Belgium and the Netherlands between 1931 and 1941 under Joris Van Severen. It called for the reunification of the Dutch-speaking peoples, a corporatist organic society, and an authoritarian national order inspired by integral nationalism and the Estado Novo.",
+    scores: { interference: -15, ownership: -10, tradition: 30, faith: 15 },
+    tags: {
+      region: ["Europe (Romance)", "Europe (Germanic)"],
+      faith: ["Secular", "Catholic"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
     name: "United National Independence Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/UNIP.png",
-    description: "The United National Independence Party (UNIP) was the dominant independence and post-independence party of Zambia under Kenneth Kaunda. While rooted in African nationalism and anti-colonialism, its ideology of Zambian Humanism combined Christian ethics, African communal traditions, state-directed development and a rejection of both Western capitalism and orthodox Marxism. It established a one-party state that emphasised national unity, moral reconstruction and a mixed economy under strong presidential guidance.",
+    description: "The United National Independence Party (UNIP) was the dominant independence and post-independence party of Zambia under Kenneth Kaunda. Its ideology of Zambian Humanism combined Christian ethics, African communal traditions, state-directed development and a rejection of both Western capitalism and orthodox Marxism, establishing a one-party state that emphasised national unity and moral reconstruction.",
     scores: { interference: -18, ownership: -20, tradition: -8, faith: 17 },
     tags: {
       region: ["Africa"],
@@ -1430,22 +1573,74 @@ const ideologies = [
     }
   },
   {
+    name: "Ustaše",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/ustase.png",
+    description: "The Ustaše (Ustaša – Croatian Revolutionary Movement) was a Croatian ultra-nationalist organisation founded by Ante Pavelić in 1929. It sought the creation of an independent Greater Croatia based on ethnic purity, Catholic identity, and the complete subordination of the individual to the nation. Economically it pursued a form of national corporatism combined with the nationalisation of key sectors in order to create an ethnically homogeneous national economy. The movement ruled the Independent State of Croatia from 1941 to 1945.",
+    scores: { interference: -25, ownership: -10, tradition: 42, faith: 45 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Catholic"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Valoisism",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/proudhoncercle.png",
+    description: "Valoisism refers to the ideas of Georges Valois, founder of the Cercle Proudhon and later of the Faisceau. He sought a synthesis of integral nationalism and revolutionary syndicalism, rejecting both democracy and capitalism in favour of a national, authoritarian and producer-oriented order, and was one of the earliest French advocates of a fascism adapted to French conditions.",
+    scores: { interference: 13, ownership: -7, tradition: 20, faith: 18 },
+    tags: {
+      region: ["Europe (Romance)"],
+      faith: ["Catholic"],
+      economy: ["National Syndicalism"],
+      orientation: ["Progressive", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "VAPS Movement",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/vaps.png",
+    description: "The Vaps Movement (Union of Participants in the Estonian War of Independence) was an Estonian anti-communist and nationalist organisation of veterans. It advocated a more authoritarian and nationalist constitution, strong executive power, and the defence of Estonian independence against both internal leftist threats and external pressures, while rejecting German National Socialism.",
+    scores: { interference: -1, ownership: 6, tradition: 30, faith: 22 },
+    tags: {
+      region: ["Europe (Other)"],
+      faith: ["Protestant"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Conservative"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
     name: "Wang Jingwei Thought",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/wangjingwei.png",
-    description: "Wang Jingwei Thought refers to the ideological line of the Reorganised National Government of China led by Wang Jingwei in collaboration with Japan (1940–1945). It presented itself as the authentic continuation of Sun Yat-sen’s Three Principles of the People, emphasising anti-communism, pan-Asianism, peace with Japan, and a corporatist, authoritarian reorganisation of Chinese society against both the Chiang Kai-shek government and the Chinese Communists. It retained nationalist and developmentalist rhetoric while accepting Japanese hegemony in East Asia.",
+    description: "Wang Jingwei Thought refers to the ideological line of the Reorganised National Government of China led by Wang Jingwei in collaboration with Japan (1940–1945). It presented itself as the authentic continuation of Sun Yat-sen’s Three Principles of the People, emphasising anti-communism, pan-Asianism, peace with Japan, and a corporatist, authoritarian reorganisation of Chinese society.",
     scores: { interference: -20, ownership: 10, tradition: -1, faith: 10 },
     tags: {
       region: ["East Asia"],
       faith: ["Secular"],
-      economy: ["Socialism"],
+      economy: ["Socialism", "Corporatism"],
       orientation: ["Progressive"],
       era: ["World Wars Era"]
     }
   },
   {
+    name: "Yellow Socialism",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/yellowsocialism.png",
+    description: "Yellow Socialism (also known as Yellow Unionism) was an economic and social doctrine proposed in 1902 by the Frenchman Pierre Biétry as an alternative to Marxism. It envisioned workers organising in unions that would cooperate with employers and the state in a corporatist framework under a strong authoritarian government, combining nationalism, anti-Marxism and a rejection of class struggle.",
+    scores: { interference: -15, ownership: -22, tradition: 26, faith: 19 },
+    tags: {
+      region: ["Universal"],
+      faith: ["Secular"],
+      economy: ["Socialism", "Corporatism"],
+      orientation: ["Progressive"],
+      era: ["Timeless"]
+    }
+  },
+  {
     name: "Young Egypt Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/youngegyptparty.png",
-    description: "The Young Egypt Party (Misr al-Fatat) was an Egyptian nationalist and fascist-inspired movement founded in 1933 by Ahmed Hussein. It combined intense Egyptian nationalism, anti-British imperialism, corporatism, paramilitary organisation (the Green Shirts), and a social programme aimed at workers and the lower middle class. It admired aspects of Italian Fascism and German National Socialism while remaining rooted in Islamic and Egyptian cultural references, and later evolved into a more conventional nationalist party after the war.",
+    description: "The Young Egypt Party (Misr al-Fatat) was an Egyptian nationalist movement founded in 1933 by Ahmed Hussein. It combined intense Egyptian nationalism, anti-British imperialism, corporatism, paramilitary organisation (the Green Shirts), and a social programme aimed at workers and the lower middle class, while remaining rooted in Islamic and Egyptian cultural references.",
     scores: { interference: -18, ownership: -4, tradition: 24, faith: 24 },
     tags: {
       region: ["MENA"],
@@ -1456,9 +1651,48 @@ const ideologies = [
     }
   },
   {
+    name: "Yugoslav People's Movement",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/zbor.png",
+    description: "The Yugoslav People's Movement “Zbor” was a Yugoslav nationalist and Christian corporatist organisation founded by Dimitrije Ljotić. It advocated the abandonment of individualism and parliamentary democracy, the return to religious and cultural traditions, the organisation of society on Christian and corporatist principles, and the unity of the Yugoslav peoples under a strong authoritarian leadership.",
+    scores: { interference: -17, ownership: -15, tradition: 37, faith: 35 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Catholic", "Eastern Orthodox"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Yugoslav Radical Union",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/yugru.png",
+    description: "The Yugoslav Radical Union (Jugoslovenska radikalna zajednica) was the dominant political party of interwar Yugoslavia under Milan Stojadinović. It developed an authoritarian, corporatist and nationalist orientation, modelled partly on Italian Fascism, while retaining the formal framework of the Yugoslav monarchy and seeking to create a strong, centralised national state.",
+    scores: { interference: -21, ownership: -13, tradition: 23, faith: 20 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Catholic", "Eastern Orthodox"],
+      economy: ["Corporatism", "National Syndicalism"],
+      orientation: ["Conservative", "Monarchist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
+    name: "Zadruga",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/zadruga.png",
+    description: "Zadruga was a Polish nationalist and anti-clerical movement founded by Jan Stachniuk in the interwar period. It rejected both liberalism and Marxism, calling instead for a form of national collectivism rooted in pagan Slavic traditions. The movement advocated strong state direction of the economy, cultural revolution and the revival of a pre-Christian Slavic identity based on discipline, hierarchy and communal values.",
+    scores: { interference: -22, ownership: -28, tradition: -15, faith: -35 },
+    tags: {
+      region: ["Europe (Slavic)"],
+      faith: ["Pagan"],
+      economy: ["Socialism"],
+      orientation: ["Reactionary Modernist"],
+      era: ["World Wars Era"]
+    }
+  },
+  {
     name: "Zikist Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/zikist.png",
-    description: "The Zikist Movement was a radical Nigerian nationalist youth organisation of the late 1940s that took its name from Nnamdi Azikiwe (“Zik”). It advocated militant anti-colonialism, African socialism, national unity across ethnic lines, and a rejection of both British rule and conservative traditional elites. While not fascist, it displayed authoritarian, populist and anti-imperialist traits typical of many mid-century African nationalist movements seeking rapid political and economic independence.",
+    description: "The Zikist Movement was a radical Nigerian nationalist youth organisation of the late 1940s that took its name from Nnamdi Azikiwe. It advocated militant anti-colonialism, African socialism, national unity across ethnic lines, and a rejection of both British rule and conservative traditional elites, displaying authoritarian, populist and anti-imperialist traits typical of many mid-century African nationalist movements.",
     scores: { interference: -6, ownership: -14, tradition: -4, faith: -2 },
     tags: {
       region: ["Africa"],
