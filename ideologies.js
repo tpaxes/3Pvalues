@@ -846,7 +846,7 @@ const ideologies = [
   },
   {
     name: "National Radical Camp",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ONR.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/onr-falanga.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -38, ownership: -18, tradition: 42, faith: 35 },
     tags: {
