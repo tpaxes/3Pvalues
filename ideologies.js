@@ -379,7 +379,7 @@ const ideologies = [
   {
     name: "Fatherland Socialist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandsocialist.png",
-    description: "The Fatherland Socialist Party was a small interwar and wartime nationalist-socialist current in parts of Eastern Europe and the Caucasus that combined ethnic nationalism, anti-communism and a form of national socialism adapted to local conditions, emphasising social justice within a hierarchical national framework.",
+    description: "The Fatherland Socialist Party (Ossetian: Фыдыбæстæ Социалистон парти) is a political party in South Ossetia that combines Ossetian nationalism, support for independence from Georgia, and a socialist economic programme. It advocated strong state direction of the economy, social welfare policies, close political and economic integration with Russia, and the defence of Ossetian cultural and linguistic identity under a hierarchical national framework.",
     scores: { interference: -18, ownership: -15, tradition: 25, faith: 15 },
     tags: {
       region: ["Europe (Other)", "Caucasus"],
