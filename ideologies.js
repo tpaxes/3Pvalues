@@ -534,7 +534,7 @@ const ideologies = [
   },
   {
     name: "Hlinkas Slovak People's Party",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/hlinkas.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ludak.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -10, ownership: 5, tradition: 40, faith: 47 },
     tags: {
@@ -664,7 +664,7 @@ const ideologies = [
   },
   {
     name: "Lithuanian Nationalist Union",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lithuanian.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/litnatunion.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -18, ownership: 24, tradition: 25, faith: 20 },
     tags: {
@@ -677,7 +677,7 @@ const ideologies = [
   },
   {
     name: "Lusitanian Integralism",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lusitanian.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/lusitanianintegralism.png",
     description: "WORK IN PROGRESS",
     scores: { interference: 12, ownership: 19, tradition: 41, faith: 43 },
     tags: {
@@ -846,7 +846,7 @@ const ideologies = [
   },
   {
     name: "National Radical Camp",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nationalradicalcamp.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ONR.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -38, ownership: -18, tradition: 42, faith: 35 },
     tags: {
