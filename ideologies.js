@@ -15,7 +15,7 @@ const ideologies = [
   {
     name: "Agrarian Labor Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/PAL.png",
-    description: "WORK IN PROGRESS",
+    description: "The Agrarian Labor Party (Spanish: Partido Agrario Laborista, PAL) was a Chilean nationalist and corporatist party founded on 7 September 1945 by the merger of the Agrarian Party with the Popular Freedom Alliance (an offshoot of the National Socialist Movement of Chile), with further input from the Movimiento Nacionalista de Chile. It advocated a functional, corporatist democracy, organic collaboration of productive forces, agrarianism, and the primacy of social function over pure profit, while rejecting class struggle. The PAL backed Carlos Ibáñez del Campo’s 1952 presidential campaign and entered his first cabinet; it dissolved in 1958 after internal splits.",
     scores: { interference: -14, ownership: 8, tradition: 18, faith: 20 },
     tags: {
       region: ["South America"],
@@ -184,7 +184,7 @@ const ideologies = [
   {
     name: "Catalan Patriotic Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/catalanpatrioticmovement.png",
-    description: "WORK IN PROGRESS",
+    description: "The Catalan Patriotic Movement (Catalan: Moviment Patriòtic Català; Spanish: Movimiento Patriótico Catalán, MPC) was a minor national syndicalist party active in Catalonia, founded in 1994 by Carlos Francisoud as the political successor of the armed group Milicia Catalana. It combined national syndicalism with Catholic integralism and traditionalist currents influenced by Carlism. Unlike separatist Catalanism, it defended Catalan identity within a united Spain (Hispanic Catalanism), used both Catalan and Spanish, and opposed Catalan independence. Its youth wing was Batzegada and its paper Esclat; it later merged into Platform for Catalonia.",
     scores: { interference: 5, ownership: 10, tradition: 30, faith: 36 },
     tags: {
       region: ["Europe (Romance)"],
@@ -197,7 +197,7 @@ const ideologies = [
   {
     name: "Centre Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/centreparty.png",
-    description: "WORK IN PROGRESS",
+    description: "The Centre Party (also known as the Centre Reform Group) was a short lived Australian fascist political party founded in New South Wales in December 1933 by Eric Campbell, leader of the paramilitary New Guard. Formed after the New Guard’s decline following the dismissal of Premier Jack Lang, it advocated nationalism, corporatism, monarchism and anti-communism, and was influenced by Italian fascist economics as set out in Campbell’s 1934 manifesto The New Road. It contested the 1935 New South Wales state election but polled poorly and dissolved soon afterwards, ending organised New Guard politics.",
     scores: { interference: -24, ownership: 14, tradition: 28, faith: 20 },
     tags: {
       region: ["Oceania"],
@@ -249,7 +249,7 @@ const ideologies = [
   {
     name: "Danish People's Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/DA.png",
-    description: "WORK IN PROGRESS",
+    description: "The Danish People's Party (Danish: Dansk Folkeparti) was a short lived political party in occupied Denmark, founded on 1 March 1941 by former members of the Nazi DNSAP together with figures from liberal, conservative and other groups. It supported a corporatist state and was strongly anti-communist; under organiser Wilfred Petersen it took on more open Nazist and antisemitic tones, prompting founding figure Victor Pürschel and others to leave in 1943. The party remained marginal and collapsed into obscurity after the war; it is unrelated to the modern Danish People's Party founded in 1995.",
     scores: { interference: -18, ownership: 12, tradition: 24, faith: 26 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -262,7 +262,7 @@ const ideologies = [
   {
     name: "Democratic Republican Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/demreppar.png",
-    description: "WORK IN PROGRESS",
+    description: "The Democratic Republican Party (Korean: 민주공화당; DRP) was the ruling party of South Korea from 1963 to 1980 under Park Chung-hee. Founded by Kim Jong-pil after the 1961 military coup, it combined Korean nationalism, anti-communism, developmentalism and a corporatist, state-guided economy built around the chaebol. Under the DRP the country underwent rapid industrialisation (the so-called Miracle on the Han River). After the 1972 Yushin Constitution it operated as the core of an authoritarian one-party system until Park’s assassination in 1979; the party was dissolved in 1980 under Chun Doo-hwan.",
     scores: { interference: 30, ownership: 32, tradition: -1, faith: 6 },
     tags: {
       region: ["East Asia"],
@@ -366,7 +366,7 @@ const ideologies = [
   {
     name: "Fatherland League",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandleague.png",
-    description: "WORK IN PROGRESS",
+    description: "The Fatherland League (Norwegian: Fedrelandslaget) was a Norwegian nationalist and anti-communist mass organisation founded in 1925 on the initiative of Joakim Lehmkuhl, with support from Fridtjof Nansen and former Prime Minister Christian Michelsen. It sought to unite nationally minded forces against the revolutionary Marxist labour movement and peaked around 1930 with roughly 100,000 members. Its programme mixed conservatism, Norwegian nationalism and corporatist ideas partly inspired by Italian models and later by New Deal-style planning. It declined through the 1930s, failed to win seats when it contested elections, and was banned by the German occupation authorities in September 1940.",
     scores: { interference: -14, ownership: 14, tradition: 24, faith: 16 },
     tags: {
       region: ["Europe (Germanic)"],
@@ -379,7 +379,7 @@ const ideologies = [
   {
     name: "Fatherland Socialist Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/fatherlandsocialist.png",
-    description: "WORK IN PROGRESS",
+    description: "The Fatherland Socialist Party (Ossetian: Фыдыбӕстӕ; Russian: Социалистическая партия Отечества) is a minor Ossetian nationalist and socialist party active in South Ossetia and North Ossetia-Alania. Originally founded in 1993 by Vadim Baskayev, it was dissolved after being denied registration in 2004 and re-established in South Ossetia in 2007 under Vyacheslav Gobozov. It combines socialism with Ossetian nationalism, decentralisation and a hard line on the East Prigorodny conflict. In the 2009 South Ossetian parliamentary election it was notable as the main anti-Russian opposition list, taking about 6.5% of the vote but no seats; it has remained marginal in later elections.",
     scores: { interference: -8, ownership: -24, tradition: 12, faith: 5 },
     tags: {
       region: ["Caucasus"],
@@ -418,7 +418,7 @@ const ideologies = [
   {
     name: "French Popular Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchpopular.png",
-    description: "WORK IN PROGRESS",
+    description: "The French Popular Party (French: Parti populaire français, PPF) was a fascist party founded in June 1936 by Jacques Doriot, a former leading Communist who broke with the PCF. It combined French nationalism, fascist corporatism, anti-communism, anti-capitalism and antisemitism, denouncing parliamentarism and seeking an authoritarian national state. At its height it claimed around 120,000 members and attracted intellectuals such as Pierre Drieu La Rochelle. During the Occupation it became one of the main collaborationist parties; many militants joined the LVF to fight on the Eastern Front. The PPF was dissolved in 1945.",
     scores: { interference: -26, ownership: -31, tradition: 25, faith: 12  },
     tags: {
       region: ["Europe (Romance)"],
@@ -431,7 +431,7 @@ const ideologies = [
   {
     name: "French Renewal",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchrenewal.png",
-    description: "WORK IN PROGRESS",
+    description: "French Renewal (French: Renouveau français) was a small French counter-revolutionary and national-Catholic movement founded in 2005 by Thibaut de Chassey. It defined itself as nationalist, Catholic and opposed to the principles of the 1789 Revolution, drawing on Maurras, Drumont, Barrès and was often described as pétainist. It rejected freemasonry, classical liberalism and Marxism, favoured a mix of strasserist, corporatist and monarchist ideas, and was affiliated for a time with the European National Front. The group suspended militant activity in 2017.",
     scores: { interference: -19, ownership: 28, tradition: 45, faith: 17 },
     tags: {
       region: ["Europe (Romance)"],
@@ -444,7 +444,7 @@ const ideologies = [
   {
     name: "French Social Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchsocial.png",
-    description: "WORK IN PROGRESS",
+    description: "The French Social Party (French: Parti social français, PSF) was a large nationalist and social-Catholic party founded in July 1936 by Colonel François de La Rocque after the Popular Front banned his veterans’ league, the Croix-de-Feu. It combined French nationalism, social Catholicism, national conservatism, corporatism and anti-communism, while officially rejecting totalitarianism, racism and class struggle and accepting the Republic. At its peak it claimed hundreds of thousands of members and was the largest organised force on the French right before the war. It declined under the Occupation and was dissolved after 1945.",
     scores: { interference: -12, ownership: -4, tradition: 30, faith: 35 },
     tags: {
       region: ["Europe (Romance)"],
@@ -457,7 +457,7 @@ const ideologies = [
   {
     name: "Futurism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/futurism.png",
-    description: "WORK IN PROGRESS",
+    description: "Futurism was an Italian artistic and political movement launched by Filippo Tommaso Marinetti with the 1909 Futurist Manifesto. It glorified speed, technology, youth, violence and war as “the world’s only hygiene,” rejected the past, museums and traditional values, and called for a radical modernisation of Italy. In 1918 Marinetti founded the Futurist Political Party, whose programme mixed republicanism, anti-clericalism, national syndicalism and land reform; the party soon merged into Mussolini’s Fasci Italiani di Combattimento. Futurism supplied early fascism with much of its rhetoric of dynamism and rupture with the past, though many Futurists later clashed with the regime over monarchy and the Church.",
     scores: { interference: 24, ownership: -40, tradition: -50, faith: -32 },
     tags: {
       region: ["Europe (Romance)"],
@@ -470,7 +470,7 @@ const ideologies = [
   {
     name: "Gajdism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/gajdism.png",
-    description: "WORK IN PROGRESS",
+    description: "Gajdism refers to the interwar Czechoslovak fascist movement led by Radola Gajda and organised as the National Fascist Community (Czech: Národní obec fašistická, NOF), founded in 1926. Modelled on Italian Fascism rather than German National Socialism, it combined Czechoslovak nationalism, anti-communism, antisemitism, Zapadoslavism and strong anti-German and anti-Hungarian sentiments. The NOF attempted a failed coup in Brno in January 1933, won a handful of parliamentary seats in 1935, and was absorbed into the Party of National Unity and later the Protectorate’s National Partnership; Gajda himself withdrew from politics after 1939.",
     scores: { interference: -11, ownership: 12, tradition: 30, faith: 19 },
     tags: {
       region: ["Europe (Slavic)"],
@@ -483,7 +483,7 @@ const ideologies = [
   {
     name: "Georgism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/georgism.png",
-    description: "WORK IN PROGRESS",
+    description: "Georgism (also called geoism or the single-tax movement) is an economic philosophy developed by the American reformer Henry George, most fully set out in Progress and Poverty (1879). It holds that people own the value they create by their labour and capital, but that the economic rent of land and natural resources belongs equally to the community. Its central policy is a land-value tax (ideally a “single tax” replacing other taxes) that captures unearned land rent for public use, aiming to eliminate poverty caused by private appropriation of location value while preserving markets in labour and capital.",
     scores: { interference: 32, ownership: 41, tradition: 8, faith: 2 },
     tags: {
       region: ["Universal"],
@@ -496,7 +496,7 @@ const ideologies = [
   {
     name: "Golden Square",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/goldensquare.png",
-    description: "WORK IN PROGRESS",
+    description: "The Golden Square (Arabic: المربع الذهبي) was a cabal of four pro-Axis Iraqi army officers - Salah al-Din al-Sabbagh, Kamil Shabib, Fahmi Said and Mahmud Salman - who dominated Iraqi military politics in the late 1930s and early 1940s. Strongly pan-Arab, anti-British and influenced by fascist and authoritarian ideas, they backed Rashid Ali al-Gaylani’s coup of April 1941 that overthrew the pro-British regency and briefly installed a National Defence Government. The subsequent Anglo-Iraqi War ended in British victory; the officers fled or were later captured and executed.",
     scores: { interference: -23, ownership: -19, tradition: 20, faith: 23 },
     tags: {
       region: ["MENA"],
@@ -509,7 +509,7 @@ const ideologies = [
   {
     name: "Guild Socialism",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/guildsocialism.png",
-    description: "WORK IN PROGRESS",
+    description: "Guild Socialism is an ideology and a political movement of British origin popularised by political theorist, economist, historian, and novelist G. D. H. Cole. It advocated for workers' control of industry through the medium of trade-related guilds. Greatly inspired by the middle age guilds of craftsmen, it opposed factory production and advocated a return to an earlier period of artisanal production organised through guilds, that would serve as the organs through which industry would be organised in a future Socialist society. The movement emphasised Industrial Democracy and workers' self-management.",
     scores: { interference: 30, ownership: -25, tradition: 8, faith: -13 },
     tags: {
       region: ["Universal"],
