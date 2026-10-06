@@ -326,7 +326,7 @@ const ideologies = [
   },
   {
     name: "French Popular Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchpopularparty.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchpopular.png",
     description: "The French Popular Party (French: Parti populaire français, PPF) was a fascist party founded in June 1936 by Jacques Doriot, a former leading Communist who broke with the PCF. It combined French nationalism, fascist corporatism, anti-communism, anti-capitalism and antisemitism, denouncing parliamentarism and seeking an authoritarian national state. At its height it claimed around 120,000 members and attracted intellectuals such as Pierre Drieu La Rochelle. During the Occupation it became one of the main collaborationist parties; many militants joined the LVF to fight on the Eastern Front. The PPF was dissolved in 1945.",
     scores: { interference: -26, ownership: -31, tradition: 25, faith: 12 },
     tags: {
@@ -352,7 +352,7 @@ const ideologies = [
   },
   {
     name: "French Social Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchsocialparty.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/frenchsocial.png",
     description: "The French Social Party (French: Parti social français, PSF) was a large nationalist and social-Catholic party founded in July 1936 by Colonel François de La Rocque after the Popular Front banned his veterans’ league, the Croix-de-Feu. It combined French nationalism, social Catholicism, national conservatism, corporatism and anti-communism, while officially rejecting totalitarianism, racism and class struggle and accepting the Republic. At its peak it claimed hundreds of thousands of members and was the largest organised force on the French right before the war. It declined under the Occupation and was dissolved after 1945.",
     scores: { interference: -12, ownership: -4, tradition: 30, faith: 35 },
     tags: {
