@@ -1132,7 +1132,7 @@ const ideologies = [
   },
   {
     name: "Patriotic People's Movement",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/patriotfront.png",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/IKL.png",
     description: "The Patriotic People's Movement (Isänmaallinen kansanliike, IKL) was a Finnish nationalist and authoritarian party founded in 1932 as a successor to the Lapua Movement. It advocated corporatism, anti-communism, strong national government, and the creation of a more hierarchical and organic Finnish society while operating within a legal framework.",
     scores: { interference: -18, ownership: 5, tradition: 35, faith: 30 },
     tags: {
