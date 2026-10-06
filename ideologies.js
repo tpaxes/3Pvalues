@@ -586,7 +586,7 @@ const ideologies = [
   },
   {
     name: "Ivan Ilyin Thought",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ivanilyin.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/ilyin.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -24, ownership: 8, tradition: 30, faith: 36 },
     tags: {
@@ -781,7 +781,7 @@ const ideologies = [
   },
   {
     name: "National Alliance of Russian Solidarists",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/nars.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/natsolRU.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -16, ownership: 10, tradition: 26, faith: 32 },
     tags: {
