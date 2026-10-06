@@ -248,7 +248,7 @@ const ideologies = [
   },
   {
     name: "Danish People's Party",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/danishpeoples.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/DA.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -18, ownership: 12, tradition: 24, faith: 26 },
     tags: {
