@@ -1080,7 +1080,7 @@ const ideologies = [
   },
   {
     name: "Pan-Iranist Party",
-    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/paniranist.png",
+    img: "https://raw.githubusercontent.com/tpvalues/tpvalues/main/logos/paniran.png",
     description: "WORK IN PROGRESS",
     scores: { interference: -13, ownership: -20, tradition: 18, faith: -32 },
     tags: {
