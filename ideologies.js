@@ -1563,7 +1563,7 @@ const ideologies = [
     name: "United National Independence Party",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/UNIP.png",
     description: "The United National Independence Party (UNIP) was the dominant independence and post-independence party of Zambia under Kenneth Kaunda. Its ideology of Zambian Humanism combined Christian ethics, African communal traditions, state-directed development and a rejection of both Western capitalism and orthodox Marxism, establishing a one-party state that emphasised national unity and moral reconstruction.",
-    scores: { interference: -18, ownership: -20, tradition: -8, faith: 17 },
+    scores: { interference: -3, ownership: -40, tradition: -8, faith: 17 },
     tags: {
       region: ["Africa"],
       faith: ["Protestant"],
@@ -1693,7 +1693,7 @@ const ideologies = [
     name: "Zikist Movement",
     img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/zikist.png",
     description: "The Zikist Movement was a radical Nigerian nationalist youth organisation of the late 1940s that took its name from Nnamdi Azikiwe. It advocated militant anti-colonialism, African socialism, national unity across ethnic lines, and a rejection of both British rule and conservative traditional elites, displaying authoritarian, populist and anti-imperialist traits typical of many mid-century African nationalist movements.",
-    scores: { interference: -6, ownership: -14, tradition: -4, faith: -2 },
+    scores: { interference: -6, ownership: -34, tradition: -4, faith: -2 },
     tags: {
       region: ["Africa"],
       faith: ["Secular"],
