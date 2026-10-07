@@ -924,8 +924,8 @@ const ideologies = [
   },
   {
     name: "National Socialist Workers' Party",
-    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/polishnatsoc.png",
-    description: "The National Socialist Workers’ Party (Partia Narodowych Socjalistów) was a small Polish interwar party that attempted to combine Polish nationalism with a form of national socialism. It advocated anti-capitalism, anti-communism, authoritarian government and the organisation of society on national rather than class lines.",
+    img: "https://raw.githubusercontent.com/tpaxes/3Pvalues/main/logos/NSPR.png",
+    description: "The National Socialist Workers’ Party (Narodowo Socjalistyczna Partia Robotnicza) was a small Polish interwar party that attempted to combine Polish nationalism with a form of national socialism. It advocated anti-capitalism, anti-communism, authoritarian government and the organisation of society on national rather than class lines.",
     scores: { interference: -22, ownership: -20, tradition: 25, faith: 20 },
     tags: {
       region: ["Europe (Slavic)"],
