@@ -1124,7 +1124,7 @@ const ideologies = [
     scores: { interference: -5, ownership: 10, tradition: 35, faith: 15 },
     tags: {
       region: ["North America"],
-      faith: ["Secular", "Christian"],
+      faith: ["Catholic", "Protestant", "Eastern Orthodox", "Pagan"],
       economy: ["Corporatism"],
       orientation: ["Reactionary Modernist"],
       era: ["Modern Era"]
